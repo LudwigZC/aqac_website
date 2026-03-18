@@ -1,0 +1,267 @@
+{
+  "brand": {
+    "name": "Queensland Chinese Affair Committee",
+    "tag": "non-profit organization"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "events": "Events",
+    "news": "News",
+    "membership": "Membership"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Chinese Community • Queensland • Australia",
+      "titleLine1": "A refined space for cultural belonging,",
+      "titleLine2": "care, and community growth.",
+      "description": "We connect Chinese families, youth, and local partners through elegant programs, accessible support, and meaningful cultural exchange across Queensland.",
+      "primaryCta": "Join the community",
+      "secondaryCta": "Discover our story"
+    },
+    "quickLinks": {
+      "eyebrow": "Explore",
+      "title": "Three pathways into the community",
+      "description": "Minimal, welcoming, and easy to navigate—designed for members, volunteers, and new visitors alike.",
+      "items": [
+        {
+          "title": "Events",
+          "description": "Seasonal programs, cultural gatherings, and workshops that bring people together with warmth and clarity.",
+          "href": "/events"
+        },
+        {
+          "title": "News",
+          "description": "Stories, updates, and reflective moments from our latest community initiatives and partnerships.",
+          "href": "/news"
+        },
+        {
+          "title": "Membership",
+          "description": "Join a growing network of supporters, families, and volunteers who care deeply about belonging.",
+          "href": "/membership"
+        }
+      ]
+    },
+    "featuredEvents": {
+      "eyebrow": "Featured",
+      "title": "Upcoming experiences",
+      "description": "A calm, premium overview of what is next.",
+      "items": [
+        {
+          "month": "APR",
+          "day": "12",
+          "title": "Mid-Autumn Community Evening",
+          "description": "An intergenerational evening of performances, stories, and tea designed to welcome both long-time members and first-time visitors.",
+          "cta": "Reserve a place"
+        },
+        {
+          "month": "MAY",
+          "day": "03",
+          "title": "Youth Mentorship Circle",
+          "description": "A guided session for students and young professionals focused on confidence, identity, and local opportunities in Queensland.",
+          "cta": "View details"
+        }
+      ]
+    },
+    "latestNews": {
+      "eyebrow": "Journal",
+      "title": "Latest notes from our community",
+      "description": "Short, polished updates for members and partners.",
+      "items": [
+        {
+          "tag": "Programs",
+          "title": "A quieter, more caring model for community support",
+          "excerpt": "We introduced a more human-centered structure for member onboarding, making our first contact warmer and easier to understand.",
+          "date": "14 Mar 2026"
+        },
+        {
+          "tag": "Youth",
+          "title": "Listening sessions with bilingual student leaders",
+          "excerpt": "Our latest youth roundtable focused on belonging, confidence, and how culture can be expressed lightly in modern community spaces.",
+          "date": "08 Mar 2026"
+        },
+        {
+          "tag": "Partnerships",
+          "title": "New collaborations across education and wellbeing",
+          "excerpt": "We are deepening our local network to create smoother pathways for support, volunteerism, and family engagement.",
+          "date": "01 Mar 2026"
+        }
+      ]
+    }
+  },
+  "about": {
+    "intro": {
+      "eyebrow": "About us",
+      "title": "Built with care, clarity, and cultural warmth",
+      "description": "A modern non-profit presence with a premium sense of calm.",
+      "splitTitle": "Rooted in Chinese heritage, open to the wider Queensland community.",
+      "body1": "We create elegant, accessible spaces where culture is shared with subtlety and confidence. Our programs are designed to support families, students, elders, and volunteers with thoughtful community care.",
+      "body2": "Rather than overwhelming people with noise, we focus on clarity, trust, and refined experiences that feel welcoming both online and in person.",
+      "stats": [
+        { "value": "15+", "label": "Years of local service" },
+        { "value": "40+", "label": "Volunteers and partners" },
+        { "value": "1200+", "label": "Community members reached yearly" },
+        { "value": "3", "label": "Languages supported" }
+      ]
+    },
+    "gallery": {
+      "eyebrow": "Gallery",
+      "title": "Moments of gathering and care",
+      "description": "A masonry showcase inspired by editorial layouts and soft cultural storytelling.",
+      "items": [
+        {
+          "title": "Community Gathering",
+          "subtitle": "Shared stories and cultural exchange",
+          "height": "h-[360px]",
+          "gradient": "from-[#001F3F] via-[#173B61] to-[#3A5D85]"
+        },
+        {
+          "title": "Volunteer Care",
+          "subtitle": "Warm, practical local support",
+          "height": "h-[280px]",
+          "gradient": "from-[#B22222] via-[#D24A2A] to-[#F28C28]"
+        },
+        {
+          "title": "Youth Mentorship",
+          "subtitle": "Intergenerational learning programs",
+          "height": "h-[420px]",
+          "gradient": "from-[#E7DDD0] via-[#F4EEE3] to-[#D9C6AE]"
+        },
+        {
+          "title": "Art & Heritage",
+          "subtitle": "Subtle Chinese cultural continuity",
+          "height": "h-[310px]",
+          "gradient": "from-[#213953] via-[#516C87] to-[#D6D8DC]"
+        },
+        {
+          "title": "Wellbeing Outreach",
+          "subtitle": "Accessible pathways to belonging",
+          "height": "h-[260px]",
+          "gradient": "from-[#6B0F1A] via-[#B22222] to-[#F28C28]"
+        }
+      ]
+    },
+    "timeline": {
+      "eyebrow": "Timeline",
+      "title": "Our journey",
+      "description": "A concise history of growth and community impact.",
+      "items": [
+        {
+          "year": "2010",
+          "title": "Community foundation",
+          "description": "The organization began as a volunteer-led initiative supporting new Chinese families settling in Queensland."
+        },
+        {
+          "year": "2015",
+          "title": "Cultural education expansion",
+          "description": "Programs for youth and families expanded to include heritage workshops, language support, and inclusive public events."
+        },
+        {
+          "year": "2021",
+          "title": "Digital outreach transformation",
+          "description": "We introduced more accessible digital communication and a stronger bilingual presence for broader engagement."
+        },
+        {
+          "year": "2026",
+          "title": "Refined community platform",
+          "description": "A premium online identity now supports a calmer, more modern experience for members, partners, and volunteers."
+        }
+      ]
+    },
+    "team": {
+      "eyebrow": "Leadership",
+      "title": "A thoughtful team behind the mission",
+      "description": "Small, capable, and deeply connected to the people we serve."
+    }
+  },
+  "events": {
+    "eyebrow": "Events",
+    "title": "Programs shaped for connection",
+    "description": "Every event is designed with a soft premium feel: clear, inclusive, and memorable.",
+    "items": [
+      {
+        "month": "APR",
+        "day": "12",
+        "title": "Mid-Autumn Community Evening",
+        "description": "Music, stories, tea, and family-friendly cultural sharing in a welcoming evening atmosphere.",
+        "cta": "Reserve a place"
+      },
+      {
+        "month": "MAY",
+        "day": "03",
+        "title": "Youth Mentorship Circle",
+        "description": "A bilingual session exploring study, career direction, and belonging for young people in Queensland.",
+        "cta": "View details"
+      },
+      {
+        "month": "JUN",
+        "day": "18",
+        "title": "Volunteer Welcome Atelier",
+        "description": "An elegant orientation event introducing our values, partner pathways, and practical ways to get involved.",
+        "cta": "Join the session"
+      }
+    ]
+  },
+  "news": {
+    "eyebrow": "News",
+    "title": "Stories, updates, and reflections",
+    "description": "Filter by theme to explore the latest progress across programs and partnerships.",
+    "tags": ["Programs", "Youth", "Partnerships"],
+    "items": [
+      {
+        "tag": "Programs",
+        "title": "A quieter, more caring model for community support",
+        "excerpt": "We introduced a more human-centered structure for member onboarding, making our first contact warmer and easier to understand.",
+        "date": "14 Mar 2026"
+      },
+      {
+        "tag": "Youth",
+        "title": "Listening sessions with bilingual student leaders",
+        "excerpt": "Our latest youth roundtable focused on belonging, confidence, and how culture can be expressed lightly in modern community spaces.",
+        "date": "08 Mar 2026"
+      },
+      {
+        "tag": "Partnerships",
+        "title": "New collaborations across education and wellbeing",
+        "excerpt": "We are deepening our local network to create smoother pathways for support, volunteerism, and family engagement.",
+        "date": "01 Mar 2026"
+      },
+      {
+        "tag": "Programs",
+        "title": "Refining community access through bilingual design",
+        "excerpt": "Our service touchpoints now prioritize simplicity, visual calm, and easier first-time navigation for new members.",
+        "date": "23 Feb 2026"
+      },
+      {
+        "tag": "Youth",
+        "title": "Mentorship pilots expand into semester planning",
+        "excerpt": "Student-focused mentoring is now being tested as a repeatable seasonal format with stronger local partner support.",
+        "date": "18 Feb 2026"
+      },
+      {
+        "tag": "Partnerships",
+        "title": "Shared initiatives with local cultural institutions",
+        "excerpt": "Joint planning has begun for a more open calendar of community events that feel both refined and accessible.",
+        "date": "09 Feb 2026"
+      }
+    ]
+  },
+  "membership": {
+    "eyebrow": "Membership",
+    "title": "Join with intention",
+    "description": "Membership is a gentle entry point into programs, volunteering, and shared belonging.",
+    "join": {
+      "title": "Become part of the committee",
+      "description": "Later you can repalce with the true reason",
+      "button": "Join now"
+    },
+    "wall": {
+      "eyebrow": "Appreciation",
+      "title": "Wall of appreciation",
+      "description": "Partners, supporters, and organizations that help sustain our community."
+    }
+  },
+  "footer": {
+    "description": "A refined digital home for a Chinese non-profit organization in Queensland—built to feel elegant, trustworthy, and human.",
+    "contactTitle": "Contact"
+  }
+}
