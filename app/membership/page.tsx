@@ -1,12 +1,16 @@
 "use client";
 
+import { useState } from "react";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import MagneticButton from "@/components/ui/MagneticButton";
+import MemberModal from "@/components/ui/MemberModal";
 import { useI18n } from "@/components/providers/LocaleProvider";
-import { appreciationWall } from "@/lib/data";
+
+type MemberItem = { name: string; description: string };
 
 export default function MembershipPage() {
   const { dict } = useI18n();
+  const [selected, setSelected] = useState<MemberItem | null>(null);
 
   return (
     <div className="pt-28">
@@ -40,18 +44,35 @@ export default function MembershipPage() {
         className="pb-24"
       >
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {appreciationWall.map((item) => (
-            <div
-              key={item}
-              className="reveal glass-panel rounded-[1.75rem] p-6 text-center"
-            >
-              <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-navy text-white">
-                ✦
+          {(dict.membership.wall.items as MemberItem[]).map((item, index) => {
+            const hasDesc = Boolean(item.description);
+            return (
+              <div
+                key={index}
+                onClick={() => hasDesc && setSelected(item)}
+                className={`reveal glass-panel rounded-[1.75rem] p-6 text-center transition-shadow ${hasDesc ? "cursor-pointer hover:shadow-glow" : ""}`}
+              >
+                <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-navy text-white">
+                  ✦
+                </div>
+                <p className="mt-4 text-sm leading-7 text-navy/72">{item.name}</p>
+                {hasDesc && (
+                  <p className="mt-2 text-xs tracking-wide text-crimson/70">
+                    {dict.membership.wall.learnMore} →
+                  </p>
+                )}
               </div>
-              <p className="mt-4 text-sm leading-7 text-navy/72">{item}</p>
-            </div>
-          ))}
+            );
+          })}
         </div>
+
+        {selected && (
+          <MemberModal
+            name={selected.name}
+            description={selected.description}
+            onClose={() => setSelected(null)}
+          />
+        )}
       </SectionWrapper>
     </div>
   );

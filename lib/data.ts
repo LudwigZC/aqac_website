@@ -24,14 +24,3 @@ export const teamMembers = [
     initials: "NW",
   },
 ];
-
-export const appreciationWall = [
-  "Brisbane Chinese Community Network",
-  "Queensland Youth Link",
-  "Harmony Health Support",
-  "Sunrise Education Hub",
-  "River City Arts Collective",
-  "Southern Community Care",
-  "Lotus Volunteer Circle",
-  "Bridge of Cultures",
-];

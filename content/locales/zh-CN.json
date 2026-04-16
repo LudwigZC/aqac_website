@@ -91,15 +91,15 @@
   "about": {
     "intro": {
       "eyebrow": "关于我们",
-      "title": "以关怀、清晰与文化温度为核心建立",
-      "description": "现代非营利组织的线上形象，也可以拥有高级且沉静的气质。",
-      "splitTitle": "立足华人文化，也面向更广阔的昆士兰社区。",
+      "title": "宗旨与使命",
+      "description": "建立与联邦、州及地方政府相关部门之间的沟通渠道，反映华人社区及个人普遍关心的事务与诉求。",
+      "splitTitle": "立足华人文化，面向昆士兰社区。",
       "body1": "昆士兰华人事务委员会（QCAC）是一个具有重要影响力的非营利性华人社团联合组织，由在昆士兰州依法注册并运营的华人社团自主发起成立，代表着全州超过11万名华裔人士及相关社区。",
       "body2": "自2026年1月成立以来，QCAC始终作为昆士兰华人社区的统一声音，实行自我管理，致力于促进华人社区与联邦、州及地方各级政府之间的沟通与合作。",
       "stats": [
-        { "value": "15+", "label": "本地服务年限" },
-        { "value": "40+", "label": "志愿者与合作伙伴" },
-        { "value": "1200+", "label": "每年触达社区成员" },
+        { "value": "15+", "label": "本地服务经验" },
+        { "value": "40+", "label": "合作伙伴" },
+        { "value": "1200+", "label": "触达社区成员" },
         { "value": "3", "label": "支持语言" }
       ]
     },
@@ -247,17 +247,57 @@
   },
   "membership": {
     "eyebrow": "会员",
-    "title": "带着认同感加入",
-    "description": "会员制度是进入活动、志愿服务与社区归属感网络的柔和入口。",
+    "title": "加入我们的组织",
+    "description": "凡在昆士兰州依法注册、具备独立法人资格的华人社团、大型企业或相关机构，认可并遵守本章程，且愿意积极参与本会活动并执行本会决议者，均可申请成为会员。。",
     "join": {
       "title": "成为委员会的一员",
-      "description": "后续可替换为真实报名系统、Typeform 或定制会员平台。",
+      "description": "提交入会申请表，通过审核后即可成为会员。",
       "button": "立即加入"
     },
     "wall": {
-      "eyebrow": "感谢",
-      "title": "感谢之墙",
-      "description": "支持我们持续服务社区的合作伙伴与组织。"
+      "eyebrow": "现有会员",
+      "title": "会员名单",
+      "description": "昆士兰华人事务委员会现有注册会员单位。",
+      "learnMore": "了解更多",
+      "items": [
+        { "name": "APA 澳洲业主联合会", "description": "" },
+        { "name": "人生芳华联谊会", "description": "" },
+        { "name": "昆士兰作家协会", "description": "" },
+        { "name": "环球教育和多元文化交流协会", "description": "" },
+        { "name": "昆士兰中华文化协会", "description": "" },
+        { "name": "Mystep Association", "description": "" },
+        { "name": "昆士兰雅韵芳华戏剧艺术团", "description": "" },
+        { "name": "阳光海岸华人协会", "description": "" },
+        { "name": "昆士兰江苏同乡会暨江苏商会", "description": "" },
+        { "name": "昆士兰广西多元文化社团", "description": "" },
+        { "name": "昆仑艺术团", "description": "" },
+        { "name": "昆士兰山东同乡会", "description": "" },
+        { "name": "昆士兰河南同乡会", "description": "" },
+        { "name": "北区华人之家", "description": "" },
+        { "name": "昆士兰亚商餐饮协会", "description": "" },
+        { "name": "阳光商会", "description": "阳光商会（Sunnybank Chamber of Commerce）成立于2012年，起源于Sunnybank，并始终以Sunnybank及其周边社区为核心。\n\n该协会是一个非营利组织，由来自各行各业的成熟企业家及新兴创业者组成，致力于持续学习、不断成长，并践行最佳商业实践。\n\n阳光商会代表商业社区，向地方政府、州政府及联邦政府发声。\n\n官网：www.sunnybank.biz" },
+        { "name": "昆士兰英语普及协会", "description": "" },
+        { "name": "香港商会", "description": "" },
+        { "name": "北京之家", "description": "" },
+        { "name": "澳中商务联盟", "description": "" },
+        { "name": "首护天使", "description": "" },
+        { "name": "澳华家园", "description": "" },
+        { "name": "昆士兰华人篮球协会", "description": "" },
+        { "name": "昆士兰潮汕总会", "description": "" },
+        { "name": "中国人协会", "description": "" },
+        { "name": "昆士兰西北同乡会", "description": "" },
+        { "name": "昆士兰建筑商会", "description": "" },
+        { "name": "小蜜峰", "description": "" },
+        { "name": "昆士兰华人宗亲会", "description": "" },
+        { "name": "苗苗中文学校", "description": "" },
+        { "name": "澳亚妇女协会", "description": "" },
+        { "name": "昆士兰华人摄影协会", "description": "" },
+        { "name": "昆士兰福建同乡会", "description": "" },
+        { "name": "昆士兰华人联合会", "description": "" },
+        { "name": "澳中绿能经贸促进会", "description": "" },
+        { "name": "天津联谊会", "description": "" },
+        { "name": "布里斯班南区社区商会", "description": "" }
+      ]
     }
   },
   "footer": {
