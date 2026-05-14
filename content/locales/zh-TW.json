@@ -45,21 +45,9 @@
       "eyebrow": "精選",
       "title": "近期活動",
       "description": "以更安靜、更高級的方式呈現接下來的安排。",
-      "items": [
-        {
-          "month": "4月",
-          "day": "12",
-          "title": "中秋社群之夜",
-          "description": "以演出、故事與茶會為核心，歡迎老成員與新訪客一起參與的跨世代社群夜晚。",
-          "cta": "預約名額"
-        },
-        {
-          "month": "5月",
-          "day": "03",
-          "title": "青年導師圓桌",
-          "description": "為學生與青年職場人士設計的雙語交流活動，圍繞身分認同、自信與在地機會展開。",
-          "cta": "查看詳情"
-        }
+      "featuredSlugs": [
+        "mid-autumn-community-evening",
+        "youth-mentorship-circle"
       ]
     },
     "latestNews": {
@@ -112,31 +100,36 @@
           "title": "社群相聚",
           "subtitle": "共享故事與文化交流",
           "height": "h-[360px]",
-          "gradient": "from-[#001F3F] via-[#173B61] to-[#3A5D85]"
+          "gradient": "from-[#001F3F] via-[#173B61] to-[#3A5D85]",
+          "src": "/images/gallery/community-gathering.jpg"
         },
         {
           "title": "志工關懷",
           "subtitle": "溫暖且務實的在地支持",
           "height": "h-[280px]",
-          "gradient": "from-[#B22222] via-[#D24A2A] to-[#F28C28]"
+          "gradient": "from-[#B22222] via-[#D24A2A] to-[#F28C28]",
+          "src": "/images/gallery/volunteer-care.jpg"
         },
         {
           "title": "青年導師",
           "subtitle": "跨世代學習與陪伴計畫",
           "height": "h-[420px]",
-          "gradient": "from-[#E7DDD0] via-[#F4EEE3] to-[#D9C6AE]"
+          "gradient": "from-[#E7DDD0] via-[#F4EEE3] to-[#D9C6AE]",
+          "src": "/images/gallery/youth-mentorship.jpg"
         },
         {
           "title": "藝術與傳承",
           "subtitle": "輕盈而持續的文化延續",
           "height": "h-[310px]",
-          "gradient": "from-[#213953] via-[#516C87] to-[#D6D8DC]"
+          "gradient": "from-[#213953] via-[#516C87] to-[#D6D8DC]",
+          "src": "/images/gallery/art-and-heritage.jpg"
         },
         {
           "title": "身心關懷",
           "subtitle": "通往歸屬感的可達路徑",
           "height": "h-[260px]",
-          "gradient": "from-[#6B0F1A] via-[#B22222] to-[#F28C28]"
+          "gradient": "from-[#6B0F1A] via-[#B22222] to-[#F28C28]",
+          "src": "/images/gallery/wellbeing-outreach.jpg"
         }
       ]
     },
@@ -179,6 +172,7 @@
     "description": "每一場活動都追求清晰、包容與記憶點，同時保留輕奢與溫度。",
     "items": [
       {
+        "slug": "mid-autumn-community-evening",
         "month": "4月",
         "day": "12",
         "title": "中秋社群之夜",
@@ -186,6 +180,7 @@
         "cta": "預約名額"
       },
       {
+        "slug": "youth-mentorship-circle",
         "month": "5月",
         "day": "03",
         "title": "青年導師圓桌",
@@ -193,6 +188,7 @@
         "cta": "查看詳情"
       },
       {
+        "slug": "volunteer-welcome-atelier",
         "month": "6月",
         "day": "18",
         "title": "志工歡迎工作坊",

@@ -51,7 +51,8 @@ NEWS_CONTENT = {
 }
 
 # ---------------------------------------------------------------------------
-# 1b. Event items  (currently embedded inside each locale JSON under events.items)
+# 1b. Event items  (embedded inside each locale JSON under events.items;
+#     each row includes "slug" matching public/images/events/<slug>.jpg)
 # ---------------------------------------------------------------------------
 EVENT_CONTENT = {
     # slug                               → locale file
@@ -124,9 +125,9 @@ TEAM_HEADSHOTS = {
 }
 
 # ===========================================================================
-# 6. EVENT BANNERS / THUMBNAILS  (Events page → EventCard)
-#    EventCard currently shows no image.  Add a banner image per event and
-#    update EventCard to render it.
+# 6. EVENT BANNERS / THUMBNAILS  (Events page + home → EventCard)
+#    Each events.items[].slug in locale JSON matches the basename (hyphenated)
+#    of the JPG under public/images/events/ (see getEventBannerSrc in lib/eventAssets.ts).
 # ===========================================================================
 
 EVENTS_DIR = ROOT / "public" / "images" / "events"

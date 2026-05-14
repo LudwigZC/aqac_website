@@ -45,21 +45,9 @@
       "eyebrow": "精选",
       "title": "近期活动",
       "description": "用更安静、更高级的方式展示接下来的安排。",
-      "items": [
-        {
-          "month": "4月",
-          "day": "12",
-          "title": "中秋社区之夜",
-          "description": "以演出、故事与茶会为核心，欢迎老成员与新访客一起参与的跨代社区夜晚。",
-          "cta": "预约名额"
-        },
-        {
-          "month": "5月",
-          "day": "03",
-          "title": "青年导师圆桌",
-          "description": "为学生与青年职场人士设计的双语交流活动，围绕身份认同、自信与本地机会展开。",
-          "cta": "查看详情"
-        }
+      "featuredSlugs": [
+        "mid-autumn-community-evening",
+        "youth-mentorship-circle"
       ]
     },
     "latestNews": {
@@ -112,31 +100,36 @@
           "title": "社区相聚",
           "subtitle": "共享故事与文化交流",
           "height": "h-[360px]",
-          "gradient": "from-[#001F3F] via-[#173B61] to-[#3A5D85]"
+          "gradient": "from-[#001F3F] via-[#173B61] to-[#3A5D85]",
+          "src": "/images/gallery/community-gathering.jpg"
         },
         {
           "title": "志愿关怀",
           "subtitle": "温暖且务实的本地支持",
           "height": "h-[280px]",
-          "gradient": "from-[#B22222] via-[#D24A2A] to-[#F28C28]"
+          "gradient": "from-[#B22222] via-[#D24A2A] to-[#F28C28]",
+          "src": "/images/gallery/volunteer-care.jpg"
         },
         {
           "title": "青年导师",
           "subtitle": "跨代学习与陪伴计划",
           "height": "h-[420px]",
-          "gradient": "from-[#E7DDD0] via-[#F4EEE3] to-[#D9C6AE]"
+          "gradient": "from-[#E7DDD0] via-[#F4EEE3] to-[#D9C6AE]",
+          "src": "/images/gallery/youth-mentorship.jpg"
         },
         {
           "title": "艺术与传承",
           "subtitle": "轻盈而持续的文化延续",
           "height": "h-[310px]",
-          "gradient": "from-[#213953] via-[#516C87] to-[#D6D8DC]"
+          "gradient": "from-[#213953] via-[#516C87] to-[#D6D8DC]",
+          "src": "/images/gallery/art-and-heritage.jpg"
         },
         {
           "title": "身心关怀",
           "subtitle": "通往归属感的可达路径",
           "height": "h-[260px]",
-          "gradient": "from-[#6B0F1A] via-[#B22222] to-[#F28C28]"
+          "gradient": "from-[#6B0F1A] via-[#B22222] to-[#F28C28]",
+          "src": "/images/gallery/wellbeing-outreach.jpg"
         }
       ]
     },
@@ -179,6 +172,7 @@
     "description": "每一场活动都追求清晰、包容与记忆点，同时保留轻奢与温度。",
     "items": [
       {
+        "slug": "mid-autumn-community-evening",
         "month": "4月",
         "day": "12",
         "title": "中秋社区之夜",
@@ -186,6 +180,7 @@
         "cta": "预约名额"
       },
       {
+        "slug": "youth-mentorship-circle",
         "month": "5月",
         "day": "03",
         "title": "青年导师圆桌",
@@ -193,6 +188,7 @@
         "cta": "查看详情"
       },
       {
+        "slug": "volunteer-welcome-atelier",
         "month": "6月",
         "day": "18",
         "title": "志愿者欢迎工作坊",

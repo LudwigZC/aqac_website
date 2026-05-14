@@ -6,19 +6,12 @@ import EventCard from "@/components/cards/EventCard";
 import NewsCard from "@/components/cards/NewsCard";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import { useI18n } from "@/components/providers/LocaleProvider";
+import { resolveFeaturedEventsBySlugs } from "@/lib/featuredEvents";
 
 type QuickLinkItem = {
   title: string;
   description: string;
   href: string;
-};
-
-type EventItem = {
-  month: string;
-  day: string;
-  title: string;
-  description: string;
-  cta: string;
 };
 
 type NewsItem = {
@@ -30,6 +23,10 @@ type NewsItem = {
 
 export default function HomePage() {
   const { dict } = useI18n();
+  const featuredEvents = resolveFeaturedEventsBySlugs(
+    dict,
+    dict.home.featuredEvents.featuredSlugs,
+  );
 
   return (
     <>
@@ -55,8 +52,8 @@ export default function HomePage() {
         description={dict.home.featuredEvents.description}
       >
         <div className="grid gap-6">
-          {(dict.home.featuredEvents.items as EventItem[]).map((item) => (
-            <div key={item.title} className="reveal">
+          {featuredEvents.map((item) => (
+            <div key={item.slug} className="reveal">
               <EventCard {...item} />
             </div>
           ))}

@@ -45,21 +45,9 @@
       "eyebrow": "Featured",
       "title": "Upcoming experiences",
       "description": "A calm, premium overview of what is next.",
-      "items": [
-        {
-          "month": "APR",
-          "day": "12",
-          "title": "Mid-Autumn Community Evening",
-          "description": "An intergenerational evening of performances, stories, and tea designed to welcome both long-time members and first-time visitors.",
-          "cta": "Reserve a place"
-        },
-        {
-          "month": "MAY",
-          "day": "03",
-          "title": "Youth Mentorship Circle",
-          "description": "A guided session for students and young professionals focused on confidence, identity, and local opportunities in Queensland.",
-          "cta": "View details"
-        }
+      "featuredSlugs": [
+        "mid-autumn-community-evening",
+        "youth-mentorship-circle"
       ]
     },
     "latestNews": {
@@ -112,31 +100,36 @@
           "title": "Community Gathering",
           "subtitle": "Shared stories and cultural exchange",
           "height": "h-[360px]",
-          "gradient": "from-[#001F3F] via-[#173B61] to-[#3A5D85]"
+          "gradient": "from-[#001F3F] via-[#173B61] to-[#3A5D85]",
+          "src": "/images/gallery/community-gathering.jpg"
         },
         {
           "title": "Volunteer Care",
           "subtitle": "Warm, practical local support",
           "height": "h-[280px]",
-          "gradient": "from-[#B22222] via-[#D24A2A] to-[#F28C28]"
+          "gradient": "from-[#B22222] via-[#D24A2A] to-[#F28C28]",
+          "src": "/images/gallery/volunteer-care.jpg"
         },
         {
           "title": "Youth Mentorship",
           "subtitle": "Intergenerational learning programs",
           "height": "h-[420px]",
-          "gradient": "from-[#E7DDD0] via-[#F4EEE3] to-[#D9C6AE]"
+          "gradient": "from-[#E7DDD0] via-[#F4EEE3] to-[#D9C6AE]",
+          "src": "/images/gallery/youth-mentorship.jpg"
         },
         {
           "title": "Art & Heritage",
           "subtitle": "Subtle Chinese cultural continuity",
           "height": "h-[310px]",
-          "gradient": "from-[#213953] via-[#516C87] to-[#D6D8DC]"
+          "gradient": "from-[#213953] via-[#516C87] to-[#D6D8DC]",
+          "src": "/images/gallery/art-and-heritage.jpg"
         },
         {
           "title": "Wellbeing Outreach",
           "subtitle": "Accessible pathways to belonging",
           "height": "h-[260px]",
-          "gradient": "from-[#6B0F1A] via-[#B22222] to-[#F28C28]"
+          "gradient": "from-[#6B0F1A] via-[#B22222] to-[#F28C28]",
+          "src": "/images/gallery/wellbeing-outreach.jpg"
         }
       ]
     },
@@ -179,6 +172,7 @@
     "description": "Every event is designed with a soft premium feel: clear, inclusive, and memorable.",
     "items": [
       {
+        "slug": "mid-autumn-community-evening",
         "month": "APR",
         "day": "12",
         "title": "Mid-Autumn Community Evening",
@@ -186,6 +180,7 @@
         "cta": "Reserve a place"
       },
       {
+        "slug": "youth-mentorship-circle",
         "month": "MAY",
         "day": "03",
         "title": "Youth Mentorship Circle",
@@ -193,6 +188,7 @@
         "cta": "View details"
       },
       {
+        "slug": "volunteer-welcome-atelier",
         "month": "JUN",
         "day": "18",
         "title": "Volunteer Welcome Atelier",

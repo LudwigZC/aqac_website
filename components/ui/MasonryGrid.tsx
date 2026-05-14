@@ -1,12 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 type Item = {
   title: string;
   subtitle: string;
   height: string;
   gradient: string;
+  src?: string;
 };
 
 export default function MasonryGrid({ items }: { items: Item[] }) {
@@ -19,8 +21,25 @@ export default function MasonryGrid({ items }: { items: Item[] }) {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{ delay: index * 0.08, duration: 0.7 }}
-          className={`mb-5 break-inside-avoid rounded-[2rem] bg-gradient-to-br ${item.gradient} ${item.height} relative overflow-hidden p-6 text-white shadow-glass`}
+          className={`mb-5 break-inside-avoid rounded-[2rem] ${item.height} relative overflow-hidden p-6 text-white shadow-glass`}
         >
+          {item.src ? (
+            <>
+              <Image
+                src={item.src}
+                alt={item.title}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
+              />
+              <div
+                className={`absolute inset-0 bg-gradient-to-br ${item.gradient} opacity-45`}
+                aria-hidden
+              />
+            </>
+          ) : (
+            <div className={`absolute inset-0 bg-gradient-to-br ${item.gradient}`} />
+          )}
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,.25),transparent_40%)]" />
           <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent,rgba(0,0,0,.24))]" />
           <div className="relative z-10 flex h-full flex-col justify-end">

@@ -22,6 +22,7 @@ type GalleryItem = {
   subtitle: string;
   height: string;
   gradient: string;
+  src?: string;
 };
 
 export default function AboutPage() {

@@ -19,6 +19,8 @@ export const dictionaries = {
 
 export type Dictionary = typeof en;
 
+export type EventListItem = Dictionary["events"]["items"][number];
+
 export function getDictionary(locale: Locale): Dictionary {
   return dictionaries[locale] ?? dictionaries.en;
 }
