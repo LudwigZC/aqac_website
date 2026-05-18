@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { withBasePath } from "@/lib/paths";
 
 type Item = {
   title: string;
@@ -26,7 +27,7 @@ export default function MasonryGrid({ items }: { items: Item[] }) {
           {item.src ? (
             <>
               <Image
-                src={item.src}
+                src={withBasePath(item.src)}
                 alt={item.title}
                 fill
                 className="object-cover"

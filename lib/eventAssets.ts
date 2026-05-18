@@ -1,8 +1,10 @@
+import { withBasePath } from "@/lib/paths";
+
 /**
  * Event images under public/images/events/ (see paths.py EVENT_BANNERS / EVENT_GALLERY).
  */
 export function getEventBannerSrc(slug: string): string {
-  return `/images/events/${slug}.jpg`;
+  return withBasePath(`/images/events/${slug}.jpg`);
 }
 
 const EVENT_GALLERY: Record<string, string[]> = {
@@ -13,5 +15,5 @@ const EVENT_GALLERY: Record<string, string[]> = {
 };
 
 export function getEventGallerySrcs(slug: string): string[] {
-  return EVENT_GALLERY[slug] ?? [];
+  return (EVENT_GALLERY[slug] ?? []).map(withBasePath);
 }

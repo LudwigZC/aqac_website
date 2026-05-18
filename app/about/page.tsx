@@ -6,6 +6,7 @@ import MasonryGrid from "@/components/ui/MasonryGrid";
 import Timeline from "@/components/ui/Timeline";
 import { useI18n } from "@/components/providers/LocaleProvider";
 import { teamMembers, type TeamMember } from "@/lib/data";
+import { withBasePath } from "@/lib/paths";
 
 type Stat = {
   value: string;
@@ -105,7 +106,7 @@ export default function AboutPage() {
               {member.avatar ? (
                 <div className="relative h-20 w-20 overflow-hidden rounded-full ring-2 ring-white shadow-glow">
                   <Image
-                    src={member.avatar}
+                    src={withBasePath(member.avatar)}
                     alt={member.name}
                     fill
                     className="object-cover object-top"

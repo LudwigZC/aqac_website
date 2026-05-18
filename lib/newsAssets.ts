@@ -1,3 +1,5 @@
+import { withBasePath } from "@/lib/paths";
+
 /** Poster images for announcement-style news items (slug → filename under public/images/news/). */
 const NEWS_POSTERS: Record<string, { en: string; zh: string }> = {
   "official-launch-2026": {
@@ -9,5 +11,6 @@ const NEWS_POSTERS: Record<string, { en: string; zh: string }> = {
 export function getNewsPosterSrc(slug: string, locale: string): string | undefined {
   const entry = NEWS_POSTERS[slug];
   if (!entry) return undefined;
-  return locale === "en" ? entry.en : entry.zh;
+  const path = locale === "en" ? entry.en : entry.zh;
+  return withBasePath(path);
 }
