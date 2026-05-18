@@ -57,8 +57,7 @@ NEWS_CONTENT = {
 EVENT_CONTENT = {
     # slug                               → locale file
     "mid-autumn-community-evening":  LOCALE_FILES,   # APR 12
-    "youth-mentorship-circle":        LOCALE_FILES,  # MAY 03
-    "volunteer-welcome-atelier":      LOCALE_FILES,  # JUN 18
+    "brisbane-lord-mayor-visit":      LOCALE_FILES,  # MAY 05
 }
 
 # ===========================================================================
@@ -118,7 +117,7 @@ GALLERY_PHOTOS = {
 TEAM_DIR = ROOT / "public" / "images" / "team"
 
 TEAM_HEADSHOTS = {
-    "lian_chen":  TEAM_DIR / "lian-chen.jpg",
+    "peter_zhuang": TEAM_DIR / "peter-zhuang.jpg",
     "ava_lin":    TEAM_DIR / "ava-lin.jpg",
     "ming_zhao":  TEAM_DIR / "ming-zhao.jpg",
     "noah_wu":    TEAM_DIR / "noah-wu.jpg",
@@ -135,7 +134,6 @@ EVENTS_DIR = ROOT / "public" / "images" / "events"
 EVENT_BANNERS = {
     "mid_autumn_community_evening": EVENTS_DIR / "mid-autumn-community-evening.jpg",
     "youth_mentorship_circle":      EVENTS_DIR / "youth-mentorship-circle.jpg",
-    "volunteer_welcome_atelier":    EVENTS_DIR / "volunteer-welcome-atelier.jpg",
 }
 
 # ===========================================================================
@@ -147,12 +145,8 @@ EVENT_BANNERS = {
 NEWS_DIR = ROOT / "public" / "images" / "news"
 
 NEWS_COVERS = {
-    "quieter_caring_model":          NEWS_DIR / "quieter-caring-model.jpg",
-    "listening_sessions":            NEWS_DIR / "listening-sessions.jpg",
-    "new_collaborations":            NEWS_DIR / "new-collaborations.jpg",
-    "refining_community_access":     NEWS_DIR / "refining-community-access.jpg",
-    "mentorship_pilots":             NEWS_DIR / "mentorship-pilots.jpg",
-    "shared_initiatives":            NEWS_DIR / "shared-initiatives.jpg",
+    "official_launch_2026_en": NEWS_DIR / "official-launch-en.jpg",
+    "official_launch_2026_zh": NEWS_DIR / "official-launch-zh.jpg",
 }
 
 # ===========================================================================

@@ -7,71 +7,60 @@
     "home": "Home",
     "about": "About",
     "events": "Events",
-    "news": "News",
+    "news": "Announcements",
     "membership": "Membership"
   },
   "home": {
     "hero": {
-      "eyebrow": "Chinese Community • Queensland • Australia",
-      "titleLine1": "A refined space for cultural belonging,",
-      "titleLine2": "care, and community growth.",
-      "description": "We connect Chinese families, youth, and local partners through elegant programs, accessible support, and meaningful cultural exchange across Queensland.",
-      "primaryCta": "Join the community",
-      "secondaryCta": "Discover our story"
+      "eyebrow": "Chinese Community • Queensland",
+      "titleLine1": "One united voice",
+      "titleLine2": "for our community.",
+      "description": "The Queensland Chinese Affairs Committee unites legally registered Chinese associations across Queensland to engage federal, state, and local government—and to turn community priorities into action.",
+      "primaryCta": "Join us",
+      "secondaryCta": "Our mission"
     },
     "quickLinks": {
       "eyebrow": "Explore",
-      "title": "Three pathways into the community",
-      "description": "Minimal, welcoming, and easy to navigate—designed for members, volunteers, and new visitors alike.",
+      "title": "What we do",
+      "description": "Events, official notices, and membership—in one place.",
       "items": [
         {
           "title": "Events",
-          "description": "Seasonal programs, cultural gatherings, and workshops that bring people together with warmth and clarity.",
+          "description": "Community visits, government dialogue, and shared milestones—the committee in action.",
           "href": "/events"
         },
         {
-          "title": "News",
-          "description": "Stories, updates, and reflective moments from our latest community initiatives and partnerships.",
+          "title": "Announcements",
+          "description": "Official notices, invitations, and registration details that matter to members.",
           "href": "/news"
         },
         {
           "title": "Membership",
-          "description": "Join a growing network of supporters, families, and volunteers who care deeply about belonging.",
+          "description": "Registered Chinese associations and organisations are welcome to join and strengthen our collective voice.",
           "href": "/membership"
         }
       ]
     },
     "featuredEvents": {
       "eyebrow": "Featured",
-      "title": "Upcoming experiences",
-      "description": "A calm, premium overview of what is next.",
+      "title": "Recent events",
+      "description": "Where the committee meets the community and government face to face.",
       "featuredSlugs": [
         "mid-autumn-community-evening",
-        "youth-mentorship-circle"
+        "brisbane-lord-mayor-visit"
       ]
     },
     "latestNews": {
-      "eyebrow": "Journal",
-      "title": "Latest notes from our community",
-      "description": "Short, polished updates for members and partners.",
+      "eyebrow": "Announcements",
+      "title": "Latest notices",
+      "description": "Stay informed on committee updates and invitations.",
       "items": [
         {
-          "tag": "Programs",
-          "title": "A quieter, more caring model for community support",
-          "excerpt": "We introduced a more human-centered structure for member onboarding, making our first contact warmer and easier to understand.",
-          "date": "14 Mar 2026"
-        },
-        {
-          "tag": "Youth",
-          "title": "Listening sessions with bilingual student leaders",
-          "excerpt": "Our latest youth roundtable focused on belonging, confidence, and how culture can be expressed lightly in modern community spaces.",
-          "date": "08 Mar 2026"
-        },
-        {
-          "tag": "Partnerships",
-          "title": "New collaborations across education and wellbeing",
-          "excerpt": "We are deepening our local network to create smoother pathways for support, volunteerism, and family engagement.",
-          "date": "01 Mar 2026"
+          "slug": "official-launch-2026",
+          "tag": "Notice",
+          "title": "QCAC Official Launch",
+          "excerpt": "Sunday, 19 July 2026 at 6:00 PM — Grand Ballroom, Tattersall's Club, Brisbane City. $88 per person (dinner and unlimited beverages included).",
+          "date": "19 Jul 2026"
         }
       ]
     }
@@ -136,108 +125,104 @@
     "timeline": {
       "eyebrow": "Timeline",
       "title": "Our journey",
-      "description": "A concise history of growth and community impact.",
+      "description": "Key milestones from early planning meetings to formal establishment and our inaugural launch.",
       "items": [
         {
-          "year": "2010",
-          "title": "Community foundation",
-          "description": "The organization began as a volunteer-led initiative supporting new Chinese families settling in Queensland."
+          "year": "2025",
+          "title": "Planning and consultation",
+          "description": "Representatives from Chinese community organisations across Queensland met on multiple occasions to discuss a united voice, community service, and the formation of the committee—building shared direction, structure, and consensus ahead of launch."
         },
         {
-          "year": "2015",
-          "title": "Cultural education expansion",
-          "description": "Programs for youth and families expanded to include heritage workshops, language support, and inclusive public events."
+          "year": "Jan 2026",
+          "title": "Committee established",
+          "description": "The Queensland Chinese Affairs Committee was formally established as a united non-profit body representing legally registered Chinese associations in Queensland, dedicated to dialogue with federal, state, and local government."
         },
         {
-          "year": "2021",
-          "title": "Digital outreach transformation",
-          "description": "We introduced more accessible digital communication and a stronger bilingual presence for broader engagement."
-        },
-        {
-          "year": "2026",
-          "title": "Refined community platform",
-          "description": "A premium online identity now supports a calmer, more modern experience for members, partners, and volunteers."
+          "year": "Jul 2026",
+          "title": "Official launch",
+          "description": "The official launch was held at Tattersall's Club in Brisbane, bringing together member organisations and community representatives to mark a new chapter for the Chinese community in Queensland."
         }
       ]
     },
     "team": {
       "eyebrow": "Leadership",
       "title": "A thoughtful team behind the mission",
-      "description": "Small, capable, and deeply connected to the people we serve."
+      "description": "Small, capable, and deeply connected to the people we serve.",
+      "members": [
+        {
+          "slug": "peter-zhuang",
+          "name": "Peter Zhuang",
+          "role": "Chairman",
+          "bio": "Chairman of the Queensland Chinese Affairs Committee, representing the Chinese community in dialogue with federal, state, and local government.",
+          "initials": "PZ",
+          "avatar": "/images/team/peter-zhuang.jpg"
+        },
+        {
+          "slug": "ava-lin",
+          "name": "Ava Lin",
+          "role": "Programs Lead",
+          "bio": "Designs events and youth initiatives that connect heritage with modern community life.",
+          "initials": "AL"
+        },
+        {
+          "slug": "ming-zhao",
+          "name": "Ming Zhao",
+          "role": "Volunteer Coordinator",
+          "bio": "Builds inclusive volunteer experiences and strengthens member participation.",
+          "initials": "MZ"
+        },
+        {
+          "slug": "noah-wu",
+          "name": "Noah Wu",
+          "role": "Communications Manager",
+          "bio": "Shapes storytelling, bilingual outreach, and media presence for the organization.",
+          "initials": "NW"
+        }
+      ]
     }
   },
   "events": {
     "eyebrow": "Events",
     "title": "Programs shaped for connection",
     "description": "Every event is designed with a soft premium feel: clear, inclusive, and memorable.",
+    "readLess": "Collapse",
+    "goToEventPage": "Go to event page",
+    "imageClose": "Close",
+    "imagePrevious": "Previous image",
+    "imageNext": "Next image",
     "items": [
       {
         "slug": "mid-autumn-community-evening",
         "month": "APR",
         "day": "12",
-        "title": "Mid-Autumn Community Evening",
-        "description": "Music, stories, tea, and family-friendly cultural sharing in a welcoming evening atmosphere.",
-        "cta": "Reserve a place"
+        "title": "Queensland Chinese Affairs Committee Series Events (1)",
+        "description": "On 12 April 2026 at 3:30 pm, the Queensland Chinese Affairs Committee held a visit to Sunnybank RSL Sub Branch. More than 30 representatives from member organisations took part.\n\nThe event was hosted by Lewis Lee OAM. Harry Claasen OAM, Vice President of Sunnybank RSL Sub Branch, gave a welcome address and introduced the history and development of Sunnybank RSL. Lewis Lee OAM, Chairman of the Australia Chinese Ex-Services Monument Committee, then spoke in detail about the history of Chinese Australian servicemen and women and the background to the establishment of the Chinese Australian war memorial. Through his presentation, participants gained a deep appreciation of the outstanding contributions of Chinese forebears to Australia; attendees paid silent tribute and lit candles in turn. Lewis Lee OAM later presented certificates of appreciation to community members who had contributed to the Australia Chinese Ex-Services Monument Committee.\n\nDuring the program, Parnam Singh Heir, Chairman of the Australia Indian Ex-Services Monument Committee, also introduced the history of the Australia Indian war memorial, fostering mutual understanding and respect among different communities.\n\nQCAC Chairman Peter Zhuang expressed sincere thanks to Lewis Lee OAM and Sunnybank RSL in his remarks, and invited everyone to attend the ANZAC Day commemoration to be held at Sunnybank RSL on 25 April.\n\nAs an important representative body for the Chinese community, the Queensland Chinese Affairs Committee maintains close communication with federal, state, and local government and is committed to voicing community concerns and advancing their expression and implementation.",
+        "cta": "Learn more"
       },
       {
-        "slug": "youth-mentorship-circle",
+        "slug": "brisbane-lord-mayor-visit",
         "month": "MAY",
-        "day": "03",
-        "title": "Youth Mentorship Circle",
-        "description": "A bilingual session exploring study, career direction, and belonging for young people in Queensland.",
-        "cta": "View details"
-      },
-      {
-        "slug": "volunteer-welcome-atelier",
-        "month": "JUN",
-        "day": "18",
-        "title": "Volunteer Welcome Atelier",
-        "description": "An elegant orientation event introducing our values, partner pathways, and practical ways to get involved.",
-        "cta": "Join the session"
+        "day": "05",
+        "title": "Queensland Chinese Affairs Committee Series Events (2)",
+        "description": "On 5 May 2026, the Queensland Chinese Affairs Committee organised a delegation of member representatives to visit Brisbane City Hall and meet with Lord Mayor Adrian Schrinner and his team. Also present were Nathan Percy, Director of City Business for the Lord Mayor, and adviser Eddie Stephens.\n\nDuring the meeting, QCAC Chairman Yongxin Zhuang introduced the committee’s background, mission, and development to the Lord Mayor. Delegates each gave a brief self-introduction. The Lord Mayor warmly welcomed the visit, delivered an address, and engaged in in-depth discussion on issues of shared concern.\n\nDuring the visit, Mr Zhuang, on behalf of Deputy Secretary-General Yin Zhao, made a donation to the Lord Mayor’s Charitable Trust. The committee also presented a commemorative gift to the Lord Mayor as a gesture of sincere thanks and goodwill.\n\nAfter the meeting, all participants posed for a group photo with the Lord Mayor.\n\nThe Queensland Chinese Affairs Committee will continue to host diverse programs that build bridges between the Chinese community and government at all levels, foster understanding and cooperation, and support the community’s prosperity and growth.",
+        "cta": "Learn more"
       }
     ]
   },
   "news": {
-    "eyebrow": "News",
-    "title": "Stories, updates, and reflections",
-    "description": "Filter by theme to explore the latest progress across programs and partnerships.",
-    "tags": ["Programs", "Youth", "Partnerships"],
+    "eyebrow": "Announcements",
+    "title": "Latest notices",
+    "description": "Official notices, invitations, and important updates. Open the poster for the full graphic and booking QR code.",
+    "filterAll": "All",
+    "viewPoster": "View poster",
+    "tags": ["Notice"],
     "items": [
       {
-        "tag": "Programs",
-        "title": "A quieter, more caring model for community support",
-        "excerpt": "We introduced a more human-centered structure for member onboarding, making our first contact warmer and easier to understand.",
-        "date": "14 Mar 2026"
-      },
-      {
-        "tag": "Youth",
-        "title": "Listening sessions with bilingual student leaders",
-        "excerpt": "Our latest youth roundtable focused on belonging, confidence, and how culture can be expressed lightly in modern community spaces.",
-        "date": "08 Mar 2026"
-      },
-      {
-        "tag": "Partnerships",
-        "title": "New collaborations across education and wellbeing",
-        "excerpt": "We are deepening our local network to create smoother pathways for support, volunteerism, and family engagement.",
-        "date": "01 Mar 2026"
-      },
-      {
-        "tag": "Programs",
-        "title": "Refining community access through bilingual design",
-        "excerpt": "Our service touchpoints now prioritize simplicity, visual calm, and easier first-time navigation for new members.",
-        "date": "23 Feb 2026"
-      },
-      {
-        "tag": "Youth",
-        "title": "Mentorship pilots expand into semester planning",
-        "excerpt": "Student-focused mentoring is now being tested as a repeatable seasonal format with stronger local partner support.",
-        "date": "18 Feb 2026"
-      },
-      {
-        "tag": "Partnerships",
-        "title": "Shared initiatives with local cultural institutions",
-        "excerpt": "Joint planning has begun for a more open calendar of community events that feel both refined and accessible.",
-        "date": "09 Feb 2026"
+        "slug": "official-launch-2026",
+        "tag": "Notice",
+        "title": "QCAC Official Launch",
+        "excerpt": "Sunday, 19 July 2026 at 6:00 PM — Grand Ballroom, Tattersall's Club, 215 Queen Street, Brisbane City. $88 per person (dinner and unlimited beverages included). Business or cultural attire. Scan the QR code on the poster to book.",
+        "date": "19 Jul 2026"
       }
     ]
   },
@@ -247,14 +232,19 @@
     "description": "Membership is a gentle entry point into programs, volunteering, and shared belonging.",
     "join": {
       "title": "Become part of the committee",
-      "description": "Later you can repalce with the true reason",
-      "button": "Join now"
+      "description": "To apply for membership, please email our secretariat with your organisation name, contact person, and a brief introduction. We will be in touch after review.",
+      "button": "Contact by email",
+      "email": "info@qca-committee.org.au",
+      "emailSubject": "Membership enquiry"
     },
     "wall": {
       "eyebrow": "Members",
       "title": "Member Organisations",
       "description": "Registered member organisations of the Queensland Chinese Affair Committee.",
       "learnMore": "Learn more",
+      "filterAll": "All",
+      "clusterCountOne": "1 organisation",
+      "clusterCountMany": "{{count}} organisations",
       "items": [
         { "name": "APA – Australian Property Owners Association", "description": "" },
         { "name": "Renew Life Fellowship Association", "description": "" },

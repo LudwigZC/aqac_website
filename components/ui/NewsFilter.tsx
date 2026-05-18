@@ -2,31 +2,35 @@
 
 import { useMemo, useState } from "react";
 import NewsCard from "@/components/cards/NewsCard";
+import { cn } from "@/lib/utils";
 
-type NewsItem = {
+export type NewsItem = {
+  slug: string;
   tag: string;
   title: string;
   excerpt: string;
   date: string;
+  imageSrc?: string;
 };
 
 type Props = {
   tags: string[];
   items: NewsItem[];
+  filterAllLabel: string;
 };
 
-export default function NewsFilter({ tags, items }: Props) {
-  const [activeTag, setActiveTag] = useState<string>("All");
+export default function NewsFilter({ tags, items, filterAllLabel }: Props) {
+  const [activeTag, setActiveTag] = useState<string>(filterAllLabel);
 
   const filtered = useMemo(() => {
-    if (activeTag === "All") return items;
+    if (activeTag === filterAllLabel) return items;
     return items.filter((item) => item.tag === activeTag);
   }, [activeTag, items]);
 
   return (
     <div className="space-y-8">
       <div className="flex flex-wrap gap-3">
-        {["All", ...tags].map((tag) => {
+        {[filterAllLabel, ...tags].map((tag) => {
           const active = activeTag === tag;
 
           return (
@@ -43,9 +47,18 @@ export default function NewsFilter({ tags, items }: Props) {
         })}
       </div>
 
-      <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+      <div
+        className={cn(
+          "grid gap-6",
+          filtered.length === 1
+            ? "mx-auto max-w-lg grid-cols-1"
+            : filtered.length === 2
+              ? "md:grid-cols-2"
+              : "md:grid-cols-2 xl:grid-cols-3",
+        )}
+      >
         {filtered.map((item) => (
-          <NewsCard key={`${item.title}-${item.date}`} {...item} />
+          <NewsCard key={item.slug} {...item} />
         ))}
       </div>
     </div>

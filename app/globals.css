@@ -120,6 +120,25 @@ body {
 .text-balance {
   text-wrap: balance;
 }
+
+.event-image-loop:hover .event-image-loop-track,
+.event-image-loop:focus-within .event-image-loop-track {
+  animation-play-state: paused;
+}
+
+.event-image-loop-track {
+  animation: event-image-loop-scroll var(--loop-duration, 18s) linear infinite;
+  will-change: transform;
+}
+
+@keyframes event-image-loop-scroll {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-1 * var(--loop-distance)));
+  }
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -226,4 +245,23 @@ body {
 
 .text-balance {
   text-wrap: balance;
+}
+
+.event-image-loop:hover .event-image-loop-track,
+.event-image-loop:focus-within .event-image-loop-track {
+  animation-play-state: paused;
+}
+
+.event-image-loop-track {
+  animation: event-image-loop-scroll var(--loop-duration, 18s) linear infinite;
+  will-change: transform;
+}
+
+@keyframes event-image-loop-scroll {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-1 * var(--loop-distance)));
+  }
 }

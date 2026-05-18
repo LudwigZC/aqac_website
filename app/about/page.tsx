@@ -1,10 +1,11 @@
 "use client";
 
+import Image from "next/image";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import MasonryGrid from "@/components/ui/MasonryGrid";
 import Timeline from "@/components/ui/Timeline";
 import { useI18n } from "@/components/providers/LocaleProvider";
-import { teamMembers } from "@/lib/data";
+import { teamMembers, type TeamMember } from "@/lib/data";
 
 type Stat = {
   value: string;
@@ -25,8 +26,15 @@ type GalleryItem = {
   src?: string;
 };
 
+type LocalizedTeamMember = TeamMember & {
+  name: string;
+  role: string;
+  bio: string;
+};
+
 export default function AboutPage() {
   const { dict } = useI18n();
+  const localizedMembers = (dict.about.team.members as LocalizedTeamMember[] | undefined) ?? teamMembers;
 
   return (
     <div className="pt-28">
@@ -92,11 +100,23 @@ export default function AboutPage() {
         className="pb-24"
       >
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-          {teamMembers.map((member) => (
-            <div key={member.name} className="reveal glass-panel rounded-[2rem] p-6">
-              <div className="flex h-20 w-20 items-center justify-center rounded-full bg-[linear-gradient(135deg,#001F3F,#B22222,#F28C28)] font-serif text-2xl text-white shadow-glow">
-                {member.initials}
-              </div>
+          {localizedMembers.map((member) => (
+            <div key={member.slug} className="reveal glass-panel rounded-[2rem] p-6">
+              {member.avatar ? (
+                <div className="relative h-20 w-20 overflow-hidden rounded-full ring-2 ring-white shadow-glow">
+                  <Image
+                    src={member.avatar}
+                    alt={member.name}
+                    fill
+                    className="object-cover object-top"
+                    sizes="80px"
+                  />
+                </div>
+              ) : (
+                <div className="flex h-20 w-20 items-center justify-center rounded-full bg-[linear-gradient(135deg,#001F3F,#B22222,#F28C28)] font-serif text-2xl text-white shadow-glow">
+                  {member.initials}
+                </div>
+              )}
               <h3 className="mt-5 font-serif text-2xl text-navy">{member.name}</h3>
               <p className="mt-2 text-xs uppercase tracking-[0.26em] text-crimson">
                 {member.role}

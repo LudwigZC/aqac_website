@@ -14,7 +14,7 @@ This site reads **events**, **news**, and most marketing copy from locale JSON a
 
 3. **Home featured events:** edit **`home.featuredEvents.featuredSlugs`** — an ordered list of slugs that must exist on `events.items`. Copy is no longer duplicated under `featuredEvents.items`.
 
-4. **News:** update the `news.items` array (tag, title, excerpt, date).
+4. **News (announcements):** update `news.items` (slug, tag, title, excerpt, date). Poster images: `public/images/news/<slug>-en.jpg` and `-zh.jpg`, or map slug in [`lib/newsAssets.ts`](lib/newsAssets.ts).
 
 5. **Home page** latest news still uses `home.latestNews`; featured events resolve via [`lib/featuredEvents.ts`](lib/featuredEvents.ts).
 

@@ -7,36 +7,36 @@
     "home": "首頁",
     "about": "關於我們",
     "events": "活動",
-    "news": "新聞",
+    "news": "公告",
     "membership": "會員"
   },
   "home": {
     "hero": {
-      "eyebrow": "華人社群 • 昆士蘭 • 澳洲",
-      "titleLine1": "在溫柔而克制的設計中，",
-      "titleLine2": "連結文化、關懷與成長。",
-      "description": "我們透過社群活動、青年計畫、家庭支持與跨文化合作，為昆士蘭華人打造更有歸屬感、更容易參與的公共空間。",
-      "primaryCta": "加入社群",
-      "secondaryCta": "了解我們的故事"
+      "eyebrow": "昆士蘭華人社群 • 聯合發聲",
+      "titleLine1": "代表華人社群，",
+      "titleLine2": "連結政府與訴求。",
+      "description": "昆士蘭華人事務委員會由在昆州依法註冊的華人社團聯合發起，致力於搭建與聯邦、州及地方政府的溝通橋梁，推動社群關切的有效表達與落實。",
+      "primaryCta": "加入委員會",
+      "secondaryCta": "了解使命"
     },
     "quickLinks": {
       "eyebrow": "探索",
-      "title": "進入社群的三條路徑",
-      "description": "為會員、志工與新訪客打造的簡潔體驗，清晰、溫暖且容易使用。",
+      "title": "我們的工作",
+      "description": "活動紀實、官方公告與會員加入，一站了解委員會正在做的事。",
       "items": [
         {
           "title": "活動",
-          "description": "節慶活動、文化聚會與工作坊，以更優雅的方式讓人與人產生連結。",
+          "description": "走訪社群、對話政府、凝聚共識——記錄委員會的行動現場。",
           "href": "/events"
         },
         {
-          "title": "新聞",
-          "description": "查看社群計畫、合作進展與近期故事，了解我們正在做的事情。",
+          "title": "公告",
+          "description": "官方通知、活動預告與報名資訊，重要事項以公告為準。",
           "href": "/news"
         },
         {
           "title": "會員",
-          "description": "加入不斷成長的支持者、家庭與志工網絡，共同創造更強的歸屬感。",
+          "description": "歡迎依法註冊的華人社團與機構加入，共建昆州華人社群統一聲音。",
           "href": "/membership"
         }
       ]
@@ -44,34 +44,23 @@
     "featuredEvents": {
       "eyebrow": "精選",
       "title": "近期活動",
-      "description": "以更安靜、更高級的方式呈現接下來的安排。",
+      "description": "委員會走向社群、對話政府的真實足跡。",
       "featuredSlugs": [
         "mid-autumn-community-evening",
-        "youth-mentorship-circle"
+        "brisbane-lord-mayor-visit"
       ]
     },
     "latestNews": {
-      "eyebrow": "動態",
-      "title": "來自社群的最新消息",
-      "description": "為會員與合作夥伴準備的簡潔更新。",
+      "eyebrow": "公告",
+      "title": "最新公告",
+      "description": "請勿錯過委員會最新通知與活動邀請。",
       "items": [
         {
-          "tag": "計畫",
-          "title": "以更溫柔的方式重構社群支持",
-          "excerpt": "我們優化了成員初次接觸流程，讓新加入者更容易理解，也更願意參與。",
-          "date": "2026年3月14日"
-        },
-        {
-          "tag": "青年",
-          "title": "與雙語學生領袖的傾聽交流",
-          "excerpt": "最新一場青年討論聚焦歸屬感、自信，以及如何以更輕盈的方式表達文化身分。",
-          "date": "2026年3月8日"
-        },
-        {
-          "tag": "合作",
-          "title": "拓展教育與福祉領域合作關係",
-          "excerpt": "我們正持續加強在地網絡合作，為家庭支持、志工服務與社群參與創造更順暢的路徑。",
-          "date": "2026年3月1日"
+          "slug": "official-launch-2026",
+          "tag": "公告",
+          "title": "昆士蘭華人事務委員會成立大會",
+          "excerpt": "2026年7月19日（星期日）下午6:00，布里斯本 Tattersall's Club 大宴會廳。每位88澳元（含晚宴及無限暢飲）。",
+          "date": "2026年7月19日"
         }
       ]
     }
@@ -136,40 +125,71 @@
     "timeline": {
       "eyebrow": "時間線",
       "title": "我們的歷程",
-      "description": "一段關於成長與影響力的簡潔敘述。",
+      "description": "記錄委員會從籌備會商到正式成立、舉辦成立大會的關鍵里程碑。",
       "items": [
         {
-          "year": "2010",
-          "title": "社群起點",
-          "description": "組織起源於志工自發行動，為初到昆士蘭的華人家庭提供支持。"
+          "year": "2025",
+          "title": "籌備與會商",
+          "description": "昆州多個華人社團代表多次召開會議，共商聯合發聲、服務社群及籌建委員會事宜，明確宗旨方向與組織架構，為正式成立凝聚共識、奠定基礎。"
         },
         {
-          "year": "2015",
-          "title": "文化教育拓展",
-          "description": "逐步發展青年與家庭計畫，涵蓋文化工作坊、語言支持與開放式公共活動。"
+          "year": "2026.01",
+          "title": "委員會成立",
+          "description": "昆士蘭華人事務委員會正式成立，作為聯合性非營利組織，代表在昆州依法註冊的華人社團，致力於搭建華人社群與聯邦、州及地方政府之間的溝通橋梁。"
         },
         {
-          "year": "2021",
-          "title": "數位溝通升級",
-          "description": "建立更易使用的數位接觸點，並強化雙語傳播能力，擴大社群參與。"
-        },
-        {
-          "year": "2026",
-          "title": "精緻化社群平台",
-          "description": "以更現代、更寧靜的線上形象服務會員、合作夥伴與志工。"
+          "year": "2026.07",
+          "title": "成立大會",
+          "description": "於布里斯本 Tattersall's Club 舉行成立大會，匯聚會員社團與社群代表，共慶委員會邁入新的發展階段，並進一步凝聚昆州華人社群力量。"
         }
       ]
     },
     "team": {
       "eyebrow": "團隊",
       "title": "為使命而工作的細緻團隊",
-      "description": "規模不大，但專業、敏銳，並與社群保持真實連結。"
+      "description": "規模不大，但專業、敏銳，並與社群保持真實連結。",
+      "members": [
+        {
+          "slug": "peter-zhuang",
+          "name": "莊永新",
+          "role": "主席",
+          "bio": "昆士蘭華人事務委員會主席，致力於代表華人社群並與聯邦、州及地方政府保持溝通與合作。",
+          "initials": "PZ",
+          "avatar": "/images/team/peter-zhuang.jpg"
+        },
+        {
+          "slug": "ava-lin",
+          "name": "Ava Lin",
+          "role": "計畫負責人",
+          "bio": "策劃連結文化傳承與現代社群生活的活動與青年計畫。",
+          "initials": "AL"
+        },
+        {
+          "slug": "ming-zhao",
+          "name": "Ming Zhao",
+          "role": "志工協調",
+          "bio": "建構包容的志願服務體驗，增強會員參與感。",
+          "initials": "MZ"
+        },
+        {
+          "slug": "noah-wu",
+          "name": "Noah Wu",
+          "role": "傳播經理",
+          "bio": "負責機構敘事、雙語傳播與媒體溝通。",
+          "initials": "NW"
+        }
+      ]
     }
   },
   "events": {
     "eyebrow": "活動",
     "title": "為連結而設計的社群計畫",
     "description": "每一場活動都追求清晰、包容與記憶點，同時保留輕奢與溫度。",
+    "readLess": "收合",
+    "goToEventPage": "前往活動頁",
+    "imageClose": "關閉",
+    "imagePrevious": "上一張",
+    "imageNext": "下一張",
     "items": [
       {
         "slug": "mid-autumn-community-evening",
@@ -180,64 +200,29 @@
         "cta": "預約名額"
       },
       {
-        "slug": "youth-mentorship-circle",
+        "slug": "brisbane-lord-mayor-visit",
         "month": "5月",
-        "day": "03",
-        "title": "青年導師圓桌",
-        "description": "面向昆士蘭青年族群的雙語交流，討論學習、職涯方向與歸屬感。",
-        "cta": "查看詳情"
-      },
-      {
-        "slug": "volunteer-welcome-atelier",
-        "month": "6月",
-        "day": "18",
-        "title": "志工歡迎工作坊",
-        "description": "透過更優雅的介紹方式，幫助新志工理解組織價值與參與路徑。",
-        "cta": "加入活動"
+        "day": "05",
+        "title": "昆士蘭華人事務委員會系列活動（二）",
+        "description": "2026年5月5日，昆士蘭華人事務委員會組織部分會員代表前往布里斯班市政府，拜訪市長 Adrian Schrinner，並與市長及其團隊進行了座談交流。出席會面的還有市長城市商業事務總監 Nathan Percy 及顧問 Eddie Stephens。\n\n座談中，昆士蘭華人事務委員會（QCAC）主席莊永新向市長介紹了委員會的成立背景、宗旨及發展情況，與會代表也逐一進行了簡要自我介紹。市長對代表團的到訪表示熱烈歡迎，並發表了熱情洋溢的致辭，就大家關心的議題展開了深入交流與探討。\n\n活動期間，莊永新代表委員會副秘書長趙寅，向市長慈善基金會進行了捐贈。同時，委員會還向市長贈送了紀念禮物，以表達誠摯的感謝與良好祝願。\n\n會後，全體與會人員與市長合影留念。\n\n昆士蘭華人事務委員會將繼續透過多樣化的活動，積極搭建華人社區與各級政府之間的溝通橋樑，促進理解與合作，共同推動社區的繁榮與發展。",
+        "cta": "了解詳情"
       }
     ]
   },
   "news": {
-    "eyebrow": "新聞",
-    "title": "故事、更新與思考",
-    "description": "依主題篩選，查看近期計畫、合作與社群進展。",
-    "tags": ["計畫", "青年", "合作"],
+    "eyebrow": "公告",
+    "title": "最新公告",
+    "description": "委員會通知、活動預告與重要資訊。點擊海報可查看大圖與報名 QR 碼。",
+    "filterAll": "全部",
+    "viewPoster": "查看海報",
+    "tags": ["公告"],
     "items": [
       {
-        "tag": "計畫",
-        "title": "以更溫柔的方式重構社群支持",
-        "excerpt": "我們優化了成員初次接觸流程，讓新加入者更容易理解，也更願意參與。",
-        "date": "2026年3月14日"
-      },
-      {
-        "tag": "青年",
-        "title": "與雙語學生領袖的傾聽交流",
-        "excerpt": "最新一場青年討論聚焦歸屬感、自信，以及如何以更輕盈的方式表達文化身分。",
-        "date": "2026年3月8日"
-      },
-      {
-        "tag": "合作",
-        "title": "拓展教育與福祉領域合作關係",
-        "excerpt": "我們正持續加強在地網絡合作，為家庭支持、志工服務與社群參與創造更順暢的路徑。",
-        "date": "2026年3月1日"
-      },
-      {
-        "tag": "計畫",
-        "title": "透過雙語設計提升社群可達性",
-        "excerpt": "我們的服務接觸點更重視簡潔、視覺沉靜以及新成員的首次訪問體驗。",
-        "date": "2026年2月23日"
-      },
-      {
-        "tag": "青年",
-        "title": "導師試點進入學期規劃階段",
-        "excerpt": "學生導向的導師計畫正測試更穩定的季節性模式，並獲得更多在地支持。",
-        "date": "2026年2月18日"
-      },
-      {
-        "tag": "合作",
-        "title": "與在地文化機構共同策劃新計畫",
-        "excerpt": "雙方已開始籌備更開放的社群活動日曆，兼顧高級質感與可參與性。",
-        "date": "2026年2月9日"
+        "slug": "official-launch-2026",
+        "tag": "公告",
+        "title": "昆士蘭華人事務委員會成立大會",
+        "excerpt": "2026年7月19日（星期日）下午6:00，於布里斯本 Tattersall's Club 大宴會廳（215 Queen Street, Brisbane City）舉行。每位88澳元，含晚宴及無限暢飲。著裝要求：商務或民族服裝。歡迎掃描海報 QR 碼報名。",
+        "date": "2026年7月19日"
       }
     ]
   },
@@ -247,14 +232,19 @@
     "description": "會員制度是進入活動、志工服務與社群歸屬網絡的柔和入口。",
     "join": {
       "title": "成為委員會的一員",
-      "description": "後續可替換為真實報名系統、Typeform 或客製會員平台。",
-      "button": "立即加入"
+      "description": "有意加入者請發送郵件至秘書處，註明單位名稱、聯絡人及簡要介紹。我們將在審核後與您聯絡。",
+      "button": "郵件聯絡",
+      "email": "info@qca-committee.org.au",
+      "emailSubject": "入會申請諮詢"
     },
     "wall": {
       "eyebrow": "現有會員",
       "title": "會員名單",
       "description": "昆士蘭華人事務委員會現有註冊會員單位。",
       "learnMore": "了解更多",
+      "filterAll": "全部",
+      "clusterCountOne": "1 家單位",
+      "clusterCountMany": "{{count}} 家單位",
       "items": [
         { "name": "APA 澳洲業主聯合會", "description": "" },
         { "name": "人生芳華聯誼會", "description": "" },

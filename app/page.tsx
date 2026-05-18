@@ -7,6 +7,7 @@ import NewsCard from "@/components/cards/NewsCard";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import { useI18n } from "@/components/providers/LocaleProvider";
 import { resolveFeaturedEventsBySlugs } from "@/lib/featuredEvents";
+import { getNewsPosterSrc } from "@/lib/newsAssets";
 
 type QuickLinkItem = {
   title: string;
@@ -15,6 +16,7 @@ type QuickLinkItem = {
 };
 
 type NewsItem = {
+  slug: string;
   tag: string;
   title: string;
   excerpt: string;
@@ -22,7 +24,7 @@ type NewsItem = {
 };
 
 export default function HomePage() {
-  const { dict } = useI18n();
+  const { dict, locale } = useI18n();
   const featuredEvents = resolveFeaturedEventsBySlugs(
     dict,
     dict.home.featuredEvents.featuredSlugs,
@@ -66,10 +68,13 @@ export default function HomePage() {
         description={dict.home.latestNews.description}
         className="pb-24"
       >
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <div className="mx-auto grid max-w-md gap-6">
           {(dict.home.latestNews.items as NewsItem[]).map((item) => (
-            <div key={item.title} className="reveal">
-              <NewsCard {...item} />
+            <div key={item.slug} className="reveal">
+              <NewsCard
+                {...item}
+                imageSrc={getNewsPosterSrc(item.slug, locale)}
+              />
             </div>
           ))}
         </div>

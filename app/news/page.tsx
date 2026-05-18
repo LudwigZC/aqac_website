@@ -1,18 +1,17 @@
 "use client";
 
 import SectionWrapper from "@/components/ui/SectionWrapper";
-import NewsFilter from "@/components/ui/NewsFilter";
-import { useI18n } from "@/components/providers/LocaleProvider";
-
-type NewsItem = {
-  tag: string;
-  title: string;
-  excerpt: string;
-  date: string;
-};
+import NewsFilter, { type NewsItem } from "@/components/ui/NewsFilter";
+import { useI18n } from "../../components/providers/LocaleProvider";
+import { getNewsPosterSrc } from "@/lib/newsAssets";
 
 export default function NewsPage() {
-  const { dict } = useI18n();
+  const { dict, locale } = useI18n();
+
+  const items = (dict.news.items as NewsItem[]).map((item) => ({
+    ...item,
+    imageSrc: item.imageSrc ?? getNewsPosterSrc(item.slug, locale),
+  }));
 
   return (
     <div className="pt-28">
@@ -24,7 +23,8 @@ export default function NewsPage() {
         <div className="reveal">
           <NewsFilter
             tags={dict.news.tags as string[]}
-            items={dict.news.items as NewsItem[]}
+            items={items}
+            filterAllLabel={dict.news.filterAll}
           />
         </div>
       </SectionWrapper>
