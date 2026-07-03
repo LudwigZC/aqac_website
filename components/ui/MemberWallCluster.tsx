@@ -90,7 +90,7 @@ export default function MemberWallCluster({
                 <div className="flex shrink-0 items-start gap-4 md:w-36 md:flex-col md:items-center md:text-center">
                   <div
                     className={cn(
-                      "flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl font-serif text-3xl md:h-20 md:w-20 md:text-4xl",
+                      "flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl font-serif text-2xl md:h-16 md:w-16 md:text-3xl",
                       accent.badge,
                     )}
                   >

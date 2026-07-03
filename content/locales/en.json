@@ -89,36 +89,31 @@
           "title": "Community Gathering",
           "subtitle": "Shared stories and cultural exchange",
           "height": "h-[360px]",
-          "gradient": "from-[#001F3F] via-[#173B61] to-[#3A5D85]",
-          "src": "/images/gallery/community-gathering.jpg"
+          "gradient": "from-[#001F3F] via-[#173B61] to-[#3A5D85]"
         },
         {
           "title": "Volunteer Care",
           "subtitle": "Warm, practical local support",
           "height": "h-[280px]",
-          "gradient": "from-[#B22222] via-[#D24A2A] to-[#F28C28]",
-          "src": "/images/gallery/volunteer-care.jpg"
+          "gradient": "from-[#B22222] via-[#D24A2A] to-[#F28C28]"
         },
         {
           "title": "Youth Mentorship",
           "subtitle": "Intergenerational learning programs",
           "height": "h-[420px]",
-          "gradient": "from-[#E7DDD0] via-[#F4EEE3] to-[#D9C6AE]",
-          "src": "/images/gallery/youth-mentorship.jpg"
+          "gradient": "from-[#E7DDD0] via-[#F4EEE3] to-[#D9C6AE]"
         },
         {
           "title": "Art & Heritage",
           "subtitle": "Subtle Chinese cultural continuity",
           "height": "h-[310px]",
-          "gradient": "from-[#213953] via-[#516C87] to-[#D6D8DC]",
-          "src": "/images/gallery/art-and-heritage.jpg"
+          "gradient": "from-[#213953] via-[#516C87] to-[#D6D8DC]"
         },
         {
           "title": "Wellbeing Outreach",
           "subtitle": "Accessible pathways to belonging",
           "height": "h-[260px]",
-          "gradient": "from-[#6B0F1A] via-[#B22222] to-[#F28C28]",
-          "src": "/images/gallery/wellbeing-outreach.jpg"
+          "gradient": "from-[#6B0F1A] via-[#B22222] to-[#F28C28]"
         }
       ]
     },

@@ -102,12 +102,12 @@ export default function EventCard({ slug, month, day, title, description, cta }:
 
         <motion.div className="rounded-[1.5rem] bg-navy p-5 text-center text-white shadow-glow md:self-start">
           <p className="text-xs uppercase tracking-[0.32em] text-white/65">{month}</p>
-          <p className="mt-3 font-serif text-5xl leading-none">{day}</p>
+          <p className="mt-2 font-serif text-4xl leading-none">{day}</p>
         </motion.div>
 
         <motion.div ref={contentRef} layout className="flex flex-col justify-between gap-5">
           <motion.div layout>
-            <h3 className="font-serif text-2xl text-navy">{title}</h3>
+            <h3 className="font-serif text-xl text-navy">{title}</h3>
             <p
               id={`event-desc-${slug}`}
               className={cn(
@@ -128,16 +128,19 @@ export default function EventCard({ slug, month, day, title, description, cta }:
             )}
 
             {needsExpand && !expanded && (
-              <MagneticButton
-                href="#"
-                variant="solid"
+              <button
+                type="button"
+                className="group inline-flex w-fit items-center gap-2 rounded-full border-2 border-navy bg-navy px-5 py-2.5 text-sm font-medium text-white shadow-[0_8px_24px_rgba(0,31,63,0.28)] transition duration-300 hover:bg-white hover:text-navy"
+                aria-expanded={expanded}
+                aria-controls={`event-desc-${slug}`}
                 onClick={(e) => {
                   e.preventDefault();
                   setExpanded(true);
                 }}
               >
-                {cta}
-              </MagneticButton>
+                <span>{cta}</span>
+                <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
+              </button>
             )}
 
             {needsExpand && expanded && (

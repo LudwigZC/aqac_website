@@ -22,7 +22,7 @@ export default function Timeline({ items }: { items: Item[] }) {
         >
           <span className="absolute -left-[42px] top-1 h-4 w-4 rounded-full border-4 border-white bg-orange shadow-glow" />
           <p className="text-xs uppercase tracking-[0.3em] text-crimson">{item.year}</p>
-          <h3 className="mt-3 font-serif text-2xl text-navy">{item.title}</h3>
+          <h3 className="mt-2 font-serif text-xl text-navy">{item.title}</h3>
           <p className="mt-3 max-w-2xl text-sm leading-7 text-navy/72">{item.description}</p>
         </motion.div>
       ))}

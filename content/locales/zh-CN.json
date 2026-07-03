@@ -89,36 +89,31 @@
           "title": "社区相聚",
           "subtitle": "共享故事与文化交流",
           "height": "h-[360px]",
-          "gradient": "from-[#001F3F] via-[#173B61] to-[#3A5D85]",
-          "src": "/images/gallery/community-gathering.jpg"
+          "gradient": "from-[#001F3F] via-[#173B61] to-[#3A5D85]"
         },
         {
           "title": "志愿关怀",
           "subtitle": "温暖且务实的本地支持",
           "height": "h-[280px]",
-          "gradient": "from-[#B22222] via-[#D24A2A] to-[#F28C28]",
-          "src": "/images/gallery/volunteer-care.jpg"
+          "gradient": "from-[#B22222] via-[#D24A2A] to-[#F28C28]"
         },
         {
           "title": "青年导师",
           "subtitle": "跨代学习与陪伴计划",
           "height": "h-[420px]",
-          "gradient": "from-[#E7DDD0] via-[#F4EEE3] to-[#D9C6AE]",
-          "src": "/images/gallery/youth-mentorship.jpg"
+          "gradient": "from-[#E7DDD0] via-[#F4EEE3] to-[#D9C6AE]"
         },
         {
           "title": "艺术与传承",
           "subtitle": "轻盈而持续的文化延续",
           "height": "h-[310px]",
-          "gradient": "from-[#213953] via-[#516C87] to-[#D6D8DC]",
-          "src": "/images/gallery/art-and-heritage.jpg"
+          "gradient": "from-[#213953] via-[#516C87] to-[#D6D8DC]"
         },
         {
           "title": "身心关怀",
           "subtitle": "通往归属感的可达路径",
           "height": "h-[260px]",
-          "gradient": "from-[#6B0F1A] via-[#B22222] to-[#F28C28]",
-          "src": "/images/gallery/wellbeing-outreach.jpg"
+          "gradient": "from-[#6B0F1A] via-[#B22222] to-[#F28C28]"
         }
       ]
     },
@@ -229,7 +224,7 @@
   "membership": {
     "eyebrow": "会员",
     "title": "加入我们的组织",
-    "description": "凡在昆士兰州依法注册、具备独立法人资格的华人社团、大型企业或相关机构，认可并遵守本章程，且愿意积极参与本会活动并执行本会决议者，均可申请成为会员。。",
+    "description": "凡在昆士兰州依法注册、具备独立法人资格的华人社团、大型企业或相关机构，认可并遵守本章程，且愿意积极参与本会活动并执行本会决议者，均可申请成为会员。",
     "join": {
       "title": "成为委员会的一员",
       "description": "有意加入者请发送邮件至秘书处，注明单位名称、联系人及简要介绍。我们将在审核后与您联系。",

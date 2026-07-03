@@ -56,7 +56,7 @@ export default function NewsCard({ tag, title, excerpt, date, imageSrc }: Props)
             <span className="text-right text-xs tracking-[0.18em] text-navy/45">{date}</span>
           </div>
 
-          <h3 className="mt-6 font-serif text-2xl text-navy">{title}</h3>
+          <h3 className="mt-5 font-serif text-xl text-navy">{title}</h3>
           <p className="mt-4 flex-1 text-sm leading-7 text-navy/72">{excerpt}</p>
 
           {imageSrc ? (

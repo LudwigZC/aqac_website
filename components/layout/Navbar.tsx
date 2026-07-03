@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils";
 export default function Navbar() {
   const { dict } = useI18n();
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const links = useMemo(
     () => [
@@ -40,17 +41,17 @@ export default function Navbar() {
       <div className="container-shell pt-4">
         <div
           className={cn(
-            "navbar-shell flex items-center justify-between rounded-full px-4 py-3 transition-all duration-300",
+            "navbar-shell flex items-center justify-between rounded-full px-3 py-2.5 transition-all duration-300",
             "glass-panel border-white/40",
             scrolled ? "shadow-sm" : "shadow-none"
           )}
         >
-          <Link href="/" className="flex items-center gap-3">
-            <span className="grid h-10 w-10 place-items-center rounded-full bg-navy text-sm font-semibold text-white shadow-glow">
+          <Link href="/" className="flex min-w-0 items-center gap-3" onClick={() => setMenuOpen(false)}>
+            <span className="grid h-8 w-8 place-items-center rounded-full bg-navy text-xs font-semibold text-white shadow-glow">
               QL
             </span>
-            <div className="leading-tight">
-              <p className="font-serif text-lg tracking-wide text-navy">{dict.brand.name}</p>
+            <div className="min-w-0 leading-tight">
+              <p className="max-w-[12rem] truncate font-serif text-sm tracking-wide text-navy sm:max-w-none md:text-base">{dict.brand.name}</p>
             </div>
           </Link>
 
@@ -66,10 +67,54 @@ export default function Navbar() {
             ))}
           </nav>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
             <LanguageToggle />
+            <button
+              type="button"
+              className="grid h-10 w-10 place-items-center rounded-full border border-navy/10 bg-white/60 text-navy transition hover:bg-white md:hidden"
+              aria-label="Toggle navigation menu"
+              aria-expanded={menuOpen}
+              onClick={() => setMenuOpen((open) => !open)}
+            >
+              <span className="sr-only">Menu</span>
+              <span className="relative h-3.5 w-4" aria-hidden>
+                <span
+                  className={cn(
+                    "absolute left-0 top-0 h-0.5 w-4 rounded-full bg-current transition",
+                    menuOpen && "top-1.5 rotate-45",
+                  )}
+                />
+                <span
+                  className={cn(
+                    "absolute left-0 top-1.5 h-0.5 w-4 rounded-full bg-current transition",
+                    menuOpen && "opacity-0",
+                  )}
+                />
+                <span
+                  className={cn(
+                    "absolute bottom-0 left-0 h-0.5 w-4 rounded-full bg-current transition",
+                    menuOpen && "bottom-1.5 -rotate-45",
+                  )}
+                />
+              </span>
+            </button>
           </div>
         </div>
+
+        {menuOpen && (
+          <nav className="navbar-shell mt-2 grid gap-1 rounded-[1.5rem] border border-white/40 bg-white/85 p-2 shadow-glass backdrop-blur-md md:hidden">
+            {links.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="rounded-2xl px-4 py-3 text-sm font-medium text-navy/78 transition hover:bg-navy hover:text-white"
+                onClick={() => setMenuOpen(false)}
+              >
+                {item.label}
+              </Link>
+            ))}
+          </nav>
+        )}
       </div>
     </header>
   );

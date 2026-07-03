@@ -39,19 +39,19 @@ export default function SectionWrapper({
   }, []);
 
   return (
-    <section id={id} ref={ref} className={`container-shell py-14 md:py-20 ${className}`}>
+    <section id={id} ref={ref} className={`container-shell py-10 md:py-14 ${className}`}>
       {(eyebrow || title || description) && (
-        <div className="mb-10 max-w-3xl">
+        <div className="mb-8 max-w-2xl">
           {eyebrow && (
-            <p className="reveal mb-3 text-xs uppercase tracking-[0.3em] text-crimson">
+            <p className="reveal mb-2 text-[0.65rem] uppercase tracking-[0.28em] text-crimson">
               {eyebrow}
             </p>
           )}
           {title && (
-            <h2 className="reveal font-serif text-3xl text-navy md:text-5xl">{title}</h2>
+            <h2 className="reveal font-serif text-2xl text-navy md:text-3xl lg:text-4xl">{title}</h2>
           )}
           {description && (
-            <p className="reveal mt-4 text-base leading-8 text-navy/72">{description}</p>
+            <p className="reveal mt-3 text-sm leading-7 text-navy/72">{description}</p>
           )}
         </div>
       )}

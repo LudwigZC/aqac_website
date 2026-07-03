@@ -45,7 +45,7 @@ export default function MasonryGrid({ items }: { items: Item[] }) {
           <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent,rgba(0,0,0,.24))]" />
           <div className="relative z-10 flex h-full flex-col justify-end">
             <p className="text-xs uppercase tracking-[0.28em] text-white/70">Gallery</p>
-            <h3 className="mt-3 font-serif text-2xl">{item.title}</h3>
+            <h3 className="mt-2 font-serif text-xl">{item.title}</h3>
             <p className="mt-2 max-w-xs text-sm leading-7 text-white/82">{item.subtitle}</p>
           </div>
         </motion.div>

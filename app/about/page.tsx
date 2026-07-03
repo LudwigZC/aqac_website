@@ -53,19 +53,19 @@ export default function AboutPage() {
           </div>
 
           <div className="reveal relative z-10">
-            <h3 className="font-serif text-3xl text-navy">
+            <h3 className="font-serif text-2xl text-navy">
               {dict.about.intro.splitTitle}
             </h3>
-            <p className="mt-5 text-base leading-8 text-navy/72">
+            <p className="mt-4 text-sm leading-7 text-navy/72">
               {dict.about.intro.body1}
             </p>
-            <p className="mt-4 text-base leading-8 text-navy/72">
+            <p className="mt-3 text-sm leading-7 text-navy/72">
               {dict.about.intro.body2}
             </p>
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
               {(dict.about.intro.stats as Stat[]).map((stat) => (
                 <div key={stat.label} className="glass-panel rounded-[1.5rem] p-5">
-                  <p className="font-serif text-3xl text-navy">{stat.value}</p>
+                  <p className="font-serif text-2xl text-navy">{stat.value}</p>
                   <p className="mt-2 text-sm text-navy/60">{stat.label}</p>
                 </div>
               ))}
@@ -118,7 +118,7 @@ export default function AboutPage() {
                   {member.initials}
                 </div>
               )}
-              <h3 className="mt-5 font-serif text-2xl text-navy">{member.name}</h3>
+              <h3 className="mt-4 font-serif text-xl text-navy">{member.name}</h3>
               <p className="mt-2 text-xs uppercase tracking-[0.26em] text-crimson">
                 {member.role}
               </p>

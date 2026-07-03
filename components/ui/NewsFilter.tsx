@@ -25,7 +25,7 @@ export default function NewsFilter({ tags, items, filterAllLabel }: Props) {
   const filtered = useMemo(() => {
     if (activeTag === filterAllLabel) return items;
     return items.filter((item) => item.tag === activeTag);
-  }, [activeTag, items]);
+  }, [activeTag, filterAllLabel, items]);
 
   return (
     <div className="space-y-8">

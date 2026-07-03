@@ -50,7 +50,7 @@ export default function MemberModal({ name, description, onClose }: Props) {
             ✦
           </div>
 
-          <h2 className="font-serif text-2xl text-navy">{name}</h2>
+          <h2 className="font-serif text-xl text-navy">{name}</h2>
 
           <p className="mt-4 whitespace-pre-line text-sm leading-7 text-navy/72">
             {description}

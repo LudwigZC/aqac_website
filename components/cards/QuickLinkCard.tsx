@@ -52,7 +52,7 @@ export default function QuickLinkCard({ title, description, href }: Props) {
           >
             ✦
           </div>
-          <h3 className="font-serif text-2xl text-navy">{title}</h3>
+          <h3 className="font-serif text-xl text-navy">{title}</h3>
           <p className="mt-4 max-w-sm text-sm leading-7 text-navy/68">{description}</p>
         </div>
 

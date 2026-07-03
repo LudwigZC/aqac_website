@@ -25,8 +25,8 @@ export default function MembershipPage() {
       >
         <div className="section-shell ink-wash overflow-hidden p-8 md:p-12">
           <div className="relative z-10 max-w-3xl">
-            <h3 className="font-serif text-3xl text-navy">{dict.membership.join.title}</h3>
-            <p className="mt-4 text-base leading-8 text-navy/72">
+            <h3 className="font-serif text-2xl text-navy">{dict.membership.join.title}</h3>
+            <p className="mt-3 text-sm leading-7 text-navy/72">
               {dict.membership.join.description}
             </p>
             <div className="mt-8 flex flex-col items-start gap-3">
