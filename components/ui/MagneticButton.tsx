@@ -19,9 +19,9 @@ const variantClass: Record<Variant, string> = {
   glass:
     "border border-white/25 bg-white/10 text-white backdrop-blur-md hover:bg-white hover:text-navy",
   solid:
-    "border-2 border-navy bg-navy text-white shadow-[0_8px_24px_rgba(0,31,63,0.28)] hover:bg-white hover:text-navy",
+    "border-2 border-navy bg-navy text-white shadow-[0_8px_24px_rgba(26,26,26,0.22)] hover:bg-white hover:text-navy",
   accent:
-    "border-2 border-[#9a3412] bg-gradient-to-br from-[#FBBF24] via-[#F97316] to-[#DC2626] text-white shadow-[0_10px_36px_rgba(249,115,22,0.45)] hover:brightness-110",
+    "border-2 border-gold bg-gradient-to-br from-gold-light via-gold to-[#8A6508] text-white shadow-[0_10px_36px_rgba(184,134,11,0.28)] hover:brightness-105",
 };
 
 export default function MagneticButton({

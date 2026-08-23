@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import SectionWrapper from "@/components/ui/SectionWrapper";
-import MagneticButton from "@/components/ui/MagneticButton";
 import MemberModal from "@/components/ui/MemberModal";
 import MemberWallCluster from "@/components/ui/MemberWallCluster";
 import { useI18n } from "@/components/providers/LocaleProvider";
@@ -29,16 +28,10 @@ export default function MembershipPage() {
             <p className="mt-3 text-sm leading-7 text-navy/72">
               {dict.membership.join.description}
             </p>
-            <div className="mt-8 flex flex-col items-start gap-3">
-              <MagneticButton
-                href={mailtoHref}
-                className="border-ink/15 bg-parchment/90 !text-ink shadow-sm hover:bg-parchment hover:!text-ink hover:border-ink/25"
-              >
-                {join.button}
-              </MagneticButton>
+            <div className="mt-8 flex flex-col items-start">
               <a
                 href={mailtoHref}
-                className="text-sm text-navy/60 underline-offset-4 transition hover:text-crimson hover:underline"
+                className="font-serif text-2xl text-navy/80 underline-offset-4 transition hover:text-crimson hover:underline md:text-3xl"
               >
                 {join.email}
               </a>
@@ -78,4 +71,3 @@ export default function MembershipPage() {
     </div>
   );
 }
-

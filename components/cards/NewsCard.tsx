@@ -44,7 +44,7 @@ export default function NewsCard({ tag, title, excerpt, date, imageSrc }: Props)
               className="object-cover object-top transition duration-500 group-hover/poster:scale-[1.02]"
               sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             />
-            <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_55%,rgba(0,31,63,0.35))]" />
+            <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_55%,rgba(26,26,26,0.34))]" />
           </button>
         ) : null}
 

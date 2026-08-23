@@ -16,7 +16,7 @@ export default function NotFound() {
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href="/"
-              className="rounded-full border-2 border-navy bg-navy px-5 py-2.5 text-sm font-medium text-white shadow-[0_8px_24px_rgba(0,31,63,0.28)] transition hover:bg-white hover:text-navy"
+              className="rounded-full border-2 border-navy bg-navy px-5 py-2.5 text-sm font-medium text-white shadow-[0_8px_24px_rgba(26,26,26,0.22)] transition hover:bg-white hover:text-navy"
             >
               Back home
             </Link>

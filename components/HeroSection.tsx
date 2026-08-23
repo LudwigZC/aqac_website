@@ -14,7 +14,7 @@ export default function HeroSection() {
         className="absolute inset-0 bg-cover bg-center opacity-25"
         style={{ backgroundImage: `url('${withBasePath("/pattern.svg")}')` }}
       />
-      <div className="absolute inset-0 bg-[linear-gradient(120deg,#001F3F_0%,#173B61_38%,#3F5E7E_65%,#E7DDD0_100%)]" />
+      <div className="absolute inset-0 bg-[linear-gradient(120deg,#1A1A1A_0%,#3A3224_42%,#B8860B_72%,#FAFAF8_100%)]" />
       <div className="hero-overlay absolute inset-0" />
       <div className="absolute inset-0 bg-grain" />
 

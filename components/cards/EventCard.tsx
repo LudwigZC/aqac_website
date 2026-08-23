@@ -130,7 +130,7 @@ export default function EventCard({ slug, month, day, title, description, cta }:
             {needsExpand && !expanded && (
               <button
                 type="button"
-                className="group inline-flex w-fit items-center gap-2 rounded-full border-2 border-navy bg-navy px-5 py-2.5 text-sm font-medium text-white shadow-[0_8px_24px_rgba(0,31,63,0.28)] transition duration-300 hover:bg-white hover:text-navy"
+                className="group inline-flex w-fit items-center gap-2 rounded-full border-2 border-navy bg-navy px-5 py-2.5 text-sm font-medium text-white shadow-[0_8px_24px_rgba(26,26,26,0.22)] transition duration-300 hover:bg-white hover:text-navy"
                 aria-expanded={expanded}
                 aria-controls={`event-desc-${slug}`}
                 onClick={(e) => {

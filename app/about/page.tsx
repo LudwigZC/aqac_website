@@ -45,8 +45,16 @@ export default function AboutPage() {
         description={dict.about.intro.description}
       >
         <div className="section-shell ink-wash fine-pattern grid items-center gap-10 overflow-hidden p-6 md:grid-cols-2 md:p-10">
-          <div className="reveal relative min-h-[420px] overflow-hidden rounded-[2rem] bg-[linear-gradient(135deg,#001F3F,#21476E,#D6D8DC)]">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,.28),transparent_28%),radial-gradient(circle_at_80%_70%,rgba(242,140,40,.24),transparent_22%)]" />
+          <div className="reveal relative min-h-[420px] overflow-hidden rounded-[2rem] bg-navy">
+            <Image
+              src={withBasePath("/images/about/community-culture.jpg")}
+              alt="Queensland Chinese Affairs Committee representatives meeting with Queensland multicultural minister Fiona Simpson MP"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
+              priority
+            />
+            <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(26,26,26,.08),rgba(26,26,26,.44))]" />
             <div className="absolute bottom-6 left-6 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs uppercase tracking-[0.28em] text-white backdrop-blur-sm">
               Queensland • Community • Culture
             </div>
@@ -114,7 +122,7 @@ export default function AboutPage() {
                   />
                 </div>
               ) : (
-                <div className="flex h-20 w-20 items-center justify-center rounded-full bg-[linear-gradient(135deg,#001F3F,#B22222,#F28C28)] font-serif text-2xl text-white shadow-glow">
+                <div className="flex h-20 w-20 items-center justify-center rounded-full bg-[linear-gradient(135deg,#1A1A1A,#B8860B,#D4A84B)] font-serif text-2xl text-white shadow-glow">
                   {member.initials}
                 </div>
               )}
@@ -122,7 +130,7 @@ export default function AboutPage() {
               <p className="mt-2 text-xs uppercase tracking-[0.26em] text-crimson">
                 {member.role}
               </p>
-              <p className="mt-4 text-sm leading-7 text-navy/72">{member.bio}</p>
+              <p className="mt-4 whitespace-pre-line text-sm leading-7 text-navy/72">{member.bio}</p>
             </div>
           ))}
         </div>

@@ -59,12 +59,12 @@ const CLUSTER_ACCENTS = [
   },
   {
     ring: "from-crimson/20 via-crimson/8 to-transparent",
-    badge: "bg-gradient-to-br from-crimson to-[#8B1A1A] text-white shadow-[0_12px_28px_rgba(178,34,34,0.28)]",
+    badge: "bg-gradient-to-br from-gold to-[#8A6508] text-white shadow-[0_12px_28px_rgba(184,134,11,0.24)]",
     chip: "hover:border-crimson/25 hover:bg-crimson/[0.05]",
   },
   {
     ring: "from-orange/25 via-orange/10 to-transparent",
-    badge: "bg-gradient-to-br from-[#FBBF24] to-[#F59E0B] text-navy shadow-[0_12px_28px_rgba(245,158,11,0.32)]",
+    badge: "bg-gradient-to-br from-[#F3DC9A] to-gold-light text-navy shadow-[0_12px_28px_rgba(184,134,11,0.22)]",
     chip: "hover:border-orange/30 hover:bg-orange/[0.06]",
   },
 ] as const;
