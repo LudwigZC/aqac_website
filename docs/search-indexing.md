@@ -31,7 +31,13 @@ npm run build
 
 浏览器验收：桌面及 390px 手机宽度，检查三语言直接打开和刷新、导航、语言切换、活动锚点、图片、新闻筛选和会员弹窗。禁用 JavaScript 后正文应可读；展开、筛选、弹窗等互动功能仍需要脚本。
 
-## Google Search Console 首次配置
+## Google Search Console 当前配置
+
+已添加 HTTPS URL-prefix 资源 `https://qca-committee.org.au/`，使用 Google 提供的 HTML meta 标签验证，覆盖本次全部 15 个正式页面。验证标签位于英文首页的 metadata 中，是需要公开输出的所有权证明；验证成功后仍须保留。
+
+域名资源 `qca-committee.org.au` 也已创建，DNS 验证尚待完成。它可覆盖其他协议及子域名，但不是当前 HTTPS 主站提交收录的前提。Cloudflare 登录尚未完成，因此采用上述网页验证方式继续主站收录流程。
+
+## 域名资源的可选 DNS 验证
 
 1. 登录 https://search.google.com/search-console/，先检查现有资源，避免重复添加。
 2. 选择域名资源 `qca-committee.org.au`。DNS 托管商为 Cloudflare；使用手动 TXT 验证即可，无需将 DNS 账号授权给 Google。
@@ -44,7 +50,7 @@ npm run build
    - `https://qca-committee.org.au/zh-TW/`
 7. 对尚未收录的代表性栏目页面记录索引原因、最近抓取时间、用户声明的 canonical 和 Google 选择的 canonical。不要把实时测试通过当成已收录。
 
-DNS 验证值属于具体账号，必须使用 Google 实际提供的记录；本仓库不保存账号对应的验证值。
+DNS 验证值属于具体账号，必须使用 Google 实际提供的记录；不要用其他账号或其他网站的验证值。主站 HTML 验证标签按 Google 要求公开保留。
 
 ## 发布与复查
 
@@ -54,7 +60,7 @@ DNS 验证值属于具体账号，必须使用 Google 实际提供的记录；�
 
 | 检查时间 | 页面或范围 | Google 索引状态及原因 | Google 所选 canonical | 下一步 |
 | --- | --- | --- | --- | --- |
-| 首次提交 | 三语言首页及站点地图 | 待 DNS 验证完成后记录 | 待记录 | 验证并提交 |
+| 首次提交 | 三语言首页及站点地图 | 主站网页验证完成后记录 | 待记录 | 验证并提交 |
 | 发布后 7–14 天 | 索引报告与品牌搜索词 | 待复查 | 待记录 | 根据实际原因处理 |
 
 如需回退：撤销本次 SEO 修复提交（使用新的 revert 提交，勿强制覆盖历史），推送 main 重新部署。回退后三语言新增网址可能暂时返回 404，需同步检查站点地图和 Search Console 状态。

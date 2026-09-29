@@ -39,6 +39,9 @@ for (const locale of locales) {
     assert(!titles.has(title), `${path}: duplicate title`);
     titles.add(title);
     assert(meta.some((m) => m.name === "description" && m.content.length > 10), `${path}: description`);
+    if (locale === "en" && page === "") {
+      assert(meta.some((m) => m.name === "google-site-verification" && m.content), "Keep Search Console ownership verification on the homepage");
+    }
     assert(!meta.some((m) => m.name === "robots" && /noindex|none/.test(m.content)), `${path}: noindex`);
     assert.deepEqual(links.filter((l) => l.rel === "canonical").map((l) => l.href), [canonical]);
     const alternatives = links.filter((l) => l.rel === "alternate");
