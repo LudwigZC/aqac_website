@@ -33,7 +33,7 @@ npm run build
 
 ## Google Search Console 当前配置
 
-已添加 HTTPS URL-prefix 资源 `https://qca-committee.org.au/`，使用 Google 提供的 HTML meta 标签验证，覆盖本次全部 15 个正式页面。验证标签位于英文首页的 metadata 中，是需要公开输出的所有权证明；验证成功后仍须保留。
+2026-09-30 已通过 HTML meta 标签完成 HTTPS URL-prefix 资源 `https://qca-committee.org.au/` 的所有权验证，覆盖本次全部 15 个正式页面。验证标签位于英文首页的 metadata 中，是需要公开输出的所有权证明；验证成功后仍须保留。
 
 域名资源 `qca-committee.org.au` 也已创建，DNS 验证尚待完成。它可覆盖其他协议及子域名，但不是当前 HTTPS 主站提交收录的前提。Cloudflare 登录尚未完成，因此采用上述网页验证方式继续主站收录流程。
 
@@ -60,8 +60,13 @@ DNS 验证值属于具体账号，必须使用 Google 实际提供的记录；�
 
 | 检查时间 | 页面或范围 | Google 索引状态及原因 | Google 所选 canonical | 下一步 |
 | --- | --- | --- | --- | --- |
-| 首次提交 | 三语言首页及站点地图 | 主站网页验证完成后记录 | 待记录 | 验证并提交 |
+| 2026-09-30 | 英文首页 `/` | 索引检查：Discovered – currently not indexed；实时抓取成功，允许索引；Indexing requested | 尚未确定，Google 表示编入索引后决定；网站声明自身网址 | 等待抓取队列处理 |
+| 2026-09-30 | 简体首页 `/zh-CN/` | 索引检查：URL is unknown to Google；实时抓取成功，允许索引；Indexing requested | 尚未确定；网站声明简体首页自身网址 | 等待抓取队列处理 |
+| 2026-09-30 | 繁体首页 `/zh-TW/` | 索引检查：Discovered – currently not indexed；实时抓取成功，允许索引；Indexing requested | 尚未确定；网站声明繁体首页自身网址 | 等待抓取队列处理 |
+| 2026-09-30 | `/sitemap.xml` | Sitemap processed successfully；已发现 15 个页面、0 个视频 | 不适用 | 等待页面索引报告更新 |
 | 发布后 7–14 天 | 索引报告与品牌搜索词 | 待复查 | 待记录 | 根据实际原因处理 |
+
+已安排本聊天的一次后续复查（约 10 天后）。首次提交时索引与效果报告仍在处理数据，不能据此声称已收录或已有排名。
 
 如需回退：撤销本次 SEO 修复提交（使用新的 revert 提交，勿强制覆盖历史），推送 main 重新部署。回退后三语言新增网址可能暂时返回 404，需同步检查站点地图和 Search Console 状态。
 
