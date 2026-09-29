@@ -119,8 +119,6 @@ TEAM_DIR = ROOT / "public" / "images" / "team"
 TEAM_HEADSHOTS = {
     "peter_zhuang": TEAM_DIR / "peter-zhuang.jpg",
     "ava_lin":    TEAM_DIR / "ava-lin.jpg",
-    "ming_zhao":  TEAM_DIR / "ming-zhao.jpg",
-    "noah_wu":    TEAM_DIR / "noah-wu.jpg",
 }
 
 # ===========================================================================

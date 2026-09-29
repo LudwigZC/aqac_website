@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect } from "react";
+import { createPortal } from "react-dom";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -51,7 +52,7 @@ export default function EventImageLightbox({
     };
   }, [onClose, goPrev, goNext]);
 
-  return (
+  return createPortal(
     <motion.div
       role="dialog"
       aria-modal="true"
@@ -59,7 +60,7 @@ export default function EventImageLightbox({
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-navy/92 p-4 backdrop-blur-sm md:p-8"
+      className="fixed inset-0 z-[100] flex items-center justify-center bg-navy/[0.92] p-4 backdrop-blur-sm md:p-8"
       onClick={onClose}
     >
       <button
@@ -106,7 +107,7 @@ export default function EventImageLightbox({
         className="relative flex max-h-[min(88vh,900px)] w-full max-w-5xl flex-col items-center"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="relative aspect-[4/3] w-full min-h-[240px] overflow-hidden rounded-[1.5rem] shadow-2xl md:aspect-[16/10]">
+        <div className="relative h-[75dvh] w-full overflow-hidden rounded-[1.5rem]">
           <Image
             src={src}
             alt={`${title} (${activeIndex + 1}/${images.length})`}
@@ -140,6 +141,7 @@ export default function EventImageLightbox({
           </motion.div>
         )}
       </motion.div>
-    </motion.div>
+    </motion.div>,
+    document.body,
   );
 }

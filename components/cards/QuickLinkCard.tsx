@@ -17,12 +17,12 @@ const iconAccentByHref: Record<string, { icon: string; label: string; arrow: str
     arrow: "group-hover:bg-navy group-hover:text-white",
   },
   "/news": {
-    icon: "bg-gradient-to-br from-gold-light via-gold to-[#8A6508] text-white shadow-[0_12px_32px_rgba(184,134,11,0.26)]",
+    icon: "bg-gradient-to-br from-gold-light via-gold to-[#8D3D35] text-white shadow-[0_12px_32px_rgba(177,79,67,0.26)]",
     label: "text-crimson",
     arrow: "group-hover:bg-crimson group-hover:text-white",
   },
   "/membership": {
-    icon: "bg-gradient-to-br from-[#F3DC9A] via-gold-light to-gold text-navy shadow-[0_12px_32px_rgba(184,134,11,0.24)]",
+    icon: "bg-gradient-to-br from-[#F6E3DE] via-gold-light to-gold text-navy shadow-[0_12px_32px_rgba(177,79,67,0.24)]",
     label: "text-gold",
     arrow: "group-hover:bg-gold group-hover:text-white",
   },

@@ -42,7 +42,7 @@ export default function MasonryGrid({ items }: { items: Item[] }) {
             <div className={`absolute inset-0 bg-gradient-to-br ${item.gradient}`} />
           )}
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,.25),transparent_40%)]" />
-          <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent,rgba(0,0,0,.24))]" />
+          <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent,rgba(14,38,56,.28))]" />
           <div className="relative z-10 flex h-full flex-col justify-end">
             <p className="text-xs uppercase tracking-[0.28em] text-white/70">Gallery</p>
             <h3 className="mt-2 font-serif text-xl">{item.title}</h3>

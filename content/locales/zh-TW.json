@@ -46,11 +46,9 @@
       "title": "近期活動",
       "description": "委員會走向社群、對話政府的真實足跡。",
       "featuredSlugs": [
-        "founding-members-first-meeting",
-        "mid-autumn-community-evening",
-        "queensland-holocaust-museum-visit",
-        "brisbane-lord-mayor-visit",
-        "fiona-simpson-multicultural-minister-visit"
+        "stroke-awareness-talk",
+        "fiona-simpson-multicultural-minister-visit",
+        "australian-family-law-seminar"
       ]
     },
     "latestNews": {
@@ -77,10 +75,22 @@
       "body1": "我們創造優雅、易接近的公共空間，讓文化以克制而自信的方式被分享。我們的計畫服務家庭、學生、長者與志工，強調真實、有溫度的社群支持。",
       "body2": "我們不追求喧鬧，而是將重點放在清晰、信任與體驗細節上，讓線上與線下都更容易讓人感到被歡迎。",
       "stats": [
-        { "value": "15+", "label": "在地服務年資" },
-        { "value": "40+", "label": "志工與合作夥伴" },
-        { "value": "1200+", "label": "每年觸及社群成員" },
-        { "value": "3", "label": "支援語言" }
+        {
+          "value": "15+",
+          "label": "在地服務年資"
+        },
+        {
+          "value": "40+",
+          "label": "志工與合作夥伴"
+        },
+        {
+          "value": "1200+",
+          "label": "每年觸及社群成員"
+        },
+        {
+          "value": "3",
+          "label": "支援語言"
+        }
       ]
     },
     "gallery": {
@@ -92,31 +102,31 @@
           "title": "社群相聚",
           "subtitle": "共享故事與文化交流",
           "height": "h-[360px]",
-          "gradient": "from-[#1A1A1A] via-[#4A3B1A] to-[#B8860B]"
+          "gradient": "from-[#173C57] via-[#214D67] to-[#8D3D35]"
         },
         {
           "title": "志工關懷",
           "subtitle": "溫暖且務實的在地支持",
           "height": "h-[280px]",
-          "gradient": "from-[#B8860B] via-[#D4A84B] to-[#F3DC9A]"
+          "gradient": "from-[#8D3D35] via-[#B14F43] to-[#173C57]"
         },
         {
           "title": "青年導師",
           "subtitle": "跨世代學習與陪伴計畫",
           "height": "h-[420px]",
-          "gradient": "from-[#E8E4DF] via-[#FAFAF8] to-[#D4A84B]"
+          "gradient": "from-[#50636F] via-[#173C57] to-[#B14F43]"
         },
         {
           "title": "藝術與傳承",
           "subtitle": "輕盈而持續的文化延續",
           "height": "h-[310px]",
-          "gradient": "from-[#2A2A2A] via-[#6B6B6B] to-[#E8E4DF]"
+          "gradient": "from-[#214D67] via-[#50636F] to-[#8D3D35]"
         },
         {
           "title": "身心關懷",
           "subtitle": "通往歸屬感的可達路徑",
           "height": "h-[260px]",
-          "gradient": "from-[#3A3224] via-[#B8860B] to-[#D4A84B]"
+          "gradient": "from-[#173C57] via-[#B14F43] to-[#8D3D35]"
         }
       ]
     },
@@ -180,26 +190,20 @@
           "avatar": "/images/team/chai-hoe.jpg"
         },
         {
-          "slug": "ming-zhao",
-          "name": "Ming Zhao",
-          "role": "志工協調",
-          "bio": "志工協調。\n建構包容的志願服務體驗，增強會員參與感。",
-          "initials": "MZ"
-        },
-        {
-          "slug": "noah-wu",
-          "name": "Noah Wu",
-          "role": "傳播經理",
-          "bio": "傳播經理。\n負責機構敘事、雙語傳播與媒體溝通。",
-          "initials": "NW"
+          "slug": "rebecca-zhang",
+          "name": "張瑞",
+          "role": "財務長",
+          "bio": "註冊會計師（CPA）。\n擁有超過15年跨行業工作經驗，現任財務經理，專長於財務報告、預算管理及商業諮詢。她創辦 Risenco，為中小企業提供虛擬首席財務官（VCFO）及財務支援服務。",
+          "initials": "RZ",
+          "avatar": "/images/team/rebecca-zhang.jpg"
         }
       ]
     }
   },
   "events": {
     "eyebrow": "活動",
-    "title": "為連結而設計的社群計畫",
-    "description": "每一場活動都追求清晰、包容與記憶點，同時保留輕奢與溫度。",
+    "title": "社區活動紀實",
+    "description": "記錄委員會在社區服務、文化交流與政府溝通中的行動，分享會員與社區共同參與的活動。",
     "readLess": "收合",
     "goToEventPage": "前往活動頁",
     "imageClose": "關閉",
@@ -207,43 +211,59 @@
     "imageNext": "下一張",
     "items": [
       {
-        "slug": "founding-members-first-meeting",
-        "month": "2月",
-        "day": "07",
-        "title": "昆士蘭華人事務委員會創始會員首次會議圓滿召開",
-        "description": "2026年2月7日（星期六），昆士蘭華人事務委員會創始會員首次會議在 Runcorn Tavern 順利召開。來自37個創始社團及企業的代表應邀出席，共同見證委員會的重要起步。\n\n會議由發起人莊永新先生首先向與會代表介紹委員會的籌建背景、成立宗旨及前期工作進展。隨後，昆士蘭山東同鄉會顧問、昆士蘭華聯會監事長劉繼增先生主持章程審議工作，與會代表對章程草案充分討論，並以表決方式順利通過章程，為委員會今後的規範運作奠定基礎。\n\n按照章程規定，會議在劉繼增先生主持下選舉產生委員會第一屆主席及副主席。為確保選舉公平、公正，會議採取現場報名、競選演講及無記名投票方式進行。最終選舉結果為：主席莊永新；副主席陳帆、何穎、陳逸民、陳德華。\n\n莊永新主席在當選發言中感謝各創始會員的信任與支持，並表示將與主席團成員一道，為華人社群服好務，不辜負大家的期望。會議期間，莊永新主席現場提名林海先生擔任委員會秘書長、張瑞女士擔任財務長，經與會代表表決一致通過。\n\n會議還審議並通過了會費標準及其他相關事項，並決定第三季度召開委員會正式成立大會。昆士蘭華人事務委員會的成立，標誌著昆士蘭華人社團在團結協作、共同發聲方面邁出重要一步，也將進一步提升華人社群在政府溝通與公共事務參與中的影響力，更好地維護華人群體的合法權益與發展機會。",
-        "cta": "了解詳情"
-      },
-      {
-        "slug": "mid-autumn-community-evening",
-        "month": "4月",
-        "day": "12",
-        "title": "中秋社群之夜",
-        "description": "音樂、故事、茶會與親子共享環節，營造友好而舒適的社群夜晚。",
-        "cta": "預約名額"
-      },
-      {
-        "slug": "queensland-holocaust-museum-visit",
-        "month": "4月",
-        "day": "26",
-        "title": "昆士蘭華人事務委員會2026年系列活動：參觀昆士蘭猶太人大屠殺博物館",
-        "description": "2026年4月26日（星期日），昆士蘭華人事務委員會組織會員代表參觀昆士蘭猶太人大屠殺博物館。本次活動由委員會顧問 Michael Choi OAM 發起並負責聯絡，同時慷慨贊助了本次參觀門票。\n\n中午12時，參與人員在市中心的 Roti Place 共進午餐。大家在輕鬆愉快的氛圍中一邊品嚐馬來西亞美食，一邊交流互動，進一步增進了彼此間的友誼與了解。\n\n下午2時，大家陸續抵達博物館。館長兼昆士蘭猶太人代表委員會主席 Jason Steinberg 對來訪表示熱烈歡迎，並簡要介紹了博物館的歷史與發展情況。Michael Choi OAM 在致辭中對主辦方的接待表示衷心感謝，同時分享了中國上海在二戰期間接納約20000多名猶太難民的歷史片段，體現了中猶兩地之間的人道情懷與歷史連結。\n\n隨後，在講解員 Toni 及 Jason Steinberg 的帶領下，大家參觀了館內展覽，深入了解與大屠殺相關的歷史背景及珍貴文物。活動最後，全體人員以鵝卵石拼出「華」字，以此向已故的大屠殺倖存者致以深切的緬懷與敬意。\n\n活動結束前，昆士蘭華人事務委員會主席 Peter Zhuang 代表委員會向相關接待人員表達誠摯感謝，並向博物館贈送紀念品，以紀念此次具有深遠意義的交流活動。Joe Zhao 現場捐款188澳元，以支持博物館的發展。\n\n作為昆士蘭華人社群的重要代表，昆士蘭華人事務委員會將繼續積極推動與政府及各族裔社群之間的交流與合作，不斷提升華人社群在主流社會中的影響力與參與度。",
-        "cta": "了解詳情"
-      },
-      {
-        "slug": "brisbane-lord-mayor-visit",
-        "month": "5月",
-        "day": "05",
-        "title": "走訪布里斯本市長 Adrian Schrinner—昆士蘭華人事務委員會2026年系列活動（三）",
-        "description": "2026年5月5日，昆士蘭華人事務委員會組織部分會員代表前往布里斯班市政府，拜訪市長 Adrian Schrinner，並與市長及其團隊進行了座談交流。出席會面的還有市長城市商業事務總監 Nathan Percy 及顧問 Eddie Stephens。\n\n座談中，昆士蘭華人事務委員會（QCAC）主席莊永新向市長介紹了委員會的成立背景、宗旨及發展情況，與會代表也逐一進行了簡要自我介紹。市長對代表團的到訪表示熱烈歡迎，並發表了熱情洋溢的致辭，就大家關心的議題展開了深入交流與探討。\n\n活動期間，莊永新代表委員會副秘書長趙寅，向市長慈善基金會進行了捐贈。同時，委員會還向市長贈送了紀念禮物，以表達誠摯的感謝與良好祝願。\n\n會後，全體與會人員與市長合影留念。\n\n昆士蘭華人事務委員會將繼續透過多樣化的活動，積極搭建華人社區與各級政府之間的溝通橋樑，促進理解與合作，共同推動社區的繁榮與發展。",
+        "slug": "stroke-awareness-talk",
+        "month": "6月",
+        "day": "18",
+        "title": "中風知識公益講座",
+        "description": "2026年6月18日，昆士蘭華人事務委員會攜手昆士蘭華人醫生協會，在 Runcorn Tavern 舉辦中風知識公益講座，為社區居民提供健康知識交流的機會。\n\nMichael Doohan 主講，昆士蘭華人醫生協會秘書長 Dr Anna Liu 擔任現場口譯。講座圍繞中風的早期徵兆、緊急應對及預防主題展開，兩位嘉賓在分享後與聽眾交流並回答問題。\n\n本次公益講座由 1st Care Community 首護天使獨家贊助。",
         "cta": "了解詳情"
       },
       {
         "slug": "fiona-simpson-multicultural-minister-visit",
         "month": "6月",
         "day": "17",
-        "title": "昆士蘭華人事務委員會2026年系列活動（六）-代表團拜訪昆士蘭多元文化部長 Fiona Simpson MP",
-        "description": "2026年6月17日上午，昆士蘭華人事務委員會（Queensland Chinese Affairs Committee，QCAC）代表團一行八人，在委員會主席莊永新（Peter Zhuang）先生的組織和帶領下，前往昆士蘭州政府大樓，拜訪昆士蘭州婦女事務、原住民及托雷斯海峽島民夥伴關係暨多元文化事務部長 Fiona Simpson MP，並參觀州政府大樓。\n\n出席本次活動的代表團成員包括：主席 Peter Zhuang（莊永新）、副主席 Alan Chen（陳逸民）、秘書長 Lin Hai（林海）、副秘書長 Joe Zhao（趙寅）、副主席 Chai Hoe 代表 Jane Wang（王錚）、昆士蘭福建同鄉會會長 Charlie Chen（陳開兵）、河南同鄉會會長樊一的代表 Leon Liu（劉子昂），以及攝影師 Paul Luo（羅宏）。\n\n代表團成員於當天上午8時準時抵達位於昆士蘭州政府大樓的部長辦公室。會議伊始，莊永新會長代表昆士蘭華人事務委員會向部長介紹了委員會的成立背景、宗旨使命以及未來發展規劃。Fiona Simpson 部長對委員會的成立表示熱烈祝賀，並高度肯定委員會在凝聚華人社群力量、促進社群團結以及加強華人社群與政府溝通聯繫方面所發揮的重要作用。\n\n隨後，代表團成員分別介紹了各自所代表的華人社團，並分享了近年來開展社群服務、組織文化活動及促進社會融合等方面的經驗與成果，充分展現了昆士蘭華人社群積極參與社會建設、服務社群發展的良好形象。\n\n在交流過程中，Fiona Simpson 部長高度評價了昆士蘭華人社群長期以來為本州經濟、社會及多元文化發展所作出的重要貢獻。她特別以凱恩斯地區為例指出，華人在當地發展歷史中曾占據重要地位，為凱恩斯的建設與繁榮作出了不可磨滅的貢獻。會談期間，雙方還就如何進一步加強政府與華人社群之間的溝通協作、促進社群參與公共事務以及推動多元文化建設等議題進行了深入交流。\n\n會議結束後，在多元文化部長辦公室工作人員的陪同下，代表團成員參觀了昆士蘭州政府大樓頂層觀景區域，俯瞰布里斯本市區及周邊景觀，並進一步了解州政府大樓的建築特色及運作情況。\n\n昆士蘭華人事務委員會將繼續發揮橋樑紐帶作用，加強與昆士蘭州政府及各級政府部門的溝通與合作，積極反映華人社群關切，傳遞華人社群聲音，促進社群融合與社會參與，為推動昆士蘭州多元文化事業發展、建設更加包容和諧的社會貢獻力量。",
+        "title": "代表團拜訪昆士蘭多元文化部長 Fiona Simpson MP",
+        "description": "2026年6月17日上午，昆士蘭華人事務委員會主席莊永新（Peter Zhuang）帶領八人代表團，前往昆士蘭州政府大樓拜訪多元文化部長 Fiona Simpson MP。\n\n代表團介紹了委員會的宗旨、發展情況及會員社團的社區服務工作，並與部長交流政府與華人社區的溝通合作、公共事務參與及多元文化發展。部長肯定了華人社區對昆士蘭經濟、社會與文化的貢獻。\n\n會後，代表團在工作人員陪同下參觀政府大樓。此次交流進一步加強了委員會與州政府的聯繫。",
+        "cta": "了解詳情"
+      },
+      {
+        "slug": "australian-family-law-seminar",
+        "month": "5月",
+        "day": "16",
+        "title": "澳大利亞家庭法知識講座",
+        "description": "2026年5月16日下午，昆士蘭華人事務委員會邀請副主席、Harmony Legal 何穎律師，在 Runcorn Tavern 舉辦澳大利亞家庭法知識講座。\n\n講座涵蓋遺囑的重要性、離婚中的財產分配與個人資產保護，以及子女未來和家庭財務保障。何律師在講座後回答現場提問，與聽眾交流相關議題。\n\n本次活動場地由委員會副主席 Alan Chen（陳逸民）贊助，委員會對此表示感謝。",
+        "cta": "了解詳情"
+      },
+      {
+        "slug": "brisbane-lord-mayor-visit",
+        "month": "5月",
+        "day": "05",
+        "title": "拜訪布里斯班市長 Adrian Schrinner",
+        "description": "2026年5月5日，昆士蘭華人事務委員會組織會員代表前往布里斯班市政府，拜訪市長 Adrian Schrinner 及其團隊。市長城市商業事務總監 Nathan Percy 和顧問 Eddie Stephens 亦出席會面。\n\n主席莊永新介紹了委員會的成立背景、宗旨和發展情況，會員代表分別介紹所屬社團，並與市長就共同關心的社區議題交流。\n\n莊永新代表副秘書長趙寅向市長慈善基金會捐贈，委員會亦向市長贈送紀念禮物。會後雙方合影，記錄此次促進社區與地方政府溝通的交流活動。",
+        "cta": "了解詳情"
+      },
+      {
+        "slug": "queensland-holocaust-museum-visit",
+        "month": "4月",
+        "day": "26",
+        "title": "參觀昆士蘭猶太人大屠殺博物館",
+        "description": "2026年4月26日，昆士蘭華人事務委員會組織會員代表參觀昆士蘭猶太人大屠殺博物館。活動由委員會顧問 Michael Choi OAM 發起並聯絡，他同時贊助了參觀門票。\n\n館長 Jason Steinberg 歡迎代表團，Michael Choi OAM 分享了第二次世界大戰期間上海接納猶太難民的歷史。在 Toni 與 Jason 的講解下，會員參觀展覽，並以鵝卵石拼出「華」字，向已故的大屠殺倖存者表達緬懷。\n\n主席 Peter Zhuang 代表委員會向館方致謝並贈送紀念品，Joe Zhao 現場捐款188澳元支持博物館發展。此次參訪增進了社區對歷史的理解與跨文化交流。",
+        "cta": "了解詳情"
+      },
+      {
+        "slug": "mid-autumn-community-evening",
+        "month": "4月",
+        "day": "12",
+        "title": "澳大利亞華裔戰爭紀念碑參訪",
+        "description": "2026年4月12日下午3時30分，昆士蘭華人事務委員會組織30餘名會員社團代表，在 Sunnybank RSL 參觀澳大利亞華裔戰爭紀念碑。\n\n活動由 Lewis Lee OAM 主持。Harry Claasen OAM 介紹了 Sunnybank RSL 的歷史，Lewis Lee OAM 分享華裔軍人的貢獻及紀念碑的建立背景。代表們獻上蠟燭表達敬意，Parnam Singh Heir 亦介紹了澳大利亞印度裔戰爭紀念碑。\n\n主席 Peter Zhuang 向主辦及接待方致謝。活動透過共同紀念與歷史分享，增進了不同族裔社區之間的理解與尊重。",
+        "cta": "了解詳情"
+      },
+      {
+        "slug": "founding-members-first-meeting",
+        "month": "2月",
+        "day": "07",
+        "title": "創始會員首次會議",
+        "description": "2026年2月7日，昆士蘭華人事務委員會創始會員首次會議在 Runcorn Tavern 舉行，37個創始社團及企業的代表應邀出席。\n\n莊永新介紹籌建背景與宗旨，劉繼增主持章程審議及選舉。與會代表通過委員會章程，選舉莊永新為主席，陳帆、何穎、陳逸民及陳德華為副主席，並通過林海擔任秘書長、張瑞擔任財務長的提名。\n\n會議同時通過會費標準等事項，並決定於第三季度舉行正式成立大會，為委員會後續運作與社區服務奠定基礎。",
         "cta": "了解詳情"
       }
     ]
@@ -254,7 +274,9 @@
     "description": "委員會通知、活動預告與重要資訊。點擊海報可查看大圖與報名 QR 碼。",
     "filterAll": "全部",
     "viewPoster": "查看海報",
-    "tags": ["公告"],
+    "tags": [
+      "公告"
+    ],
     "items": [
       {
         "slug": "official-launch-2026",
@@ -285,50 +307,182 @@
       "clusterCountOne": "1 家單位",
       "clusterCountMany": "{{count}} 家單位",
       "items": [
-        { "name": "APA 澳洲業主聯合會", "description": "" },
-        { "name": "人生芳華聯誼會", "description": "" },
-        { "name": "昆士蘭作家協會", "description": "" },
-        { "name": "環球教育和多元文化交流協會", "description": "" },
-        { "name": "昆士蘭中華文化協會", "description": "" },
-        { "name": "Mystep Association", "description": "" },
-        { "name": "昆士蘭雅韻芳華戲劇藝術團", "description": "" },
-        { "name": "陽光海岸華人協會", "description": "" },
-        { "name": "昆士蘭江蘇同鄉會暨江蘇商會", "description": "" },
-        { "name": "昆士蘭廣西多元文化社團", "description": "" },
-        { "name": "崑崙藝術團", "description": "" },
-        { "name": "昆士蘭山東同鄉會", "description": "" },
-        { "name": "昆士蘭河南同鄉會", "description": "" },
-        { "name": "北區華人之家", "description": "" },
-        { "name": "昆士蘭亞商餐飲協會", "description": "" },
-        { "name": "陽光商會", "description": "陽光商會（Sunnybank Chamber of Commerce）成立於2012年，起源於Sunnybank，並始終以Sunnybank及其周邊社區為核心。\n\n該協會是一個非營利組織，由來自各行各業的成熟企業家及新興創業者組成，致力於持續學習、不斷成長，並踐行最佳商業實踐。\n\n陽光商會代表商業社區，向地方政府、州政府及聯邦政府發聲。\n\n官網：www.sunnybank.biz" },
-        { "name": "昆士蘭英語普及協會", "description": "" },
-        { "name": "香港商會", "description": "" },
-        { "name": "北京之家", "description": "" },
-        { "name": "澳中商務聯盟", "description": "" },
-        { "name": "首護天使", "description": "" },
-        { "name": "澳華家園", "description": "" },
-        { "name": "昆士蘭華人籃球協會", "description": "" },
-        { "name": "昆士蘭潮汕總會", "description": "" },
-        { "name": "中國人協會", "description": "" },
-        { "name": "昆士蘭西北同鄉會", "description": "" },
-        { "name": "昆士蘭建築商會", "description": "" },
-        { "name": "小蜜峰", "description": "" },
-        { "name": "昆士蘭華人宗親會", "description": "" },
-        { "name": "苗苗中文學校", "description": "" },
-        { "name": "澳亞婦女協會", "description": "" },
-        { "name": "昆士蘭華人攝影協會", "description": "" },
-        { "name": "昆士蘭福建同鄉會", "description": "" },
-        { "name": "昆士蘭華人聯合會", "description": "" },
-        { "name": "澳中綠能經貿促進會", "description": "" },
-        { "name": "天津聯誼會", "description": "" },
-        { "name": "布里斯班南區社區商會", "description": "" },
-        { "name": "澳華商會", "description": "" },
-        { "name": "世誠金融", "description": "" },
-        { "name": "勇地產", "description": "" },
-        { "name": "恩福", "description": "" },
-        { "name": "IWILL志願者聯盟", "description": "" },
-        { "name": "少林功夫館", "description": "" },
-        { "name": "OMR PROPERTY", "description": "" }
+        {
+          "name": "APA 澳洲業主聯合會",
+          "description": ""
+        },
+        {
+          "name": "人生芳華聯誼會",
+          "description": ""
+        },
+        {
+          "name": "昆士蘭作家協會",
+          "description": ""
+        },
+        {
+          "name": "環球教育和多元文化交流協會",
+          "description": "環球教育與多元文化交流協會（UEMEA）透過教育與文化交流，增進澳大利亞與國際社區之間的友誼和相互理解。\n\n協會推廣澳大利亞教育，組織澳洲文化體驗、文化交流計畫及交流演出，為學生、教育工作者和文化團體搭建跨國學習、分享與合作的平台。"
+        },
+        {
+          "name": "昆士蘭中華文化協會",
+          "description": ""
+        },
+        {
+          "name": "Mystep Association",
+          "description": ""
+        },
+        {
+          "name": "昆士蘭雅韻芳華戲劇藝術團",
+          "description": ""
+        },
+        {
+          "name": "陽光海岸華人協會",
+          "description": ""
+        },
+        {
+          "name": "昆士蘭江蘇同鄉會暨江蘇商會",
+          "description": ""
+        },
+        {
+          "name": "昆士蘭廣西多元文化社團",
+          "description": ""
+        },
+        {
+          "name": "崑崙藝術團",
+          "description": ""
+        },
+        {
+          "name": "昆士蘭山東同鄉會",
+          "description": ""
+        },
+        {
+          "name": "昆士蘭河南同鄉會",
+          "description": ""
+        },
+        {
+          "name": "北區華人之家",
+          "description": ""
+        },
+        {
+          "name": "昆士蘭亞商餐飲協會",
+          "description": ""
+        },
+        {
+          "name": "陽光商會",
+          "description": "陽光商會（Sunnybank Chamber of Commerce）成立於2012年，起源於Sunnybank，並始終以Sunnybank及其周邊社區為核心。\n\n該協會是一個非營利組織，由來自各行各業的成熟企業家及新興創業者組成，致力於持續學習、不斷成長，並踐行最佳商業實踐。\n\n陽光商會代表商業社區，向地方政府、州政府及聯邦政府發聲。\n\n官網：www.sunnybank.biz"
+        },
+        {
+          "name": "昆士蘭英語普及協會",
+          "description": ""
+        },
+        {
+          "name": "香港商會",
+          "description": ""
+        },
+        {
+          "name": "北京之家",
+          "description": ""
+        },
+        {
+          "name": "澳中商務聯盟",
+          "description": ""
+        },
+        {
+          "name": "首護天使",
+          "description": ""
+        },
+        {
+          "name": "澳華家園",
+          "description": ""
+        },
+        {
+          "name": "昆士蘭華人籃球協會",
+          "description": ""
+        },
+        {
+          "name": "昆士蘭潮汕總會",
+          "description": ""
+        },
+        {
+          "name": "中國人協會",
+          "description": ""
+        },
+        {
+          "name": "昆士蘭西北同鄉會",
+          "description": ""
+        },
+        {
+          "name": "昆士蘭建築商會",
+          "description": ""
+        },
+        {
+          "name": "小蜜峰",
+          "description": ""
+        },
+        {
+          "name": "昆士蘭華人宗親會",
+          "description": ""
+        },
+        {
+          "name": "苗苗中文學校",
+          "description": ""
+        },
+        {
+          "name": "澳亞婦女協會",
+          "description": ""
+        },
+        {
+          "name": "昆士蘭華人攝影協會",
+          "description": ""
+        },
+        {
+          "name": "昆士蘭福建同鄉會",
+          "description": ""
+        },
+        {
+          "name": "昆士蘭華人聯合會",
+          "description": ""
+        },
+        {
+          "name": "澳中綠能經貿促進會",
+          "description": ""
+        },
+        {
+          "name": "天津聯誼會",
+          "description": ""
+        },
+        {
+          "name": "布里斯班南區社區商會",
+          "description": ""
+        },
+        {
+          "name": "澳華商會",
+          "description": ""
+        },
+        {
+          "name": "世誠金融",
+          "description": ""
+        },
+        {
+          "name": "勇地產",
+          "description": ""
+        },
+        {
+          "name": "恩福",
+          "description": ""
+        },
+        {
+          "name": "IWILL志願者聯盟",
+          "description": ""
+        },
+        {
+          "name": "少林功夫館",
+          "description": ""
+        },
+        {
+          "name": "OMR PROPERTY",
+          "description": ""
+        }
       ]
     }
   },

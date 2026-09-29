@@ -7,7 +7,7 @@ import MagneticButton from "@/components/ui/MagneticButton";
 import EventImageLoopScroll from "@/components/ui/EventImageLoopScroll";
 import EventImageLightbox from "@/components/ui/EventImageLightbox";
 import { useI18n } from "@/components/providers/LocaleProvider";
-import { getEventBannerSrc, getEventGallerySrcs } from "@/lib/eventAssets";
+import { getEventBanner, getEventGallerySrcs } from "@/lib/eventAssets";
 import { cn } from "@/lib/utils";
 import type { EventListItem } from "@/lib/i18n";
 
@@ -23,12 +23,13 @@ export default function EventCard({ slug, month, day, title, description, cta }:
   const contentRef = useRef<HTMLDivElement>(null);
   const [panelHeight, setPanelHeight] = useState<number | undefined>();
 
-  const bannerSrc = getEventBannerSrc(slug);
+  const banner = getEventBanner(slug);
+  const bannerSrc = banner?.src;
   const gallerySrcs = getEventGallerySrcs(slug);
   const eventHref = `/events#event-${slug}`;
 
   const allImages = useMemo(
-    () => (gallerySrcs.length > 0 ? [bannerSrc, ...gallerySrcs] : [bannerSrc]),
+    () => (bannerSrc ? [bannerSrc, ...gallerySrcs] : []),
     [bannerSrc, gallerySrcs],
   );
 
@@ -37,7 +38,7 @@ export default function EventCard({ slug, month, day, title, description, cta }:
     [description],
   );
 
-  const showLoopScroll = expanded && gallerySrcs.length > 0;
+  const showLoopScroll = expanded && allImages.length > 1;
 
   useEffect(() => {
     if (!showLoopScroll) {
@@ -66,39 +67,47 @@ export default function EventCard({ slug, month, day, title, description, cta }:
   return (
     <>
       <motion.article
+        id={`event-${slug}`}
         whileHover={{ y: -6 }}
         transition={{ type: "spring", stiffness: 240, damping: 20 }}
-        className="glass-panel card-sheen grid gap-6 rounded-[2rem] p-6 grid-cols-1 md:grid-cols-[minmax(0,200px)_110px_1fr] md:items-start"
+        className={cn(
+          "glass-panel card-sheen grid scroll-mt-28 grid-cols-1 gap-6 !overflow-clip rounded-[2rem] p-6 md:items-start",
+          banner ? "md:grid-cols-[minmax(0,200px)_110px_1fr]" : "md:grid-cols-[110px_1fr]",
+        )}
       >
-        <motion.div className={cn("w-full max-w-[200px]", showLoopScroll && "md:sticky md:top-28")}>
-          {showLoopScroll ? (
-            <EventImageLoopScroll
-              images={allImages}
-              title={title}
-              height={panelHeight}
-              onImageClick={(index) => setLightboxIndex(index)}
-            />
-          ) : (
-            <button
-              type="button"
-              className={cn(imageFrameClass, "block cursor-zoom-in")}
-              aria-label={title}
-              onClick={() => setLightboxIndex(0)}
-            >
-              <Image
-                src={bannerSrc}
-                alt={title}
-                fill
-                className="object-cover transition duration-300 hover:scale-[1.02]"
-                sizes="200px"
+        {banner && (
+          <motion.div className={cn("w-full max-w-[200px]", showLoopScroll && "md:sticky md:top-28")}>
+            {showLoopScroll ? (
+              <EventImageLoopScroll
+                images={allImages}
+                title={title}
+                height={panelHeight}
+                onImageClick={(index) => setLightboxIndex(index)}
               />
-              <div
-                className="pointer-events-none absolute inset-0 bg-gradient-to-t from-navy/55 via-transparent to-transparent"
-                aria-hidden
-              />
-            </button>
-          )}
-        </motion.div>
+            ) : (
+              <button
+                type="button"
+                className={cn(imageFrameClass, "block cursor-zoom-in", banner.fit === "contain" && "bg-white")}
+                aria-label={title}
+                onClick={() => setLightboxIndex(0)}
+              >
+                <Image
+                  src={banner.src}
+                  alt={title}
+                  fill
+                  className={banner.fit === "contain" ? "object-contain" : "object-cover transition duration-300 hover:scale-[1.02]"}
+                  sizes="200px"
+                />
+                {banner.fit === "cover" && (
+                  <div
+                    className="pointer-events-none absolute inset-0 bg-gradient-to-t from-navy/55 via-transparent to-transparent"
+                    aria-hidden
+                  />
+                )}
+              </button>
+            )}
+          </motion.div>
+        )}
 
         <motion.div className="rounded-[1.5rem] bg-navy p-5 text-center text-white shadow-glow md:self-start">
           <p className="text-xs uppercase tracking-[0.32em] text-white/65">{month}</p>
@@ -130,7 +139,7 @@ export default function EventCard({ slug, month, day, title, description, cta }:
             {needsExpand && !expanded && (
               <button
                 type="button"
-                className="group inline-flex w-fit items-center gap-2 rounded-full border-2 border-navy bg-navy px-5 py-2.5 text-sm font-medium text-white shadow-[0_8px_24px_rgba(26,26,26,0.22)] transition duration-300 hover:bg-white hover:text-navy"
+                className="group inline-flex w-fit items-center gap-2 rounded-full border-2 border-navy bg-navy px-5 py-2.5 text-sm font-medium text-white shadow-[0_8px_24px_rgba(14,38,56,0.22)] transition duration-300 hover:bg-white hover:text-navy"
                 aria-expanded={expanded}
                 aria-controls={`event-desc-${slug}`}
                 onClick={(e) => {
@@ -157,7 +166,7 @@ export default function EventCard({ slug, month, day, title, description, cta }:
       </motion.article>
 
       <AnimatePresence>
-        {lightboxIndex !== null && (
+        {lightboxIndex !== null && allImages.length > 0 && (
           <EventImageLightbox
             images={allImages}
             activeIndex={lightboxIndex}
