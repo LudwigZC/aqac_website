@@ -10,7 +10,6 @@ export default function Footer() {
       <div className="container-shell grid gap-6 py-10 md:grid-cols-[1.2fr_.8fr]">
         <div>
           <p className="font-serif text-xl text-navy">{dict.brand.name}</p>
-          <p className="mt-3 max-w-xl text-sm leading-7 text-navy/70">{dict.footer.description}</p>
         </div>
 
         <div className="md:text-right">
