@@ -46,11 +46,9 @@
       "title": "近期活动",
       "description": "委员会走向社区、对话政府的真实足迹。",
       "featuredSlugs": [
-        "founding-members-first-meeting",
-        "mid-autumn-community-evening",
-        "queensland-holocaust-museum-visit",
-        "brisbane-lord-mayor-visit",
-        "fiona-simpson-multicultural-minister-visit"
+        "stroke-awareness-talk",
+        "fiona-simpson-multicultural-minister-visit",
+        "australian-family-law-seminar"
       ]
     },
     "latestNews": {
@@ -77,10 +75,22 @@
       "body1": "昆士兰华人事务委员会（QCAC）是一个具有重要影响力的非营利性华人社团联合组织，由在昆士兰州依法注册并运营的华人社团自主发起成立，代表着全州超过11万名华裔人士及相关社区。",
       "body2": "自2026年1月成立以来，QCAC始终作为昆士兰华人社区的统一声音，实行自我管理，致力于促进华人社区与联邦、州及地方各级政府之间的沟通与合作。",
       "stats": [
-        { "value": "15+", "label": "本地服务经验" },
-        { "value": "40+", "label": "合作伙伴" },
-        { "value": "1200+", "label": "触达社区成员" },
-        { "value": "3", "label": "支持语言" }
+        {
+          "value": "15+",
+          "label": "本地服务经验"
+        },
+        {
+          "value": "40+",
+          "label": "合作伙伴"
+        },
+        {
+          "value": "1200+",
+          "label": "触达社区成员"
+        },
+        {
+          "value": "3",
+          "label": "支持语言"
+        }
       ]
     },
     "gallery": {
@@ -92,31 +102,31 @@
           "title": "社区相聚",
           "subtitle": "共享故事与文化交流",
           "height": "h-[360px]",
-          "gradient": "from-[#1A1A1A] via-[#4A3B1A] to-[#B8860B]"
+          "gradient": "from-[#173C57] via-[#214D67] to-[#8D3D35]"
         },
         {
           "title": "志愿关怀",
           "subtitle": "温暖且务实的本地支持",
           "height": "h-[280px]",
-          "gradient": "from-[#B8860B] via-[#D4A84B] to-[#F3DC9A]"
+          "gradient": "from-[#8D3D35] via-[#B14F43] to-[#173C57]"
         },
         {
           "title": "青年导师",
           "subtitle": "跨代学习与陪伴计划",
           "height": "h-[420px]",
-          "gradient": "from-[#E8E4DF] via-[#FAFAF8] to-[#D4A84B]"
+          "gradient": "from-[#50636F] via-[#173C57] to-[#B14F43]"
         },
         {
           "title": "艺术与传承",
           "subtitle": "轻盈而持续的文化延续",
           "height": "h-[310px]",
-          "gradient": "from-[#2A2A2A] via-[#6B6B6B] to-[#E8E4DF]"
+          "gradient": "from-[#214D67] via-[#50636F] to-[#8D3D35]"
         },
         {
           "title": "身心关怀",
           "subtitle": "通往归属感的可达路径",
           "height": "h-[260px]",
-          "gradient": "from-[#3A3224] via-[#B8860B] to-[#D4A84B]"
+          "gradient": "from-[#173C57] via-[#B14F43] to-[#8D3D35]"
         }
       ]
     },
@@ -180,26 +190,20 @@
           "avatar": "/images/team/chai-hoe.jpg"
         },
         {
-          "slug": "ming-zhao",
-          "name": "Ming Zhao",
-          "role": "志愿者协调",
-          "bio": "志愿者协调。\n构建包容的志愿服务体验，增强会员参与感。",
-          "initials": "MZ"
-        },
-        {
-          "slug": "noah-wu",
-          "name": "Noah Wu",
-          "role": "传播经理",
-          "bio": "传播经理。\n负责机构叙事、双语传播与媒体沟通。",
-          "initials": "NW"
+          "slug": "rebecca-zhang",
+          "name": "张瑞",
+          "role": "财务长",
+          "bio": "注册会计师（CPA）。\n拥有超过15年跨行业工作经验，现任财务经理，专长于财务报告、预算管理及商业咨询。她创办 Risenco，为中小企业提供虚拟首席财务官（VCFO）及财务支持服务。",
+          "initials": "RZ",
+          "avatar": "/images/team/rebecca-zhang.jpg"
         }
       ]
     }
   },
   "events": {
     "eyebrow": "活动",
-    "title": "为连接而设计的社区项目",
-    "description": "每一场活动都追求清晰、包容与记忆点，同时保留轻奢与温度。",
+    "title": "社区活动纪实",
+    "description": "记录委员会在社区服务、文化交流与政府沟通中的行动，分享会员与社区共同参与的活动。",
     "readLess": "收起",
     "goToEventPage": "前往活动页",
     "imageClose": "关闭",
@@ -207,43 +211,59 @@
     "imageNext": "下一张",
     "items": [
       {
-        "slug": "founding-members-first-meeting",
-        "month": "2月",
-        "day": "07",
-        "title": "昆士兰华人事务委员会创始会员首次会议圆满召开",
-        "description": "2026年2月7日（星期六），昆士兰华人事务委员会创始会员首次会议在 Runcorn Tavern 顺利召开。来自37个创始社团及企业的代表应邀出席，共同见证委员会的重要起步。\n\n会议由发起人庄永新先生首先向与会代表介绍委员会的筹建背景、成立宗旨及前期工作进展。随后，昆士兰山东同乡会顾问、昆士兰华联会监事长刘继增先生主持章程审议工作，与会代表对章程草案充分讨论，并以表决方式顺利通过章程，为委员会今后的规范运作奠定基础。\n\n按照章程规定，会议在刘继增先生主持下选举产生委员会第一届主席及副主席。为确保选举公平、公正，会议采取现场报名、竞选演讲及无记名投票方式进行。最终选举结果为：主席庄永新；副主席陈帆、何颖、陈逸民、陈德华。\n\n庄永新主席在当选发言中感谢各创始会员的信任与支持，并表示将与主席团成员一道，为华人社区服好务，不辜负大家的期望。会议期间，庄永新主席现场提名林海先生担任委员会秘书长、张瑞女士担任财务长，经与会代表表决一致通过。\n\n会议还审议并通过了会费标准及其他相关事项，并决定第三季度召开委员会正式成立大会。昆士兰华人事务委员会的成立，标志着昆士兰华人社团在团结协作、共同发声方面迈出重要一步，也将进一步提升华人社区在政府沟通与公共事务参与中的影响力，更好地维护华人群体的合法权益与发展机会。",
-        "cta": "了解详情"
-      },
-      {
-        "slug": "mid-autumn-community-evening",
-        "month": "4月",
-        "day": "12",
-        "title": "昆士兰华人事务委员会系列活动（一）",
-        "description": "2026年4月12日下午3时30分，昆士兰华人事务委员会在新利班退伍军人俱乐部 (Sunnybank RSL) 举办了参观新利班退伍军人俱乐部的活动，来自各会员社团的30余名代表参与了此次活动。\n\n本次活动由Lewis Lee OAM主持，首先由Harry Claasen OAM新利班退伍军人俱乐部 (Sunnybank RSL) 副会长首先致欢迎辞，并介绍了新利班退伍军人俱乐部 (Sunnybank RSL) 的历史与发展现状。随后，Lewis Lee OAM（澳洲华裔澳军纪念碑委员会长）为大家详细讲述了澳大利亚华裔军人的历史以及华裔战争纪念碑的建立背景。通过他的介绍，与会者深刻了解到华裔先辈为澳大利亚作出的卓越贡献，大家由衷肃然起敬，并依次献上蜡烛以表达敬意。之后Lewis Lee OAM为给澳洲华裔澳军纪念碑委员会做出贡献的几位社区人士发了感谢状。\n\n活动期间，澳大利亚印度裔战争纪念碑委员会长Parnam Singh Heir 也向大家介绍了澳大利亚印度裔战争纪念碑的历史, 增进了不同族裔之间的相互理解与尊重。\n\n昆士兰华人事务委员会主席 Peter Zhuang 在发言中对 Lewis Lee OAM 及 新利班退伍军人俱乐部 (Sunnybank RSL)表示诚挚感谢，同时诚邀大家参加即将于4月25日在新利班退伍军人俱乐部 (Sunnybank RSL) 举行的ANZAC Day纪念活动。\n\n昆士兰华人事务委员会作为华人社区的重要代表组织，始终与联邦、州及地方三级政府保持紧密沟通，致力于为华人社区发声，推动社区诉求的表达与落实。",
-        "cta": "了解详情"
-      },
-      {
-        "slug": "queensland-holocaust-museum-visit",
-        "month": "4月",
-        "day": "26",
-        "title": "昆士兰华人事务委员会2026年系列活动：参观昆士兰犹太人大屠杀博物馆",
-        "description": "2026年4月26日（星期日），昆士兰华人事务委员会组织会员代表参观昆士兰犹太人大屠杀博物馆。本次活动由委员会顾问 Michael Choi OAM 发起并负责联络，同时慷慨赞助了本次参观门票。\n\n中午12时，参与人员在市中心的 Roti Place 共进午餐。大家在轻松愉快的氛围中一边品尝马来西亚美食，一边交流互动，进一步增进了彼此间的友谊与了解。\n\n下午2时，大家陆续抵达博物馆。馆长兼昆士兰犹太人代表委员会主席 Jason Steinberg 对来访表示热烈欢迎，并简要介绍了博物馆的历史与发展情况。Michael Choi OAM 在致辞中对主办方的接待表示衷心感谢，同时分享了中国上海在二战期间接纳约20000多名犹太难民的历史片段，体现了中犹两地之间的人道情怀与历史联结。\n\n随后，在讲解员 Toni 及 Jason Steinberg 的带领下，大家参观了馆内展览，深入了解与大屠杀相关的历史背景及珍贵文物。活动最后，全体人员以鹅卵石拼出“华”字，以此向已故的大屠杀幸存者致以深切的缅怀与敬意。\n\n活动结束前，昆士兰华人事务委员会主席 Peter Zhuang 代表委员会向相关接待人员表达诚挚感谢，并向博物馆赠送纪念品，以纪念此次具有深远意义的交流活动。Joe Zhao 现场捐款188澳元，以支持博物馆的发展。\n\n作为昆士兰华人社区的重要代表，昆士兰华人事务委员会将继续积极推动与政府及各族裔社区之间的交流与合作，不断提升华人社区在主流社会中的影响力与参与度。",
-        "cta": "了解详情"
-      },
-      {
-        "slug": "brisbane-lord-mayor-visit",
-        "month": "5月",
-        "day": "05",
-        "title": "走访布里斯班市长 Adrian Schrinner—昆士兰华人事务委员会2026年系列活动（三）",
-        "description": "2026年5月5日，昆士兰华人事务委员会组织部分会员代表前往布里斯班市政府，拜访市长 Adrian Schrinner，并与市长及其团队进行了座谈交流。出席会面的还有市长城市商业事务总监 Nathan Percy 及顾问 Eddie Stephens。\n\n座谈中，昆士兰华人事务委员会（QCAC）主席庄永新向市长介绍了委员会的成立背景、宗旨及发展情况，与会代表也逐一进行了简要自我介绍。市长对代表团的到访表示热烈欢迎，并发表了热情洋溢的致辞，就大家关心的议题展开了深入交流与探讨。\n\n活动期间，庄永新代表委员会副秘书长赵寅，向市长慈善基金会进行了捐赠。同时，委员会还向市长赠送了纪念礼物，以表达诚挚的感谢与良好祝愿。\n\n会后，全体与会人员与市长合影留念。\n\n昆士兰华人事务委员会将继续通过多样化的活动，积极搭建华人社区与各级政府之间的沟通桥梁，促进理解与合作，共同推动社区的繁荣与发展。",
+        "slug": "stroke-awareness-talk",
+        "month": "6月",
+        "day": "18",
+        "title": "中风知识公益讲座",
+        "description": "2026年6月18日，昆士兰华人事务委员会携手昆士兰华人医生协会，在 Runcorn Tavern 举办中风知识公益讲座，为社区居民提供健康知识交流的机会。\n\nMichael Doohan 主讲，昆士兰华人医生协会秘书长 Dr Anna Liu 担任现场口译。讲座围绕中风的早期征兆、紧急应对及预防主题展开，两位嘉宾在分享后与听众交流并回答问题。\n\n本次公益讲座由 1st Care Community 首护天使独家赞助。",
         "cta": "了解详情"
       },
       {
         "slug": "fiona-simpson-multicultural-minister-visit",
         "month": "6月",
         "day": "17",
-        "title": "昆士兰华人事务委员会2026年系列活动（六）-代表团拜访昆士兰多元文化部长 Fiona Simpson MP",
-        "description": "2026年6月17日上午，昆士兰华人事务委员会（Queensland Chinese Affairs Committee，QCAC）代表团一行八人，在委员会主席庄永新（Peter Zhuang）先生的组织和带领下，前往昆士兰州政府大楼，拜访昆士兰州妇女事务、原住民及托雷斯海峡岛民伙伴关系暨多元文化事务部长 Fiona Simpson MP，并参观州政府大楼。\n\n出席本次活动的代表团成员包括：主席 Peter Zhuang（庄永新）、副主席 Alan Chen（陈逸民）、秘书长 Lin Hai（林海）、副秘书长 Joe Zhao（赵寅）、副主席 Chai Hoe 代表 Jane Wang（王铮）、昆士兰福建同乡会会长 Charlie Chen（陈开兵）、河南同乡会会长樊一的代表 Leon Liu（刘子昂），以及摄影师 Paul Luo（罗宏）。\n\n代表团成员于当天上午8时准时抵达位于昆士兰州政府大楼的部长办公室。会议伊始，庄永新会长代表昆士兰华人事务委员会向部长介绍了委员会的成立背景、宗旨使命以及未来发展规划。Fiona Simpson 部长对委员会的成立表示热烈祝贺，并高度肯定委员会在凝聚华人社区力量、促进社区团结以及加强华人社区与政府沟通联系方面所发挥的重要作用。\n\n随后，代表团成员分别介绍了各自所代表的华人社团，并分享了近年来开展社区服务、组织文化活动及促进社会融合等方面的经验与成果，充分展现了昆士兰华人社区积极参与社会建设、服务社区发展的良好形象。\n\n在交流过程中，Fiona Simpson 部长高度评价了昆士兰华人社区长期以来为本州经济、社会及多元文化发展所作出的重要贡献。她特别以凯恩斯地区为例指出，华人在当地发展历史中曾占据重要地位，为凯恩斯的建设与繁荣作出了不可磨灭的贡献。会谈期间，双方还就如何进一步加强政府与华人社区之间的沟通协作、促进社区参与公共事务以及推动多元文化建设等议题进行了深入交流。\n\n会议结束后，在多元文化部长办公室工作人员的陪同下，代表团成员参观了昆士兰州政府大楼顶层观景区域，俯瞰布里斯班市区及周边景观，并进一步了解州政府大楼的建筑特色及运作情况。\n\n昆士兰华人事务委员会将继续发挥桥梁纽带作用，加强与昆士兰州政府及各级政府部门的沟通与合作，积极反映华人社区关切，传递华人社区声音，促进社区融合与社会参与，为推动昆士兰州多元文化事业发展、建设更加包容和谐的社会贡献力量。",
+        "title": "代表团拜访昆士兰多元文化部长 Fiona Simpson MP",
+        "description": "2026年6月17日上午，昆士兰华人事务委员会主席庄永新（Peter Zhuang）带领八人代表团，前往昆士兰州政府大楼拜访多元文化部长 Fiona Simpson MP。\n\n代表团介绍了委员会的宗旨、发展情况及会员社团的社区服务工作，并与部长交流政府与华人社区的沟通合作、公共事务参与及多元文化发展。部长肯定了华人社区对昆士兰经济、社会与文化的贡献。\n\n会后，代表团在工作人员陪同下参观政府大楼。此次交流进一步加强了委员会与州政府的联系。",
+        "cta": "了解详情"
+      },
+      {
+        "slug": "australian-family-law-seminar",
+        "month": "5月",
+        "day": "16",
+        "title": "澳大利亚家庭法知识讲座",
+        "description": "2026年5月16日下午，昆士兰华人事务委员会邀请副主席、Harmony Legal 何颖律师，在 Runcorn Tavern 举办澳大利亚家庭法知识讲座。\n\n讲座涵盖遗嘱的重要性、离婚中的财产分配与个人资产保护，以及子女未来和家庭财务保障。何律师在讲座后回答现场提问，与听众交流相关议题。\n\n本次活动场地由委员会副主席 Alan Chen（陈逸民）赞助，委员会对此表示感谢。",
+        "cta": "了解详情"
+      },
+      {
+        "slug": "brisbane-lord-mayor-visit",
+        "month": "5月",
+        "day": "05",
+        "title": "拜访布里斯班市长 Adrian Schrinner",
+        "description": "2026年5月5日，昆士兰华人事务委员会组织会员代表前往布里斯班市政府，拜访市长 Adrian Schrinner 及其团队。市长城市商业事务总监 Nathan Percy 和顾问 Eddie Stephens 亦出席会面。\n\n主席庄永新介绍了委员会的成立背景、宗旨和发展情况，会员代表分别介绍所属社团，并与市长就共同关心的社区议题交流。\n\n庄永新代表副秘书长赵寅向市长慈善基金会捐赠，委员会亦向市长赠送纪念礼物。会后双方合影，记录此次促进社区与地方政府沟通的交流活动。",
+        "cta": "了解详情"
+      },
+      {
+        "slug": "queensland-holocaust-museum-visit",
+        "month": "4月",
+        "day": "26",
+        "title": "参观昆士兰犹太人大屠杀博物馆",
+        "description": "2026年4月26日，昆士兰华人事务委员会组织会员代表参观昆士兰犹太人大屠杀博物馆。活动由委员会顾问 Michael Choi OAM 发起并联络，他同时赞助了参观门票。\n\n馆长 Jason Steinberg 欢迎代表团，Michael Choi OAM 分享了第二次世界大战期间上海接纳犹太难民的历史。在 Toni 与 Jason 的讲解下，会员参观展览，并以鹅卵石拼出“华”字，向已故的大屠杀幸存者表达缅怀。\n\n主席 Peter Zhuang 代表委员会向馆方致谢并赠送纪念品，Joe Zhao 现场捐款188澳元支持博物馆发展。此次参访增进了社区对历史的理解与跨文化交流。",
+        "cta": "了解详情"
+      },
+      {
+        "slug": "mid-autumn-community-evening",
+        "month": "4月",
+        "day": "12",
+        "title": "澳大利亚华裔战争纪念碑参访",
+        "description": "2026年4月12日下午3时30分，昆士兰华人事务委员会组织30余名会员社团代表，在 Sunnybank RSL 参观澳大利亚华裔战争纪念碑。\n\n活动由 Lewis Lee OAM 主持。Harry Claasen OAM 介绍了 Sunnybank RSL 的历史，Lewis Lee OAM 分享华裔军人的贡献及纪念碑的建立背景。代表们献上蜡烛表达敬意，Parnam Singh Heir 亦介绍了澳大利亚印度裔战争纪念碑。\n\n主席 Peter Zhuang 向主办及接待方致谢。活动通过共同纪念与历史分享，增进了不同族裔社区之间的理解与尊重。",
+        "cta": "了解详情"
+      },
+      {
+        "slug": "founding-members-first-meeting",
+        "month": "2月",
+        "day": "07",
+        "title": "创始会员首次会议",
+        "description": "2026年2月7日，昆士兰华人事务委员会创始会员首次会议在 Runcorn Tavern 举行，37个创始社团及企业的代表应邀出席。\n\n庄永新介绍筹建背景与宗旨，刘继增主持章程审议及选举。与会代表通过委员会章程，选举庄永新为主席，陈帆、何颖、陈逸民及陈德华为副主席，并通过林海担任秘书长、张瑞担任财务长的提名。\n\n会议同时通过会费标准等事项，并决定于第三季度举行正式成立大会，为委员会后续运作与社区服务奠定基础。",
         "cta": "了解详情"
       }
     ]
@@ -254,7 +274,9 @@
     "description": "委员会通知、活动预告与重要信息。点击海报可查看大图与报名二维码。",
     "filterAll": "全部",
     "viewPoster": "查看海报",
-    "tags": ["公告"],
+    "tags": [
+      "公告"
+    ],
     "items": [
       {
         "slug": "official-launch-2026",
@@ -285,50 +307,182 @@
       "clusterCountOne": "1 家单位",
       "clusterCountMany": "{{count}} 家单位",
       "items": [
-        { "name": "APA 澳洲业主联合会", "description": "" },
-        { "name": "人生芳华联谊会", "description": "" },
-        { "name": "昆士兰作家协会", "description": "" },
-        { "name": "环球教育和多元文化交流协会", "description": "" },
-        { "name": "昆士兰中华文化协会", "description": "" },
-        { "name": "Mystep Association", "description": "" },
-        { "name": "昆士兰雅韵芳华戏剧艺术团", "description": "" },
-        { "name": "阳光海岸华人协会", "description": "" },
-        { "name": "昆士兰江苏同乡会暨江苏商会", "description": "" },
-        { "name": "昆士兰广西多元文化社团", "description": "" },
-        { "name": "昆仑艺术团", "description": "" },
-        { "name": "昆士兰山东同乡会", "description": "" },
-        { "name": "昆士兰河南同乡会", "description": "" },
-        { "name": "北区华人之家", "description": "" },
-        { "name": "昆士兰亚商餐饮协会", "description": "" },
-        { "name": "阳光商会", "description": "阳光商会（Sunnybank Chamber of Commerce）成立于2012年，起源于Sunnybank，并始终以Sunnybank及其周边社区为核心。\n\n该协会是一个非营利组织，由来自各行各业的成熟企业家及新兴创业者组成，致力于持续学习、不断成长，并践行最佳商业实践。\n\n阳光商会代表商业社区，向地方政府、州政府及联邦政府发声。\n\n官网：www.sunnybank.biz" },
-        { "name": "昆士兰英语普及协会", "description": "" },
-        { "name": "香港商会", "description": "" },
-        { "name": "北京之家", "description": "" },
-        { "name": "澳中商务联盟", "description": "" },
-        { "name": "首护天使", "description": "" },
-        { "name": "澳华家园", "description": "" },
-        { "name": "昆士兰华人篮球协会", "description": "" },
-        { "name": "昆士兰潮汕总会", "description": "" },
-        { "name": "中国人协会", "description": "" },
-        { "name": "昆士兰西北同乡会", "description": "" },
-        { "name": "昆士兰建筑商会", "description": "" },
-        { "name": "小蜜峰", "description": "" },
-        { "name": "昆士兰华人宗亲会", "description": "" },
-        { "name": "苗苗中文学校", "description": "" },
-        { "name": "澳亚妇女协会", "description": "" },
-        { "name": "昆士兰华人摄影协会", "description": "" },
-        { "name": "昆士兰福建同乡会", "description": "" },
-        { "name": "昆士兰华人联合会", "description": "" },
-        { "name": "澳中绿能经贸促进会", "description": "" },
-        { "name": "天津联谊会", "description": "" },
-        { "name": "布里斯班南区社区商会", "description": "" },
-        { "name": "澳华商会", "description": "" },
-        { "name": "世诚金融", "description": "" },
-        { "name": "勇地产", "description": "" },
-        { "name": "恩福", "description": "" },
-        { "name": "IWILL志愿者联盟", "description": "" },
-        { "name": "少林功夫馆", "description": "" },
-        { "name": "OMR PROPERTY", "description": "" }
+        {
+          "name": "APA 澳洲业主联合会",
+          "description": ""
+        },
+        {
+          "name": "人生芳华联谊会",
+          "description": ""
+        },
+        {
+          "name": "昆士兰作家协会",
+          "description": ""
+        },
+        {
+          "name": "环球教育和多元文化交流协会",
+          "description": "环球教育与多元文化交流协会（UEMEA）通过教育与文化交流，增进澳大利亚与国际社区之间的友谊和相互理解。\n\n协会推广澳大利亚教育，组织澳洲文化体验、文化交流项目及交流演出，为学生、教育工作者和文化团体搭建跨国学习、分享与合作的平台。"
+        },
+        {
+          "name": "昆士兰中华文化协会",
+          "description": ""
+        },
+        {
+          "name": "Mystep Association",
+          "description": ""
+        },
+        {
+          "name": "昆士兰雅韵芳华戏剧艺术团",
+          "description": ""
+        },
+        {
+          "name": "阳光海岸华人协会",
+          "description": ""
+        },
+        {
+          "name": "昆士兰江苏同乡会暨江苏商会",
+          "description": ""
+        },
+        {
+          "name": "昆士兰广西多元文化社团",
+          "description": ""
+        },
+        {
+          "name": "昆仑艺术团",
+          "description": ""
+        },
+        {
+          "name": "昆士兰山东同乡会",
+          "description": ""
+        },
+        {
+          "name": "昆士兰河南同乡会",
+          "description": ""
+        },
+        {
+          "name": "北区华人之家",
+          "description": ""
+        },
+        {
+          "name": "昆士兰亚商餐饮协会",
+          "description": ""
+        },
+        {
+          "name": "阳光商会",
+          "description": "阳光商会（Sunnybank Chamber of Commerce）成立于2012年，起源于Sunnybank，并始终以Sunnybank及其周边社区为核心。\n\n该协会是一个非营利组织，由来自各行各业的成熟企业家及新兴创业者组成，致力于持续学习、不断成长，并践行最佳商业实践。\n\n阳光商会代表商业社区，向地方政府、州政府及联邦政府发声。\n\n官网：www.sunnybank.biz"
+        },
+        {
+          "name": "昆士兰英语普及协会",
+          "description": ""
+        },
+        {
+          "name": "香港商会",
+          "description": ""
+        },
+        {
+          "name": "北京之家",
+          "description": ""
+        },
+        {
+          "name": "澳中商务联盟",
+          "description": ""
+        },
+        {
+          "name": "首护天使",
+          "description": ""
+        },
+        {
+          "name": "澳华家园",
+          "description": ""
+        },
+        {
+          "name": "昆士兰华人篮球协会",
+          "description": ""
+        },
+        {
+          "name": "昆士兰潮汕总会",
+          "description": ""
+        },
+        {
+          "name": "中国人协会",
+          "description": ""
+        },
+        {
+          "name": "昆士兰西北同乡会",
+          "description": ""
+        },
+        {
+          "name": "昆士兰建筑商会",
+          "description": ""
+        },
+        {
+          "name": "小蜜峰",
+          "description": ""
+        },
+        {
+          "name": "昆士兰华人宗亲会",
+          "description": ""
+        },
+        {
+          "name": "苗苗中文学校",
+          "description": ""
+        },
+        {
+          "name": "澳亚妇女协会",
+          "description": ""
+        },
+        {
+          "name": "昆士兰华人摄影协会",
+          "description": ""
+        },
+        {
+          "name": "昆士兰福建同乡会",
+          "description": ""
+        },
+        {
+          "name": "昆士兰华人联合会",
+          "description": ""
+        },
+        {
+          "name": "澳中绿能经贸促进会",
+          "description": ""
+        },
+        {
+          "name": "天津联谊会",
+          "description": ""
+        },
+        {
+          "name": "布里斯班南区社区商会",
+          "description": ""
+        },
+        {
+          "name": "澳华商会",
+          "description": ""
+        },
+        {
+          "name": "世诚金融",
+          "description": ""
+        },
+        {
+          "name": "勇地产",
+          "description": ""
+        },
+        {
+          "name": "恩福",
+          "description": ""
+        },
+        {
+          "name": "IWILL志愿者联盟",
+          "description": ""
+        },
+        {
+          "name": "少林功夫馆",
+          "description": ""
+        },
+        {
+          "name": "OMR PROPERTY",
+          "description": ""
+        }
       ]
     }
   },

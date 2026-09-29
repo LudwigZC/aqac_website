@@ -1,10 +1,26 @@
 import { withBasePath } from "@/lib/paths";
 
-/**
- * Event images under public/images/events/ (see paths.py EVENT_BANNERS / EVENT_GALLERY).
- */
-export function getEventBannerSrc(slug: string): string {
-  return withBasePath(`/images/events/${slug}.jpg`);
+type EventBanner = {
+  src: string;
+  fit: "cover" | "contain";
+};
+
+const EVENT_BANNERS: Record<string, EventBanner | null> = {
+  "stroke-awareness-talk": {
+    src: "/images/events/stroke-awareness-talk.webp",
+    fit: "contain",
+  },
+  "australian-family-law-seminar": null,
+};
+
+/** Existing photographic covers follow the slug.jpg convention. */
+export function getEventBanner(slug: string): EventBanner | null {
+  const banner = EVENT_BANNERS[slug];
+  if (banner === null) return null;
+  return {
+    src: withBasePath(banner?.src ?? `/images/events/${slug}.jpg`),
+    fit: banner?.fit ?? "cover",
+  };
 }
 
 const EVENT_GALLERY: Record<string, string[]> = {

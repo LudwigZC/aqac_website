@@ -46,11 +46,9 @@
       "title": "Recent events",
       "description": "Where the committee meets the community and government face to face.",
       "featuredSlugs": [
-        "founding-members-first-meeting",
-        "mid-autumn-community-evening",
-        "queensland-holocaust-museum-visit",
-        "brisbane-lord-mayor-visit",
-        "fiona-simpson-multicultural-minister-visit"
+        "stroke-awareness-talk",
+        "fiona-simpson-multicultural-minister-visit",
+        "australian-family-law-seminar"
       ]
     },
     "latestNews": {
@@ -77,10 +75,22 @@
       "body1": "We create elegant, accessible spaces where culture is shared with subtlety and confidence. Our programs are designed to support families, students, elders, and volunteers with thoughtful community care.",
       "body2": "Rather than overwhelming people with noise, we focus on clarity, trust, and refined experiences that feel welcoming both online and in person.",
       "stats": [
-        { "value": "15+", "label": "Years of local service" },
-        { "value": "40+", "label": "Volunteers and partners" },
-        { "value": "1200+", "label": "Community members reached yearly" },
-        { "value": "3", "label": "Languages supported" }
+        {
+          "value": "15+",
+          "label": "Years of local service"
+        },
+        {
+          "value": "40+",
+          "label": "Volunteers and partners"
+        },
+        {
+          "value": "1200+",
+          "label": "Community members reached yearly"
+        },
+        {
+          "value": "3",
+          "label": "Languages supported"
+        }
       ]
     },
     "gallery": {
@@ -92,31 +102,31 @@
           "title": "Community Gathering",
           "subtitle": "Shared stories and cultural exchange",
           "height": "h-[360px]",
-          "gradient": "from-[#1A1A1A] via-[#4A3B1A] to-[#B8860B]"
+          "gradient": "from-[#173C57] via-[#214D67] to-[#8D3D35]"
         },
         {
           "title": "Volunteer Care",
           "subtitle": "Warm, practical local support",
           "height": "h-[280px]",
-          "gradient": "from-[#B8860B] via-[#D4A84B] to-[#F3DC9A]"
+          "gradient": "from-[#8D3D35] via-[#B14F43] to-[#173C57]"
         },
         {
           "title": "Youth Mentorship",
           "subtitle": "Intergenerational learning programs",
           "height": "h-[420px]",
-          "gradient": "from-[#E8E4DF] via-[#FAFAF8] to-[#D4A84B]"
+          "gradient": "from-[#50636F] via-[#173C57] to-[#B14F43]"
         },
         {
           "title": "Art & Heritage",
           "subtitle": "Subtle Chinese cultural continuity",
           "height": "h-[310px]",
-          "gradient": "from-[#2A2A2A] via-[#6B6B6B] to-[#E8E4DF]"
+          "gradient": "from-[#214D67] via-[#50636F] to-[#8D3D35]"
         },
         {
           "title": "Wellbeing Outreach",
           "subtitle": "Accessible pathways to belonging",
           "height": "h-[260px]",
-          "gradient": "from-[#3A3224] via-[#B8860B] to-[#D4A84B]"
+          "gradient": "from-[#173C57] via-[#B14F43] to-[#8D3D35]"
         }
       ]
     },
@@ -180,26 +190,20 @@
           "avatar": "/images/team/chai-hoe.jpg"
         },
         {
-          "slug": "ming-zhao",
-          "name": "Ming Zhao",
-          "role": "Volunteer Coordinator",
-          "bio": "Volunteer Coordinator.\nBuilds inclusive volunteer experiences and strengthens member participation.",
-          "initials": "MZ"
-        },
-        {
-          "slug": "noah-wu",
-          "name": "Noah Wu",
-          "role": "Communications Manager",
-          "bio": "Communications Manager.\nShapes storytelling, bilingual outreach, and media presence for the organization.",
-          "initials": "NW"
+          "slug": "rebecca-zhang",
+          "name": "Rebecca Zhang",
+          "role": "Treasurer",
+          "bio": "Qualified CPA.\nWith 15+ years' experience across multiple industries, Rebecca is currently a Finance Manager with strong expertise in financial reporting, budgeting, and business advisory. She is the founder of Risenco, providing VCFO and finance support services to SMEs.",
+          "initials": "RZ",
+          "avatar": "/images/team/rebecca-zhang.jpg"
         }
       ]
     }
   },
   "events": {
     "eyebrow": "Events",
-    "title": "Programs shaped for connection",
-    "description": "Every event is designed with a soft premium feel: clear, inclusive, and memorable.",
+    "title": "Community activities",
+    "description": "Explore the committee’s work in community service, cultural exchange and government engagement, through activities shared by our members and the wider community.",
     "readLess": "Collapse",
     "goToEventPage": "Go to event page",
     "imageClose": "Close",
@@ -207,44 +211,60 @@
     "imageNext": "Next image",
     "items": [
       {
-        "slug": "founding-members-first-meeting",
-        "month": "FEB",
-        "day": "07",
-        "title": "Founding Members' First Meeting of the Queensland Chinese Affairs Committee Successfully Held",
-        "description": "On Saturday, 7 February 2026, the founding members' first meeting of the Queensland Chinese Affairs Committee was held at Runcorn Tavern. Representatives from 37 founding associations and businesses attended, marking an important first step for the committee.\n\nInitiator Peter Zhuang introduced the background to the committee's preparation, its founding purpose, and the progress made in the early stage. Liu Jizeng, adviser to the Queensland Shandong Association and supervisor-general of the Queensland Chinese Federation, then chaired the review of the constitution. Representatives discussed the draft constitution in detail and passed it by vote, laying a firm foundation for the committee's future governance.\n\nIn accordance with the constitution, the meeting elected the first chair and vice-chairs under Mr Liu's chairmanship. To ensure a fair and transparent process, the election included on-site nominations, candidate speeches, and a secret ballot. The results were: Chair: Peter Zhuang; Vice-Chairs: Chen Fan, He Ying, Chen Yimin, and Chen Dehua.\n\nIn his acceptance remarks, Chair Peter Zhuang thanked the founding members for their trust and support, and said he would work with the presidium to serve the Chinese community and live up to everyone's expectations. During the meeting, he nominated Lin Hai as Secretary-General and Zhang Rui as Treasurer; both appointments were unanimously approved by the representatives.\n\nThe meeting also reviewed and approved the membership fee standards and other related matters, and resolved to hold the committee's official launch in the third quarter. The establishment of the Queensland Chinese Affairs Committee marks an important step toward unity, cooperation, and a shared public voice among Queensland Chinese associations, strengthening the community's engagement with government and public affairs while protecting its lawful rights and development opportunities.",
-        "cta": "Learn more"
-      },
-      {
-        "slug": "mid-autumn-community-evening",
-        "month": "APR",
-        "day": "12",
-        "title": "Queensland Chinese Affairs Committee Series Events (1)",
-        "description": "On 12 April 2026 at 3:30 pm, the Queensland Chinese Affairs Committee held a visit to Sunnybank RSL Sub Branch. More than 30 representatives from member organisations took part.\n\nThe event was hosted by Lewis Lee OAM. Harry Claasen OAM, Vice President of Sunnybank RSL Sub Branch, gave a welcome address and introduced the history and development of Sunnybank RSL. Lewis Lee OAM, Chairman of the Australia Chinese Ex-Services Monument Committee, then spoke in detail about the history of Chinese Australian servicemen and women and the background to the establishment of the Chinese Australian war memorial. Through his presentation, participants gained a deep appreciation of the outstanding contributions of Chinese forebears to Australia; attendees paid silent tribute and lit candles in turn. Lewis Lee OAM later presented certificates of appreciation to community members who had contributed to the Australia Chinese Ex-Services Monument Committee.\n\nDuring the program, Parnam Singh Heir, Chairman of the Australia Indian Ex-Services Monument Committee, also introduced the history of the Australia Indian war memorial, fostering mutual understanding and respect among different communities.\n\nQCAC Chairman Peter Zhuang expressed sincere thanks to Lewis Lee OAM and Sunnybank RSL in his remarks, and invited everyone to attend the ANZAC Day commemoration to be held at Sunnybank RSL on 25 April.\n\nAs an important representative body for the Chinese community, the Queensland Chinese Affairs Committee maintains close communication with federal, state, and local government and is committed to voicing community concerns and advancing their expression and implementation.",
-        "cta": "Learn more"
-      },
-      {
-        "slug": "queensland-holocaust-museum-visit",
-        "month": "APR",
-        "day": "26",
-        "title": "QCAC 2026 Series Event: Visit to the Queensland Holocaust Museum",
-        "description": "On Sunday, 26 April 2026, the Queensland Chinese Affairs Committee organised member representatives to visit the Queensland Holocaust Museum. The visit was initiated and coordinated by committee adviser Michael Choi OAM, who also generously sponsored the admission tickets for participants.\n\nAt 12:00 pm, participants gathered for lunch at Roti Place in the city. In a relaxed and friendly atmosphere, they enjoyed Malaysian cuisine, exchanged views, and strengthened mutual understanding and friendship.\n\nAt 2:00 pm, participants arrived at the museum. Jason Steinberg, Museum Director and President of the Queensland Jewish Board of Deputies, warmly welcomed the group and briefly introduced the museum's history and development. In his remarks, Michael Choi OAM thanked the hosts for their hospitality and shared the history of Shanghai accepting more than 20,000 Jewish refugees during the Second World War, reflecting the humanitarian connection and historical ties between Chinese and Jewish communities.\n\nGuided by Toni and Jason Steinberg, participants toured the museum exhibitions and gained a deeper understanding of the historical background and precious artefacts connected with the Holocaust. At the end of the activity, the group arranged pebbles to form the Chinese character Hua, paying deep tribute and remembrance to deceased Holocaust survivors.\n\nBefore the visit concluded, QCAC Chairman Peter Zhuang expressed sincere thanks to the museum hosts on behalf of the committee and presented a commemorative gift to mark this meaningful exchange. Joe Zhao also donated A$188 on site to support the museum's development.\n\nAs an important representative of Queensland's Chinese community, QCAC will continue to promote exchange and cooperation with government and communities of all backgrounds, strengthening the influence and participation of the Chinese community in mainstream society.",
-        "cta": "Learn more"
-      },
-      {
-        "slug": "brisbane-lord-mayor-visit",
-        "month": "MAY",
-        "day": "05",
-        "title": "QCAC 2026 Series Event (3) - Delegation Visits Brisbane Lord Mayor Adrian Schrinner",
-        "description": "On 5 May 2026, the Queensland Chinese Affairs Committee organised a delegation of member representatives to visit Brisbane City Hall and meet with Lord Mayor Adrian Schrinner and his team. Also present were Nathan Percy, Director of City Business for the Lord Mayor, and adviser Eddie Stephens.\n\nDuring the meeting, QCAC Chairman Yongxin Zhuang introduced the committee’s background, mission, and development to the Lord Mayor. Delegates each gave a brief self-introduction. The Lord Mayor warmly welcomed the visit, delivered an address, and engaged in in-depth discussion on issues of shared concern.\n\nDuring the visit, Mr Zhuang, on behalf of Deputy Secretary-General Yin Zhao, made a donation to the Lord Mayor’s Charitable Trust. The committee also presented a commemorative gift to the Lord Mayor as a gesture of sincere thanks and goodwill.\n\nAfter the meeting, all participants posed for a group photo with the Lord Mayor.\n\nThe Queensland Chinese Affairs Committee will continue to host diverse programs that build bridges between the Chinese community and government at all levels, foster understanding and cooperation, and support the community’s prosperity and growth.",
-        "cta": "Learn more"
+        "slug": "stroke-awareness-talk",
+        "month": "JUN",
+        "day": "18",
+        "title": "Community stroke awareness talk",
+        "description": "On 18 June 2026, the Queensland Chinese Affairs Committee joined the Queensland Chinese Doctors Association to host a community stroke awareness talk at Runcorn Tavern.\n\nMichael Doohan presented the session, with interpreting by Dr Anna Liu, Secretary of the Queensland Chinese Doctors Association. The talk covered early signs of stroke, emergency response and prevention. Both speakers answered questions and spoke with participants after the presentation.\n\nThe event was exclusively sponsored by 1st Care Community.",
+        "cta": "Read more"
       },
       {
         "slug": "fiona-simpson-multicultural-minister-visit",
         "month": "JUN",
         "day": "17",
-        "title": "QCAC 2026 Series Event (6) - Delegation Visits Queensland Multicultural Affairs Minister Fiona Simpson MP",
-        "description": "On the morning of 17 June 2026, an eight-member delegation from the Queensland Chinese Affairs Committee (QCAC), organised and led by Chairman Peter Zhuang, visited Queensland's Parliament House to meet Fiona Simpson MP, Minister for Women and Women's Economic Security, Minister for Aboriginal and Torres Strait Islander Partnerships, and Minister for Multiculturalism. The delegation also toured the government building.\n\nDelegation members included Chairman Peter Zhuang, Vice-Chair Alan Chen, Secretary-General Lin Hai, Deputy Secretary-General Joe Zhao, Jane Wang representing Vice-Chair Chai Hoe, Charlie Chen, President of the Queensland Fujian Association, Leon Liu representing Queensland Henan Association President Fan Yi, and photographer Paul Luo.\n\nThe delegation arrived at the minister's office at 8:00 am. At the start of the meeting, Chairman Zhuang introduced the committee's background, founding purpose, mission, and future development plans. Minister Simpson warmly congratulated the committee on its establishment and highly commended its role in bringing the Chinese community together, strengthening community unity, and deepening communication between the Chinese community and government.\n\nDelegation members then introduced the Chinese community organisations they represented and shared recent achievements in community service, cultural activities, and social inclusion, presenting a positive picture of Queensland's Chinese community as active contributors to society and local community development.\n\nDuring the exchange, Minister Simpson praised the long-standing contributions of Queensland's Chinese community to the state's economic, social, and multicultural development. She noted Cairns as an example, recognising the important role Chinese people played in the region's history and their lasting contribution to its construction and prosperity. Both sides also discussed ways to strengthen communication and collaboration between government and the Chinese community, encourage community participation in public affairs, and advance multicultural development.\n\nAfter the meeting, accompanied by staff from the Minister for Multiculturalism's office, delegation members visited the top-floor viewing area of Queensland's Parliament House, overlooking Brisbane and its surrounding cityscape while learning more about the building's architecture and operations.\n\nQCAC will continue to serve as a bridge between the Chinese community and government, strengthen cooperation with the Queensland Government and departments at all levels, reflect community concerns, convey community voices, and support social participation and inclusion as part of Queensland's multicultural future.",
-        "cta": "Learn more"
+        "title": "Delegation meets Queensland Multiculturalism Minister Fiona Simpson MP",
+        "description": "On the morning of 17 June 2026, Chairman Peter Zhuang led an eight-member Queensland Chinese Affairs Committee delegation to meet Multiculturalism Minister Fiona Simpson MP at the Queensland Government building.\n\nThe delegation introduced the committee’s purpose, development and member organisations’ community work. Discussions covered communication between government and the Chinese community, participation in public affairs and multicultural development. The Minister acknowledged the Chinese community’s contribution to Queensland’s economy, society and culture.\n\nStaff accompanied the delegation on a tour of the building after the meeting, which strengthened the committee’s connections with the State Government.",
+        "cta": "Read more"
+      },
+      {
+        "slug": "australian-family-law-seminar",
+        "month": "MAY",
+        "day": "16",
+        "title": "Australian family law seminar",
+        "description": "On the afternoon of 16 May 2026, the Queensland Chinese Affairs Committee hosted an Australian family law seminar at Runcorn Tavern, presented by Vice-Chair Chai Hoe of Harmony Legal.\n\nThe session covered the importance of wills, property division and personal asset protection in divorce, and children’s future and family financial security. Chai Hoe answered questions and discussed these topics with participants after the presentation.\n\nThe committee thanks Vice-Chair Alan Chen for sponsoring the venue.",
+        "cta": "Read more"
+      },
+      {
+        "slug": "brisbane-lord-mayor-visit",
+        "month": "MAY",
+        "day": "05",
+        "title": "Meeting with Brisbane Lord Mayor Adrian Schrinner",
+        "description": "On 5 May 2026, Queensland Chinese Affairs Committee member representatives visited Brisbane City Hall to meet Lord Mayor Adrian Schrinner and his team. Nathan Percy, Director of City Business for the Lord Mayor, and adviser Eddie Stephens also attended.\n\nChairman Peter Zhuang introduced the committee’s background, purpose and development. Members introduced their organisations and discussed shared community interests with the Lord Mayor.\n\nMr Zhuang made a donation to the Lord Mayor’s Charitable Trust on behalf of Deputy Secretary-General Joe Zhao. The committee also presented a commemorative gift, and participants took a group photo to mark the exchange between the community and local government.",
+        "cta": "Read more"
+      },
+      {
+        "slug": "queensland-holocaust-museum-visit",
+        "month": "APR",
+        "day": "26",
+        "title": "Visit to the Queensland Holocaust Museum",
+        "description": "On 26 April 2026, Queensland Chinese Affairs Committee member representatives visited the Queensland Holocaust Museum. Committee adviser Michael Choi OAM initiated and coordinated the visit and sponsored admission.\n\nMuseum Director Jason Steinberg welcomed the group. Michael Choi OAM shared the history of Shanghai’s reception of Jewish refugees during the Second World War. Guided by Toni and Jason, members explored the exhibitions and arranged pebbles into the Chinese character Hua in remembrance of Holocaust survivors who had passed away.\n\nChairman Peter Zhuang thanked the hosts and presented a commemorative gift. Joe Zhao donated A$188 to support the museum. The visit encouraged historical understanding and cultural exchange.",
+        "cta": "Read more"
+      },
+      {
+        "slug": "mid-autumn-community-evening",
+        "month": "APR",
+        "day": "12",
+        "title": "Visit to the Chinese Australian war memorial",
+        "description": "At 3:30 pm on 12 April 2026, more than 30 representatives from Queensland Chinese Affairs Committee member organisations visited the Chinese Australian war memorial at Sunnybank RSL.\n\nLewis Lee OAM hosted the event. Harry Claasen OAM introduced the history of Sunnybank RSL, and Lewis Lee OAM spoke about Chinese Australian military service and the establishment of the memorial. Participants offered candles in tribute. Parnam Singh Heir also introduced the Indian Australian war memorial.\n\nChairman Peter Zhuang thanked the organisers and hosts. Shared remembrance and discussion of history helped build understanding and respect between communities.",
+        "cta": "Read more"
+      },
+      {
+        "slug": "founding-members-first-meeting",
+        "month": "FEB",
+        "day": "07",
+        "title": "First meeting of founding members",
+        "description": "On 7 February 2026, the Queensland Chinese Affairs Committee held its first founding members’ meeting at Runcorn Tavern, with representatives from 37 founding associations and businesses invited to attend.\n\nPeter Zhuang introduced the committee’s background and purpose. Liu Jizeng chaired the constitution review and election. Members approved the constitution and elected Peter Zhuang as Chairman, with Chen Fan, Chai Hoe, Alan Chen and Chen Dehua as Vice-Chairs. They also approved the nominations of Lin Hai as Secretary-General and Rebecca Zhang as Treasurer.\n\nThe meeting approved membership fees and other arrangements, and agreed to hold the official launch in the third quarter, establishing a foundation for the committee’s operations and community work.",
+        "cta": "Read more"
       }
     ]
   },
@@ -254,7 +274,9 @@
     "description": "Official notices, invitations, and important updates. Open the poster for the full graphic and booking QR code.",
     "filterAll": "All",
     "viewPoster": "View poster",
-    "tags": ["Notice"],
+    "tags": [
+      "Notice"
+    ],
     "items": [
       {
         "slug": "official-launch-2026",
@@ -285,50 +307,182 @@
       "clusterCountOne": "1 organisation",
       "clusterCountMany": "{{count}} organisations",
       "items": [
-        { "name": "APA – Australian Property Owners Association", "description": "" },
-        { "name": "Renew Life Fellowship Association", "description": "" },
-        { "name": "Queensland Writers Association", "description": "" },
-        { "name": "Global Education & Multicultural Exchange Association", "description": "" },
-        { "name": "Queensland Chinese Cultural Association", "description": "" },
-        { "name": "Mystep Association", "description": "" },
-        { "name": "Queensland Yayun Fanghua Drama Arts Troupe", "description": "" },
-        { "name": "Sunshine Coast Chinese Association", "description": "" },
-        { "name": "Queensland Jiangsu Association & Jiangsu Chamber of Commerce", "description": "" },
-        { "name": "Queensland Guangxi Multicultural Community", "description": "" },
-        { "name": "Kunlun Art Troupe", "description": "" },
-        { "name": "Queensland Shandong Association", "description": "" },
-        { "name": "Queensland Henan Association", "description": "" },
-        { "name": "Brisbane North Association", "description": "" },
-        { "name": "Queensland Catering Association", "description": "" },
-        { "name": "Sunnybank Chamber of Commerce", "description": "Sunnybank Chamber of Commerce was established in 2012, originated in Sunnybank and remains centered around Sunnybank's neighbouring suburbs.\n\nIt is a non-profit organization made up of established & emerging entrepreneurs from all industries who are dedicated to constant learning, growth & best business practice.\n\nSunnybank Chambers of Commerce are the voice of business community to local, State and Federal Governments.\n\nwww.sunnybank.biz" },
-        { "name": "Multicultural English Society Queensland", "description": "" },
-        { "name": "Hong Kong Australia Business Association (Queensland Chapter)", "description": "" },
-        { "name": "Beijing Club Australia Inc.", "description": "" },
-        { "name": "Chinese Business United Association", "description": "" },
-        { "name": "1st Care Community Pty Ltd", "description": "" },
-        { "name": "Diversity Connections Australia Inc.", "description": "" },
-        { "name": "Queensland Sports Association", "description": "" },
-        { "name": "Queensland Chaoshan General Association", "description": "" },
-        { "name": "Mainland Chinese Society QLD Inc.", "description": "" },
-        { "name": "Northwestern Chinese Association of Queensland", "description": "" },
-        { "name": "Queensland Chinese Building and Construction Chamber of Commerce", "description": "" },
-        { "name": "Bee Media", "description": "" },
-        { "name": "Chinese Fraternity Association of Queensland", "description": "" },
-        { "name": "MiaoMiao Chinese School Ltd", "description": "" },
-        { "name": "Australian Asian Women's Organisation", "description": "" },
-        { "name": "Queensland Chinese Photographic Society", "description": "" },
-        { "name": "Australia QLD Fujian Association", "description": "" },
-        { "name": "Queensland Chinese United Council", "description": "" },
-        { "name": "Australia China Sustainability Industry and Trade Promotion Association Inc.", "description": "" },
-        { "name": "Tianjin Friendship Association QLD Inc.", "description": "" },
-        { "name": "Brisbaner of Commerce", "description": "" },
-        { "name": "Australian Chinese Chamber of Commerce Inc.", "description": "" },
-        { "name": "SC Finance Corporation Pty Ltd", "description": "" },
-        { "name": "Yong Real Estate", "description": "" },
-        { "name": "InvoCare Pty Ltd", "description": "" },
-        { "name": "Australia IWILL Volunteer Union", "description": "" },
-        { "name": "Shaolin Kung Fu Guan (Shaolin Temple Cultural Centre, Australia)", "description": "" },
-        { "name": "OMR Property", "description": "" }
+        {
+          "name": "APA – Australian Property Owners Association",
+          "description": ""
+        },
+        {
+          "name": "Renew Life Fellowship Association",
+          "description": ""
+        },
+        {
+          "name": "Queensland Writers Association",
+          "description": ""
+        },
+        {
+          "name": "Universal Education & Multicultural Exchange Association (UEMEA)",
+          "description": "The Universal Education & Multicultural Exchange Association Inc. (UEMEA) builds friendship and mutual understanding between Australia and international communities through education and cultural exchange.\n\nThe association promotes Australian education and organises Australian cultural experiences, cultural exchange programs and performance tours. It provides a platform for students, educators and cultural groups to learn, share and collaborate across borders."
+        },
+        {
+          "name": "Queensland Chinese Cultural Association",
+          "description": ""
+        },
+        {
+          "name": "Mystep Association",
+          "description": ""
+        },
+        {
+          "name": "Queensland Yayun Fanghua Drama Arts Troupe",
+          "description": ""
+        },
+        {
+          "name": "Sunshine Coast Chinese Association",
+          "description": ""
+        },
+        {
+          "name": "Queensland Jiangsu Association & Jiangsu Chamber of Commerce",
+          "description": ""
+        },
+        {
+          "name": "Queensland Guangxi Multicultural Community",
+          "description": ""
+        },
+        {
+          "name": "Kunlun Art Troupe",
+          "description": ""
+        },
+        {
+          "name": "Queensland Shandong Association",
+          "description": ""
+        },
+        {
+          "name": "Queensland Henan Association",
+          "description": ""
+        },
+        {
+          "name": "Brisbane North Association",
+          "description": ""
+        },
+        {
+          "name": "Queensland Catering Association",
+          "description": ""
+        },
+        {
+          "name": "Sunnybank Chamber of Commerce",
+          "description": "Sunnybank Chamber of Commerce was established in 2012, originated in Sunnybank and remains centered around Sunnybank's neighbouring suburbs.\n\nIt is a non-profit organization made up of established & emerging entrepreneurs from all industries who are dedicated to constant learning, growth & best business practice.\n\nSunnybank Chambers of Commerce are the voice of business community to local, State and Federal Governments.\n\nwww.sunnybank.biz"
+        },
+        {
+          "name": "Multicultural English Society Queensland",
+          "description": ""
+        },
+        {
+          "name": "Hong Kong Australia Business Association (Queensland Chapter)",
+          "description": ""
+        },
+        {
+          "name": "Beijing Club Australia Inc.",
+          "description": ""
+        },
+        {
+          "name": "Chinese Business United Association",
+          "description": ""
+        },
+        {
+          "name": "1st Care Community Pty Ltd",
+          "description": ""
+        },
+        {
+          "name": "Diversity Connections Australia Inc.",
+          "description": ""
+        },
+        {
+          "name": "Queensland Sports Association",
+          "description": ""
+        },
+        {
+          "name": "Queensland Chaoshan General Association",
+          "description": ""
+        },
+        {
+          "name": "Mainland Chinese Society QLD Inc.",
+          "description": ""
+        },
+        {
+          "name": "Northwestern Chinese Association of Queensland",
+          "description": ""
+        },
+        {
+          "name": "Queensland Chinese Building and Construction Chamber of Commerce",
+          "description": ""
+        },
+        {
+          "name": "Bee Media",
+          "description": ""
+        },
+        {
+          "name": "Chinese Fraternity Association of Queensland",
+          "description": ""
+        },
+        {
+          "name": "MiaoMiao Chinese School Ltd",
+          "description": ""
+        },
+        {
+          "name": "Australian Asian Women's Organisation",
+          "description": ""
+        },
+        {
+          "name": "Queensland Chinese Photographic Society",
+          "description": ""
+        },
+        {
+          "name": "Australia QLD Fujian Association",
+          "description": ""
+        },
+        {
+          "name": "Queensland Chinese United Council",
+          "description": ""
+        },
+        {
+          "name": "Australia China Sustainability Industry and Trade Promotion Association Inc.",
+          "description": ""
+        },
+        {
+          "name": "Tianjin Friendship Association QLD Inc.",
+          "description": ""
+        },
+        {
+          "name": "Brisbaner of Commerce",
+          "description": ""
+        },
+        {
+          "name": "Australian Chinese Chamber of Commerce Inc.",
+          "description": ""
+        },
+        {
+          "name": "SC Finance Corporation Pty Ltd",
+          "description": ""
+        },
+        {
+          "name": "Yong Real Estate",
+          "description": ""
+        },
+        {
+          "name": "InvoCare Pty Ltd",
+          "description": ""
+        },
+        {
+          "name": "Australia IWILL Volunteer Union",
+          "description": ""
+        },
+        {
+          "name": "Shaolin Kung Fu Guan (Shaolin Temple Cultural Centre, Australia)",
+          "description": ""
+        },
+        {
+          "name": "OMR Property",
+          "description": ""
+        }
       ]
     }
   },

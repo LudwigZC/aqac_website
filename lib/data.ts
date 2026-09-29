@@ -41,17 +41,11 @@ export const teamMembers: TeamMember[] = [
     avatar: "/images/team/chai-hoe.jpg",
   },
   {
-    slug: "ming-zhao",
-    name: "Ming Zhao",
-    role: "Volunteer Coordinator",
-    bio: "Volunteer Coordinator.\nBuilds inclusive volunteer experiences and strengthens member participation.",
-    initials: "MZ",
-  },
-  {
-    slug: "noah-wu",
-    name: "Noah Wu",
-    role: "Communications Manager",
-    bio: "Communications Manager.\nShapes storytelling, bilingual outreach, and media presence for the organization.",
-    initials: "NW",
+    slug: "rebecca-zhang",
+    name: "Rebecca Zhang",
+    role: "Treasurer",
+    bio: "Qualified CPA.\nWith 15+ years' experience across multiple industries, Rebecca is currently a Finance Manager with strong expertise in financial reporting, budgeting, and business advisory. She is the founder of Risenco, providing VCFO and finance support services to SMEs.",
+    initials: "RZ",
+    avatar: "/images/team/rebecca-zhang.jpg",
   },
 ];

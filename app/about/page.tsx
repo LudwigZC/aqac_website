@@ -54,7 +54,7 @@ export default function AboutPage() {
               sizes="(max-width: 768px) 100vw, 50vw"
               priority
             />
-            <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(26,26,26,.08),rgba(26,26,26,.44))]" />
+            <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(14,38,56,.08),rgba(14,38,56,.44))]" />
             <div className="absolute bottom-6 left-6 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs uppercase tracking-[0.28em] text-white backdrop-blur-sm">
               Queensland • Community • Culture
             </div>
@@ -122,7 +122,7 @@ export default function AboutPage() {
                   />
                 </div>
               ) : (
-                <div className="flex h-20 w-20 items-center justify-center rounded-full bg-[linear-gradient(135deg,#1A1A1A,#B8860B,#D4A84B)] font-serif text-2xl text-white shadow-glow">
+                <div className="flex h-20 w-20 items-center justify-center rounded-full bg-[linear-gradient(135deg,#173C57,#B14F43,#E9B7AD)] font-serif text-2xl text-white shadow-glow">
                   {member.initials}
                 </div>
               )}
