@@ -1,5 +1,8 @@
 "use client";
 
+import { useI18n } from "@/components/providers/LocaleProvider";
+import { localizedPath } from "@/lib/localeRouting";
+
 import Link from "next/link";
 import { useRef } from "react";
 import { motion, useMotionValue, useSpring } from "framer-motion";
@@ -31,6 +34,7 @@ export default function MagneticButton({
   variant = "glass",
   onClick,
 }: Props) {
+  const { locale } = useI18n();
   const ref = useRef<HTMLAnchorElement | null>(null);
   const x = useMotionValue(0);
   const y = useMotionValue(0);
@@ -57,7 +61,7 @@ export default function MagneticButton({
     <motion.div style={{ x: springX, y: springY }} className="inline-flex">
       <Link
         ref={ref}
-        href={href}
+        href={localizedPath(href, locale)}
         onClick={onClick}
         onMouseMove={handleMouseMove}
         onMouseLeave={reset}

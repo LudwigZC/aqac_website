@@ -62,3 +62,13 @@ The workflow sets `NEXT_PUBLIC_BASE_PATH` from GitHub Pages automatically and up
 - Team images live in `public/images/team/`.
 
 This site currently has no backend service, database, server API, or upload storage. Any future form submissions or file uploads will need an external service or backend before production use.
+
+## Search indexing and multilingual URLs
+
+English URLs remain unchanged. Simplified and Traditional Chinese are statically
+exported under `/zh-CN/` and `/zh-TW/`, with localized metadata and cross-language
+links. `robots.txt` and `sitemap.xml` are generated with each build.
+
+After building, run `npm run check:seo` to verify all 15 exported pages. GitHub Pages
+also runs this check before deployment. For Search Console setup, DNS verification,
+subpath checks and rollback instructions, see [搜索收录与发布检查](docs/search-indexing.md).

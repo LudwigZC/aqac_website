@@ -1,5 +1,8 @@
 "use client";
 
+import { useI18n } from "@/components/providers/LocaleProvider";
+import { localizedPath } from "@/lib/localeRouting";
+
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
@@ -31,6 +34,7 @@ const iconAccentByHref: Record<string, { icon: string; label: string; arrow: str
 const defaultAccent = iconAccentByHref["/events"];
 
 export default function QuickLinkCard({ title, description, href }: Props) {
+  const { locale } = useI18n();
   const accent = iconAccentByHref[href] ?? defaultAccent;
 
   return (
@@ -40,7 +44,7 @@ export default function QuickLinkCard({ title, description, href }: Props) {
       className="card-sheen group h-full"
     >
       <Link
-        href={href}
+        href={localizedPath(href, locale)}
         className="glass-panel relative flex h-full min-h-[240px] flex-col justify-between rounded-[2rem] p-8"
       >
         <div>

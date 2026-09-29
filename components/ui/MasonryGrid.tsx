@@ -18,7 +18,7 @@ export default function MasonryGrid({ items }: { items: Item[] }) {
       {items.map((item, index) => (
         <motion.div
           key={item.title}
-          initial={{ opacity: 0, y: 24 }}
+          initial={{ y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{ delay: index * 0.08, duration: 0.7 }}

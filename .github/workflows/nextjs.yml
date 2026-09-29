@@ -72,6 +72,8 @@ jobs:
         env:
           NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
+      - name: Verify exported SEO pages
+        run: node scripts/check-seo.mjs out "${{ steps.pages.outputs.base_path }}"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

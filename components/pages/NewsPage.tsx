@@ -2,7 +2,7 @@
 
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import NewsFilter, { type NewsItem } from "@/components/ui/NewsFilter";
-import { useI18n } from "../../components/providers/LocaleProvider";
+import { useI18n } from "@/components/providers/LocaleProvider";
 import { getNewsPosterSrc } from "@/lib/newsAssets";
 
 export default function NewsPage() {
@@ -16,6 +16,7 @@ export default function NewsPage() {
   return (
     <div className="pt-28">
       <SectionWrapper
+        headingLevel="h1"
         eyebrow={dict.news.eyebrow}
         title={dict.news.title}
         description={dict.news.description}

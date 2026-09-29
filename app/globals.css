@@ -124,9 +124,9 @@ body {
   transform: translateX(260%) rotate(20deg);
 }
 
+/* Content remains readable before JavaScript and when animations are unavailable. */
 .reveal {
-  opacity: 0;
-  transform: translateY(24px);
+  opacity: 1;
 }
 
 .text-balance {

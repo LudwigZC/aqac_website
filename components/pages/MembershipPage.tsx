@@ -18,6 +18,7 @@ export default function MembershipPage() {
   return (
     <div className="pt-28">
       <SectionWrapper
+        headingLevel="h1"
         eyebrow={dict.membership.eyebrow}
         title={dict.membership.title}
         description={dict.membership.description}

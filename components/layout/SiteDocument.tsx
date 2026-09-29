@@ -1,6 +1,6 @@
-import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "@/app/globals.css";
+import type { Locale } from "@/lib/i18n";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import { LocaleProvider } from "@/components/providers/LocaleProvider";
@@ -15,23 +15,19 @@ const headingFont = Playfair_Display({
   variable: "--font-heading",
 });
 
-export const metadata: Metadata = {
-  title: "Queensland Chinese Affair Committee",
-  description:
-    "Official bilingual website of the Queensland Chinese Affair Committee in Queensland, Australia.",
-};
-
-export default function RootLayout({
+export default function SiteDocument({
   children,
+  locale,
 }: Readonly<{
   children: React.ReactNode;
+  locale: Locale;
 }>) {
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body
         className={`${bodyFont.variable} ${headingFont.variable} font-sans text-ink antialiased`}
       >
-        <LocaleProvider>
+        <LocaleProvider key={locale} locale={locale}>
           <Navbar />
           <main>{children}</main>
           <Footer />

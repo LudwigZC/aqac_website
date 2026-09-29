@@ -2,7 +2,7 @@
 
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import EventCard from "@/components/cards/EventCard";
-import { useI18n } from "../../components/providers/LocaleProvider";
+import { useI18n } from "@/components/providers/LocaleProvider";
 
 export default function EventsPage() {
   const { dict } = useI18n();
@@ -10,6 +10,7 @@ export default function EventsPage() {
   return (
     <div className="pt-28">
       <SectionWrapper
+        headingLevel="h1"
         eyebrow={dict.events.eyebrow}
         title={dict.events.title}
         description={dict.events.description}

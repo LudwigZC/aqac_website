@@ -72,7 +72,7 @@ export default function MemberWallCluster({
           return (
             <motion.article
               key={cluster.key}
-              initial={{ opacity: 0, y: 16 }}
+              initial={{ y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.45, delay: clusterIndex * 0.04 }}
@@ -109,7 +109,7 @@ export default function MemberWallCluster({
                       <motion.button
                         key={`${cluster.key}-${item.name}`}
                         type="button"
-                        initial={{ opacity: 0, scale: 0.94 }}
+                        initial={{ scale: 0.94 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
                         transition={{ delay: itemIndex * 0.02 }}

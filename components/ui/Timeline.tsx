@@ -14,7 +14,7 @@ export default function Timeline({ items }: { items: Item[] }) {
       {items.map((item, index) => (
         <motion.div
           key={`${item.year}-${item.title}`}
-          initial={{ opacity: 0, x: 18 }}
+          initial={{ x: 18 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{ delay: index * 0.08, duration: 0.7 }}

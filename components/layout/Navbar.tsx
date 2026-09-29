@@ -1,5 +1,7 @@
 "use client";
 
+import { localizedPath } from "@/lib/localeRouting";
+
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { gsap } from "gsap";
@@ -8,7 +10,7 @@ import { useI18n } from "@/components/providers/LocaleProvider";
 import { cn } from "@/lib/utils";
 
 export default function Navbar() {
-  const { dict } = useI18n();
+  const { dict, locale } = useI18n();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -46,7 +48,7 @@ export default function Navbar() {
             scrolled ? "shadow-sm" : "shadow-none"
           )}
         >
-          <Link href="/" className="flex min-w-0 items-center gap-3" onClick={() => setMenuOpen(false)}>
+          <Link href={localizedPath("/", locale)} className="flex min-w-0 items-center gap-3" onClick={() => setMenuOpen(false)}>
             <span className="grid h-8 w-8 place-items-center rounded-full bg-navy text-xs font-semibold text-white shadow-glow">
               QL
             </span>
@@ -59,7 +61,7 @@ export default function Navbar() {
             {links.map((item) => (
               <Link
                 key={item.href}
-                href={item.href}
+                href={localizedPath(item.href, locale)}
                 className="rounded-full px-4 py-2 text-sm text-navy/72 transition hover:bg-white/70 hover:text-navy"
               >
                 {item.label}
@@ -106,7 +108,7 @@ export default function Navbar() {
             {links.map((item) => (
               <Link
                 key={item.href}
-                href={item.href}
+                href={localizedPath(item.href, locale)}
                 className="rounded-2xl px-4 py-3 text-sm font-medium text-navy/78 transition hover:bg-navy hover:text-white"
                 onClick={() => setMenuOpen(false)}
               >

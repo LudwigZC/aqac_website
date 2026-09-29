@@ -40,6 +40,7 @@ export default function AboutPage() {
   return (
     <div className="pt-28">
       <SectionWrapper
+        headingLevel="h1"
         eyebrow={dict.about.intro.eyebrow}
         title={dict.about.intro.title}
         description={dict.about.intro.description}

@@ -21,7 +21,7 @@ export default function HeroSection() {
       <div className="container-shell relative z-10 flex min-h-screen items-center py-20">
         <div className="max-w-4xl">
           <motion.p
-            initial={{ opacity: 0, y: 24 }}
+            initial={{ y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="mb-5 text-xs uppercase tracking-[0.34em] text-white/85 drop-shadow-sm"
@@ -30,7 +30,7 @@ export default function HeroSection() {
           </motion.p>
 
           <motion.h1
-            initial={{ opacity: 0, y: 26 }}
+            initial={{ y: 26 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.12, duration: 0.85 }}
             className="text-balance font-serif text-4xl leading-tight text-white md:text-5xl lg:text-6xl"
@@ -41,7 +41,7 @@ export default function HeroSection() {
           </motion.h1>
 
           <motion.p
-            initial={{ opacity: 0, y: 26 }}
+            initial={{ y: 26 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.24, duration: 0.85 }}
             className="mt-5 max-w-2xl text-sm leading-7 text-white/[0.86] drop-shadow-sm md:text-base"
@@ -50,7 +50,7 @@ export default function HeroSection() {
           </motion.p>
 
           <motion.div
-            initial={{ opacity: 0, y: 26 }}
+            initial={{ y: 26 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.32, duration: 0.85 }}
             className="mt-10 flex flex-wrap gap-4"
